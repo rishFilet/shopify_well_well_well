@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-  
+
 @font-face {
   font-family: Zurich;
   font-weight: 300;
@@ -38,7 +38,7 @@
 }
 
 
-  
+
 @font-face {
   font-family: Zurich;
   font-weight: 700;
@@ -66,7 +66,7 @@
        url("https://fonts.shopifycdn.com/zurich/zurich_n9.e885cca28909fbc873f9435509fda44a93688559.woff?h1=d2VsbHdlbGx3ZWxsbmMuY29t&hmac=74cf15cc37f0737084bed910da048dd71980afc986a601ee69b4b0ce8b4ee4d4") format("woff");
 }
 
-  
+
 @font-face {
   font-family: Zurich;
   font-weight: 400;
@@ -132,9 +132,9 @@
 
 
 
-  
 
-  
+
+
 @font-face {
   font-family: Questrial;
   font-weight: 400;
@@ -146,7 +146,7 @@
 
 
 
-  
+
 @font-face {
   font-family: Questrial;
   font-weight: 400;
@@ -1137,14 +1137,14 @@ template {
 
 
 
-* 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+*
+ *
+ *
+ *
+ *
+ *
+ *
+ *
 .navmenu-meganav.navmenu-meganav--desktop .navmenu-item-text, h6, .rte .tabs li,
 .rte .tabs li > a, .small-promo-heading, h5, h4, h3, h2, .slideshow-slide-heading, h1 {
   font-family: Arimo,sans-serif;
@@ -2743,7 +2743,7 @@ em strong {
 }
 
 .site-header-wrapper {
-  
+
   width: 100%;
   background-color: #ffffff;
   transition: top 0.15s cubic-bezier(0.3, 0, 0, 1);
@@ -7579,7 +7579,7 @@ em strong {
     border-bottom-width: 1px;
     border-left-width: 1px;
   }.search-section .form-field .live-search-form-field:focus {
-  border-color: 
+  border-color:
 
 
 
@@ -7596,7 +7596,7 @@ em strong {
   outline: 0;
 }
 .search-section .form-field .live-search-form-field:focus ~ .live-search-button {
-  border-color: 
+  border-color:
 
 
 
@@ -13607,9 +13607,9 @@ noscript .disclosure-list {
     border-radius: 0;
   }
   .no-touch .product-row:not(.product-row--no-spacing) .productitem--action-trigger.productitem--action-qs {
-    border-right-color: rgba(0,0,0,0);
-    border-bottom-color: rgba(0,0,0,0);
-    border-left-color: rgba(0,0,0,0);
+    border-right-color: #5a6b6d;
+    border-bottom-color: #5a6b6d;
+    border-left-color: #5a6b6d;
   }
   .no-touch .product-row:not(.product-row--no-spacing) .productitem--action-trigger.productitem--action-qs:not(.disabled):hover {
     border-right-color: #5a6b6d;
@@ -14719,7 +14719,7 @@ noscript .disclosure-list {
   color: #494e4d;
 }
 .product-vendor a:hover {
-  color: 
+  color:
 
 
 
@@ -16688,8 +16688,8 @@ a.pswp__share--download:hover {
   margin: 0;
 }
 .pswp--css_animation .pswp__preloader__cut {
-  /* 
-  	The idea of animating inner circle is based on Polymer ("material") loading indicator 
+  /*
+  	The idea of animating inner circle is based on Polymer ("material") loading indicator
   	 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
   */
   position: relative;
@@ -18616,4 +18616,77 @@ summary::after {
   details[open] summary::after {
     transform: translateY(-50%) rotate(-90deg);
   }
+}
+
+.faq-accordion{
+font-family: "Inter", sans-serif;
+	line-height: 1;}
+
+.accordion {
+	max-width: 700px;
+	margin: 100px auto;
+
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.accordion .item {
+	box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+	padding: 24px;
+	cursor: pointer;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	column-gap: 24px;
+	row-gap: 32px;
+	border-top: 4px solid transparent;
+	align-items: center;
+	transition: border-top 0.3s;
+}
+.accordion .item.open {
+	border-top: 4px solid #087f5b;
+}
+.accordion .item.open .hidden-box {
+	display: block;
+}
+.accordion .item.open .text {
+	color: #087f5b;
+}
+.accordion .number {
+	color: #ced4da;
+}
+.accordion .number,
+.accordion .text {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.accordion .item.open .text {
+	transition: color 0.3s;
+}
+.accordion .icon {
+	width: 24px;
+	height: 24px;
+	stroke: #087f5b;
+	transition: transform 0.5s ease-in;
+}
+.accordion .item.open .icon {
+	transform: rotate(180deg);
+}
+.accordion .hidden-box {
+	grid-column: 2;
+	display: none;
+	transition: display 0.5 ease-in;
+}
+.accordion .hidden-box p {
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+.accordion .hidden-box ul {
+	color: #868e96;
+	margin-left: 18px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
 }

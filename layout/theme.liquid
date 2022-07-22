@@ -162,7 +162,6 @@
       {% else %}
         {% section 'static-header' %}
     {% endcase %}
-
     {% comment %}
       This intersection-target is for the traditional header.
       It needs to sit outside of the sticky header, so it knows when to collapse
@@ -175,7 +174,6 @@
       {% if template == 'index' %}
         {% section 'static-slideshow' %}
       {% endif %}
-
       {{ content_for_layout }}
     </main>
 

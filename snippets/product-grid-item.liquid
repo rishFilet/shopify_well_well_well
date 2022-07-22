@@ -314,7 +314,56 @@
       {% if emphasize_price %}
         {{ product_item_price }}
       {% endif %}
+      <div style="display: flex; flex-direction: row">
+          {% if atc_display != 'disabled' %}
+            <div
+              class="
+                productitem--action
+                quickshop-button
+                {% if atc_display == 'desktop' %}productitem-action--desktop{% endif %}
+              "
+            >
+              <button
+                class="{{ quick_buy_classes }}"
+                type="button"
+                aria-label="{{ quick_buy_text }}"
+                {% unless has_variants %}
+                  data-quick-buy
+                {% else %}
+                  data-quickshop-trigger="slim"
+                {% endunless %}
+                data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+                {% unless product_available %}disabled{% endunless %}
+              >
+                <span class="atc-button--text">
+                  {{ quick_buy_text }}
+                </span>
+                <span class="atc-button--icon">
+                  {% include 'icon-library', id: 'icon-spinner' %}
+                </span>
+              </button>
+            </div>
+          {% endif %}
 
+          {% if quick_shop_display != 'disabled' %}
+            <div
+              class="
+                productitem--action
+                atc--button
+                {% if quick_shop_display == 'desktop' %}productitem-action--desktop{% endif %}
+              "
+            >
+              <button
+                class="{{ quick_shop_classes }}"
+                data-quickshop-trigger="full"
+                {% if settings.gallery_thumbnail_position == 'left' %}data-thumbs-left{% endif %}
+                type="button"
+              >
+                {{ quick_shop_text }}
+              </button>
+            </div>
+          {% endif %}
+        </div>
       {% if settings.product_show_vendor and product.vendor != blank %}
         <span class="productitem--vendor">
           {{ product_vendor }}
@@ -429,54 +478,7 @@
             {% endif %}
           {% endif %}
 
-          {% if atc_display != 'disabled' %}
-            <div
-              class="
-                productitem--action
-                quickshop-button
-                {% if atc_display == 'desktop' %}productitem-action--desktop{% endif %}
-              "
-            >
-              <button
-                class="{{ quick_buy_classes }}"
-                type="button"
-                aria-label="{{ quick_buy_text }}"
-                {% unless has_variants %}
-                  data-quick-buy
-                {% else %}
-                  data-quickshop-trigger="slim"
-                {% endunless %}
-                data-variant-id="{{ product.selected_or_first_available_variant.id }}"
-                {% unless product_available %}disabled{% endunless %}
-              >
-                <span class="atc-button--text">
-                  {{ quick_buy_text }}
-                </span>
-                <span class="atc-button--icon">
-                  {% include 'icon-library', id: 'icon-spinner' %}
-                </span>
-              </button>
-            </div>
-          {% endif %}
 
-          {% if quick_shop_display != 'disabled' %}
-            <div
-              class="
-                productitem--action
-                atc--button
-                {% if quick_shop_display == 'desktop' %}productitem-action--desktop{% endif %}
-              "
-            >
-              <button
-                class="{{ quick_shop_classes }}"
-                data-quickshop-trigger="full"
-                {% if settings.gallery_thumbnail_position == 'left' %}data-thumbs-left{% endif %}
-                type="button"
-              >
-                {{ quick_shop_text }}
-              </button>
-            </div>
-          {% endif %}
         </div>
       {% endif %}
     {% endif %}
