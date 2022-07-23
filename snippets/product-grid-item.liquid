@@ -314,6 +314,20 @@
       {% if emphasize_price %}
         {{ product_item_price }}
       {% endif %}
+       {% assign quick_shop_text = 'product.buttons.quick_shop' | t %}
+        {% assign quick_buy_text = 'product.buttons.add_to_cart' | t %}
+
+        {% assign quick_shop_classes = 'productitem--action-trigger productitem--action-qs button-secondary' %}
+        {% assign quick_buy_classes = 'productitem--action-trigger productitem--action-atc button-primary' %}
+
+        {% if has_variants %}
+          {% assign quick_buy_text = 'product.buttons.choose_options' | t %}
+        {% endif %}
+
+        {% unless product_available %}
+          {% assign quick_buy_text = 'product.buttons.sold_out' | t %}
+          {% assign quick_buy_classes = quick_buy_classes | append: ' disabled' %}
+        {% endunless %}
       <div style="display: flex; flex-direction: row">
           {% if atc_display != 'disabled' %}
             <div
@@ -477,7 +491,6 @@
               </div>
             {% endif %}
           {% endif %}
-
 
         </div>
       {% endif %}
