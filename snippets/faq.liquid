@@ -75,6 +75,7 @@ font-family: "Inter", sans-serif;
 {% endstyle %}
 
 <section>
+{% for block in section.blocks %}
 <div class="accordion">
 	<div class="item">
 		<p class="text">How long do I have to return my chair?</p>
@@ -113,4 +114,5 @@ font-family: "Inter", sans-serif;
 		</div>
 	</div>
 </div>
+{% endfor %}
 </section>
