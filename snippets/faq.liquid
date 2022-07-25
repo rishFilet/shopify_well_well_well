@@ -1,7 +1,5 @@
-
-
-    {% style %}
-.accordion{
+{% style %}
+.faq-accordion{
 font-family: "Inter", sans-serif;
 	line-height: 1;}
 
@@ -14,7 +12,7 @@ font-family: "Inter", sans-serif;
 	gap: 24px;
 }
 
-.accordion .faq-item {
+.accordion .item {
 	box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
 	padding: 24px;
 	cursor: pointer;
@@ -26,13 +24,13 @@ font-family: "Inter", sans-serif;
 	align-items: center;
 	transition: border-top 0.3s;
 }
-.accordion .faq-item.open {
+.accordion .item.open {
 	border-top: 4px solid #087f5b;
 }
-.accordion .faq-item.open .hidden-box {
+.accordion .item.open .hidden-box {
 	display: block;
 }
-.accordion .faq-item.open .text {
+.accordion .item.open .text {
 	color: #087f5b;
 }
 .accordion .number {
@@ -44,7 +42,7 @@ font-family: "Inter", sans-serif;
 	font-weight: 500;
 }
 
-.accordion .faq-item.open .text {
+.accordion .item.open .text {
 	transition: color 0.3s;
 }
 .accordion .icon {
@@ -53,7 +51,7 @@ font-family: "Inter", sans-serif;
 	stroke: #087f5b;
 	transition: transform 0.5s ease-in;
 }
-.accordion .faq-item.open .icon {
+.accordion .item.open .icon {
 	transform: rotate(180deg);
 }
 .accordion .hidden-box {
@@ -75,12 +73,29 @@ font-family: "Inter", sans-serif;
 }
 
 {% endstyle %}
+
 <section>
-	{% for block in section.blocks %}
-
-    <div class="accoridan">
-
-	<div class="faq-item">
+{% for block in section.blocks %}
+<div class="accordion">
+	<div class="item">
+		<p class="text">How long do I have to return my chair?</p>
+		<svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+		</svg>
+		<div class="hidden-box">
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+				dolor, molestiae maiores accusantium consequuntur labore!
+			</p>
+			<ul>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+			</ul>
+		</div>
+	</div>
+	<div class="item open">
 		<p class="text">How long do I have to return my chair?</p>
 		<svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />

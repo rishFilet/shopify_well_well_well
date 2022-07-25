@@ -3,7 +3,6 @@
 {% schema %}
 {
 	"name": "FAQ Accordian",
-  "class": "accoridan",
 	"settings": [],
 	"blocks":[{ "name": "Faq", "type": "faq"}],
 	"presets": [
@@ -22,3 +21,12 @@
   ]
 }
 {% endschema %}
+{% javascript %}
+const items = document.querySelectorAll(".item");
+
+		items.forEach((item) => {
+			item.addEventListener("click", () => {
+				item.classList.toggle("open");
+			});
+		});
+{% endjavascript %}

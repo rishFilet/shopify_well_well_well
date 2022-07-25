@@ -45916,9 +45916,9 @@ const RULES = `
 			});
 		};
 
-		const faqItems = document.querySelectorAll(".faq-item");
+		const items = document.querySelectorAll(".item");
 
-		faqItems.forEach((item) => {
+		items.forEach((item) => {
 			item.addEventListener("click", () => {
 				item.classList.toggle("open");
 			});
