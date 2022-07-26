@@ -141,7 +141,7 @@
       "icon_zoom": "Zoom"
     },
     "cross_sell": {
-      "title_html": "Empfohlene Add-On: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Empfohlene Add-On: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "Copyright © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Superstore-Theme von Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Superstore-Theme von Pixel Union<\/a>.",
       "follow_us": "Folgen Sie uns"
     }
   },
@@ -196,9 +196,9 @@
       "cart_empty": "Ihr Warenkorb ist leer",
       "stock_limit": "Sie können nur {{ quantity }} {{ title }} in Ihrem Warenkorb haben.",
       "tax_and_shipping": "Steuern und Versand an der Kasse berechnet",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand</a> an der Kasse berechnet",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand<\/a> an der Kasse berechnet",
       "taxes_included_but_shipping_at_checkout": "Steuern inklusive und Versand an der Kasse berechnet",
-      "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"{{ link }}\">Versand</a> an der Kasse berechnet."
+      "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"{{ link }}\">Versand<\/a> an der Kasse berechnet."
     },
     "shipping": {
       "calculate_shipping": "Versandkosten berechnen",
@@ -240,7 +240,7 @@
       "password": "Passwort",
       "repeat_password": "Passwort wiederholen",
       "phone": "Telefon",
-      "province": "Staat/Region",
+      "province": "Staat\/Region",
       "set_default": "Standard festlegen",
       "submit": "Abschicken",
       "zip": "Postleitzahl"
@@ -398,11 +398,11 @@
     "general": {
       "by_vendor": "von {{ vendor }}",
       "by_vendor_html": "von {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Ähnliche Produkte",
       "customer_reviews_title": "Kundenrezensionen",
       "zoom": "Klicken oder scrollen, um zu zoomen",
-      "zoomTap": "Tippen oder Finger auseinander-/zusammenziehen, um zu zoomen",
+      "zoomTap": "Tippen oder Finger auseinander-\/zusammenziehen, um zu zoomen",
       "zoomTapMobile": "Zum Zoomen tippen"
     },
     "item": {
@@ -415,8 +415,8 @@
       "price": {
         "original": "Ursprünglicher Preis",
         "current": "Aktueller Preis",
-        "range_html": "<span class=\"price--label\">von</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">von<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

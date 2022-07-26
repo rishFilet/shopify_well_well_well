@@ -141,7 +141,7 @@
       "icon_zoom": "ズーム"
     },
     "cross_sell": {
-      "title_html": "推奨アドオン：<span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "推奨アドオン：<span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "著作権 © {{ year }} {{ shop_name }}。",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\"><a href=\"https://www.pixelunion.net/\">ピクセル・ユニオンのスーパーストアコンセプト</a>。",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\"><a href=\"https:\/\/www.pixelunion.net\/\">ピクセル・ユニオンのスーパーストアコンセプト<\/a>。",
       "follow_us": "フォローする"
     }
   },
@@ -196,9 +196,9 @@
       "cart_empty": "お客様のカートには何も入っていません",
       "stock_limit": "カートに入れることができるのは{{ quantity }} {{ title }}のみです。",
       "tax_and_shipping": "チェックアウト時に計算される税金と送料",
-      "taxes_and_shipping_policy_at_checkout_html": "税金と<a href=\"{{ link }}\">運送</a> チェックアウト時に計算",
+      "taxes_and_shipping_policy_at_checkout_html": "税金と<a href=\"{{ link }}\">運送<\/a> チェックアウト時に計算",
       "taxes_included_but_shipping_at_checkout": "税込と送料はチェックアウト時に計算されます",
-      "taxes_included_and_shipping_policy_html": "税込み。<a href=\"{{ link }}\">運送</a> チェックアウト時に計算。"
+      "taxes_included_and_shipping_policy_html": "税込み。<a href=\"{{ link }}\">運送<\/a> チェックアウト時に計算。"
     },
     "shipping": {
       "calculate_shipping": "送料を計算する",
@@ -398,7 +398,7 @@
     "general": {
       "by_vendor": "{{ vendor }}による",
       "by_vendor_html": "{{ vendor_link }}による",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "関連製品",
       "customer_reviews_title": "カスタマーレビュー",
       "zoom": "クリックまたはスクロールしてズーム",
@@ -415,8 +415,8 @@
       "price": {
         "original": "元の価格",
         "current": "現在の価格",
-        "range_html": "{{ price }}<span class=\"price--label\">から</span>",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "{{ price }}<span class=\"price--label\">から<\/span>",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

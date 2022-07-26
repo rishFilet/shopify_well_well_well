@@ -141,7 +141,7 @@
       "icon_zoom": "放大缩小"
     },
     "cross_sell": {
-      "title_html": "建议的附加组件：<span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "建议的附加组件：<span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "版权所有©{{ year }} {{ shop_name }}。",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">来自 Pixel Union 的超级店铺主题</a>。",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">来自 Pixel Union 的超级店铺主题<\/a>。",
       "follow_us": "关注我们"
     }
   },
@@ -196,9 +196,9 @@
       "cart_empty": "您的购物车是空的",
       "stock_limit": "您只能在购物车中放入{{ quantity }} {{ title }}。",
       "tax_and_shipping": "结账时计算税收和运费",
-      "taxes_and_shipping_policy_at_checkout_html": "税收和<a href=\"{{ link }}\">运输</a>在结账时计算",
+      "taxes_and_shipping_policy_at_checkout_html": "税收和<a href=\"{{ link }}\">运输<\/a>在结账时计算",
       "taxes_included_but_shipping_at_checkout": "包括税和结账时计算的运费",
-      "taxes_included_and_shipping_policy_html": "含税。<a href=\"{{ link }}\">运送</a>在结账时计算。"
+      "taxes_included_and_shipping_policy_html": "含税。<a href=\"{{ link }}\">运送<\/a>在结账时计算。"
     },
     "shipping": {
       "calculate_shipping": "计算运费",
@@ -240,7 +240,7 @@
       "password": "密码",
       "repeat_password": "重复密码",
       "phone": "电话",
-      "province": "州/省",
+      "province": "州\/省",
       "set_default": "设置默认",
       "submit": "提交",
       "zip": "邮政编码"
@@ -398,7 +398,7 @@
     "general": {
       "by_vendor": "来自 {{ vendor }}",
       "by_vendor_html": "来自 {{ vendor_link }}",
-      "sku_html": "<strong>库存量单位</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>库存量单位<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "相关产品",
       "customer_reviews_title": "顾客评价",
       "zoom": "点击或滚动来放大或缩小",
@@ -415,8 +415,8 @@
       "price": {
         "original": "原价",
         "current": "现价",
-        "range_html": "<span class=\"price--label\">从</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">从<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

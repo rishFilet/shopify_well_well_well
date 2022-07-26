@@ -133,7 +133,7 @@
       "icon_zoom": "Zoom"
     },
     "cross_sell": {
-      "title_html": "Föreslagen tillägg: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Föreslagen tillägg: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "Copyright © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Superstoretema av Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Superstoretema av Pixel Union<\/a>.",
       "follow_us": "Följ oss"
     }
   },
@@ -188,9 +188,9 @@
       "cart_empty": "Din kundvagn är tom",
       "stock_limit": "Du kan bara ha {{ quantity }} {{ title }} i din kundvagn.",
       "tax_and_shipping": "Skatter och frakt beräknas vid kassan",
-      "taxes_and_shipping_policy_at_checkout_html": "Skatter och <a href=\"{{ link }}\">Frakt</a> beräknad vid kassan",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatter och <a href=\"{{ link }}\">Frakt<\/a> beräknad vid kassan",
       "taxes_included_but_shipping_at_checkout": "Skatt ingår och frakt beräknas vid kassan",
-      "taxes_included_and_shipping_policy_html": "Skatt ingår. <a href=\"{{ link }}\">Frakt</a> beräknad vid kassan."
+      "taxes_included_and_shipping_policy_html": "Skatt ingår. <a href=\"{{ link }}\">Frakt<\/a> beräknad vid kassan."
     },
     "shipping": {
       "calculate_shipping": "Beräkna frakt",
@@ -232,7 +232,7 @@
       "password": "Lösenord",
       "repeat_password": "Upprepa lösenord",
       "phone": "Telefon",
-      "province": "Delstat/provins",
+      "province": "Delstat\/provins",
       "set_default": "Ställ in som standard",
       "submit": "Skicka in",
       "zip": "Postnummer"
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "av {{ vendor }}",
       "by_vendor_html": "av {{ vendor_link }}",
-      "sku_html": "<strong>Lagerförd enhet</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>Lagerförd enhet<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Relaterade produkter",
       "customer_reviews_title": "Kundrecensioner",
       "zoom": "Klicka eller skrolla för att zooma",
@@ -407,8 +407,8 @@
       "price": {
         "original": "Ordinarie pris",
         "current": "Nuvarande pris",
-        "range_html": "<span class=\"price--label\">från</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">från<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

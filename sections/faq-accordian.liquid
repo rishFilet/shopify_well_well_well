@@ -3,8 +3,100 @@
 {% schema %}
 {
 	"name": "FAQ Accordian",
-	"settings": [],
-	"blocks":[{ "name": "Faq", "type": "faq"}],
+	"settings": [
+    {
+      "type": "range",
+      "id": "question_font_size",
+      "label": "Question Font Size",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "question_font_weight",
+      "label": "Question Font Weight",
+      "min": 300,
+      "max": 800,
+      "step": 100,
+      "unit": "",
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "answer_header_font_size",
+      "label": "Answer Header Font Size",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "answer_header_font_weight",
+      "label": "Answer Header Font Weight",
+      "min": 300,
+      "max": 800,
+      "step": 100,
+      "unit": "",
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "answer_body_font_size",
+      "label": "Answer Body Font Size",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    }
+  ],
+	"blocks":[
+    { "name": "Faq",
+      "type": "faq",
+      "settings": [
+        {
+          "id": "question",
+          "type": "text",
+        "label": "Question"
+        },
+        {
+          "id": "answer_header1",
+          "type": "text",
+        "label": "Answer Header 1"
+        },
+        {
+          "id": "answer_body1",
+          "type": "richtext",
+        "label": "Answer Body 1"
+        },
+        {
+          "id": "answer_header2",
+          "type": "text",
+        "label": "Answer Header 2"
+        },
+        {
+          "id": "answer_body2",
+          "type": "richtext",
+        "label": "Answer Body 2"
+        },
+        {
+          "id": "answer_header3",
+          "type": "text",
+        "label": "Answer Header 3"
+        },
+        {
+          "id": "answer_body3",
+          "type": "richtext",
+        "label": "Answer Body 3"
+        }
+      ]
+    }
+  ],
 	"presets": [
     {
       "category": "Faq",
@@ -24,9 +116,13 @@
 {% javascript %}
 const items = document.querySelectorAll(".item");
 
+function faqToggle() {
 		items.forEach((item) => {
 			item.addEventListener("click", () => {
 				item.classList.toggle("open");
 			});
 		});
+  }
+
+faqToggle()
 {% endjavascript %}

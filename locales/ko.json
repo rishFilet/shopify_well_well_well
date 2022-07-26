@@ -133,7 +133,7 @@
       "icon_zoom": "줌"
     },
     "cross_sell": {
-      "title_html": "제안 부가 기능 : <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "제안 부가 기능 : <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "저작권 © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">수퍼스토어 주제 by Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">수퍼스토어 주제 by Pixel Union<\/a>.",
       "follow_us": "팔로우 하세요"
     }
   },
@@ -188,9 +188,9 @@
       "cart_empty": "장바구니가 비어있습니다",
       "stock_limit": "장바구니에 {{ quantity }} {{ title }}만 담을 수 있습니다.",
       "tax_and_shipping": "계산에서 계산 된 세금 및 운송",
-      "taxes_and_shipping_policy_at_checkout_html": "세금 및 <a href=\"{{ link }}\">운송</A> 계산시 계산",
+      "taxes_and_shipping_policy_at_checkout_html": "세금 및 <a href=\"{{ link }}\">운송<\/A> 계산시 계산",
       "taxes_included_but_shipping_at_checkout": "세금 포함 및 선적은 체크 아웃시 계산됩니다",
-      "taxes_included_and_shipping_policy_html": "세금 포함. <a href=\"{{ link }}\">운송</a> 체크 아웃시 계산되었습니다."
+      "taxes_included_and_shipping_policy_html": "세금 포함. <a href=\"{{ link }}\">운송<\/a> 체크 아웃시 계산되었습니다."
     },
     "shipping": {
       "calculate_shipping": "배송비 계산하기",
@@ -232,7 +232,7 @@
       "password": "비밀번호",
       "repeat_password": "비밀번호 재입력",
       "phone": "전화",
-      "province": "주/도",
+      "province": "주\/도",
       "set_default": "기본값으로 설정",
       "submit": "제출",
       "zip": "우편번호"
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "{{ vendor }} 까지",
       "by_vendor_html": "{{ vendor_link }} 까지",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "관련 상품",
       "customer_reviews_title": "고객 리뷰",
       "zoom": "확대하려면 클릭하거나 스크롤하십시오",
@@ -407,8 +407,8 @@
       "price": {
         "original": "원 가격",
         "current": "현재 가격",
-        "range_html": "<span class=\"price--label\">에서 부터</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">에서 부터<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

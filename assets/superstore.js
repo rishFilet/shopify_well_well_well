@@ -45916,14 +45916,6 @@ const RULES = `
 			});
 		};
 
-		const items = document.querySelectorAll(".item");
-
-		items.forEach((item) => {
-			item.addEventListener("click", () => {
-				item.classList.toggle("open");
-			});
-		});
-
 		/* harmony default export */ var FlickityTouchFix = flickityTouchFix; // CONCATENATED MODULE: ./source/scripts/Superstore.js
 		// jQuery plugins
 		// eslint-disable-line

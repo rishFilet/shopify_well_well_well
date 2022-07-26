@@ -77,7 +77,7 @@
       "share_on_twitter": "Twitter'da Tweetle",
       "share_on_linkedin": "LinkedIn'de paylaş",
       "swatch_options": "{{product_title}} için {{swatch_trigger}} seçenekler",
-      "swatches_toggle": "Renk örneklerini aç / kapat",
+      "swatches_toggle": "Renk örneklerini aç \/ kapat",
       "nav_product_thumbnail": "başparmak tırnağı",
       "product_zoom_dialog": "Ürün yakınlaştırma iletişim kutusu"
     },
@@ -141,7 +141,7 @@
       "icon_zoom": "Yakınlaştır"
     },
     "cross_sell": {
-      "title_html": "Önerilen eklenti: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Önerilen eklenti: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "Telif hakkı © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Pixel Union'dan Süper Mağaza Teması</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Pixel Union'dan Süper Mağaza Teması<\/a>.",
       "follow_us": "Bizi takip et"
     }
   },
@@ -196,9 +196,9 @@
       "cart_empty": "Sepetiniz boş",
       "stock_limit": "Sepetinizde en fazla {{ quantity }} {{ title }} bulundurabilirsiniz",
       "tax_and_shipping": "Ödeme sırasında hesaplanan vergiler ve nakliye",
-      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">nakliye</a> ödemede hesaplandı.",
+      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">nakliye<\/a> ödemede hesaplandı.",
       "taxes_included_but_shipping_at_checkout": "Vergi dahil ve nakliye ödemede hesaplandı",
-      "taxes_included_and_shipping_policy_html": "Vergi dahil. <a href=\"{{ link }}\">nakliye</a> ödemede hesaplandı."
+      "taxes_included_and_shipping_policy_html": "Vergi dahil. <a href=\"{{ link }}\">nakliye<\/a> ödemede hesaplandı."
     },
     "shipping": {
       "calculate_shipping": "Kargoyu hesapla",
@@ -240,7 +240,7 @@
       "password": "Şifre",
       "repeat_password": "Şifreyi tekrar et",
       "phone": "Telefon",
-      "province": "Eyalet/İl",
+      "province": "Eyalet\/İl",
       "set_default": "Varsayılana ayarla",
       "submit": "Gönder",
       "zip": "Posta Kodu"
@@ -398,7 +398,7 @@
     "general": {
       "by_vendor": "{{ vendor }} tarafından",
       "by_vendor_html": "{{ vendor_link }} tarafından",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Alakalı ürünler",
       "customer_reviews_title": "Müşteri Değerlendirmeleri",
       "zoom": "Yakınlaştırmak için tıklayın veya kaydırın",
@@ -415,8 +415,8 @@
       "price": {
         "original": "Orijinal Fiyat",
         "current": "Mevcut fiyat",
-        "range_html": "{{ price }}<span class=\"price--label\">'dan</span>",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "{{ price }}<span class=\"price--label\">'dan<\/span>",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

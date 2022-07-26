@@ -133,7 +133,7 @@
       "icon_zoom": "Zum"
     },
     "cross_sell": {
-      "title_html": "Cadangan add-on: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Cadangan add-on: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "Hak Cipta © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Tema Gedung Besar oleh Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Tema Gedung Besar oleh Pixel Union<\/a>.",
       "follow_us": "Ikuti kami"
     }
   },
@@ -188,16 +188,16 @@
       "cart_empty": "Troli anda kosong",
       "stock_limit": "Anda hanya boleh mempunyai {{ quantity }} {{ title }} di dalam troli anda.",
       "tax_and_shipping": "Cukai dan penghantaran dikira semasa checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Cukai dan <a href=\"{{ link }}\">penghantaran</a> dikira di checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Cukai dan <a href=\"{{ link }}\">penghantaran<\/a> dikira di checkout",
       "taxes_included_but_shipping_at_checkout": "Termasuk Cukai dan Penghantaran Dikira di Checkout",
-      "taxes_included_and_shipping_policy_html": "Termasuk cukai. <a href=\"{{ link }}\">penghantaran</a> dikira semasa checkout."
+      "taxes_included_and_shipping_policy_html": "Termasuk cukai. <a href=\"{{ link }}\">penghantaran<\/a> dikira semasa checkout."
     },
     "shipping": {
       "calculate_shipping": "Kira Penghantaran",
       "hide_shipping_calculator": "Sembunyikan kalkulator penghantaran",
       "country": "Negara",
       "province": "Wilayah",
-      "zip": "Kod Zip / Poskod",
+      "zip": "Kod Zip \/ Poskod",
       "calculating": "Mengira",
       "multiple_rates": "Kami menemui {{ number_of_rates }} kadar penghantaran yang tersedia untuk {{ address }}, bermula pada harga {{ rate }}.",
       "one_rate": "Kami menemui satu kadar penghantaran yang tersedia untuk {{ address }}.",
@@ -232,10 +232,10 @@
       "password": "Kata laluan",
       "repeat_password": "Ulang kata laluan",
       "phone": "Telefon",
-      "province": "Negeri/Wilayah",
+      "province": "Negeri\/Wilayah",
       "set_default": "Tetapkan lalai",
       "submit": "Serah",
-      "zip": "Kod Zip/Poskod"
+      "zip": "Kod Zip\/Poskod"
     },
     "account": {
       "title": "Akaun Saya",
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "oleh {{ vendor }}",
       "by_vendor_html": "oleh {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Produk berkaitan",
       "customer_reviews_title": "Ulasan Pelanggan",
       "zoom": "Klik atau tatal untuk zum",
@@ -407,8 +407,8 @@
       "price": {
         "original": "Harga Asal",
         "current": "Harga Semasa",
-        "range_html": "<span class=\"price--label\">daripada</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">daripada<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

@@ -141,7 +141,7 @@
       "icon_zoom": "ज़ूम\n"
     },
     "cross_sell": {
-      "title_html": "सुगठित ऐड-ऑन: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "सुगठित ऐड-ऑन: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "कॉपीराइट © {{ year }} {{ shop_name }}\n",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\"> पिक्सेल यूनियन द्वारा सुपरस्टोर थीम </a>\n",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\"> पिक्सेल यूनियन द्वारा सुपरस्टोर थीम <\/a>\n",
       "follow_us": "हमें फॉलो करो\n"
     }
   },
@@ -196,16 +196,16 @@
       "cart_empty": "आपका कार्ट खाली है\n",
       "stock_limit": "आपके कार्ट में केवल {{ quantity }} {{ title }} हो सकते हैं।\n",
       "tax_and_shipping": "चेक और शिपिंग चेकआउट पर गणना की गई",
-      "taxes_and_shipping_policy_at_checkout_html": "करों और <a href=\"{{ link }}\">शिपिंग</a> चेकआउट पर गणना की गई",
+      "taxes_and_shipping_policy_at_checkout_html": "करों और <a href=\"{{ link }}\">शिपिंग<\/a> चेकआउट पर गणना की गई",
       "taxes_included_but_shipping_at_checkout": "चेकआउट में गणना और शिपिंग की गणना",
-      "taxes_included_and_shipping_policy_html": "टैक्स शामिल। <a href=\"{{ link }}\">शिपिंग</a> चेकआउट पर गणना की गई।"
+      "taxes_included_and_shipping_policy_html": "टैक्स शामिल। <a href=\"{{ link }}\">शिपिंग<\/a> चेकआउट पर गणना की गई।"
     },
     "shipping": {
       "calculate_shipping": "शिपिंग की गणना करना\n",
       "hide_shipping_calculator": "शिपिंग कैलकुलेटर छिपाएँ",
       "country": "देश\n",
       "province": "प्रांत\n",
-      "zip": "ज़िप / पोस्टल कोड\n",
+      "zip": "ज़िप \/ पोस्टल कोड\n",
       "calculating": "गिना जा रहा है\n",
       "multiple_rates": "हमने {{ rate }} से शुरू होते हुए {{ number_of_rates }} शिपिंग रेट {{ address }} के लिए उपलब्ध पाया हैं \n",
       "one_rate": "हमने {{ address }} के लिए एक शिपिंग रेट उपलब्ध पाया है।\n",
@@ -240,10 +240,10 @@
       "password": "पासवर्ड \n",
       "repeat_password": "पासवर्ड दोहराएं\n",
       "phone": "फ़ोन\n",
-      "province": "राज्य / प्रांत\n",
+      "province": "राज्य \/ प्रांत\n",
       "set_default": "डिफॉल्ट सेट करें\n",
       "submit": "जमा करें\n",
-      "zip": "ज़िप / पोस्टल कोड\n"
+      "zip": "ज़िप \/ पोस्टल कोड\n"
     },
     "account": {
       "title": "मेरा खाता\n",
@@ -398,7 +398,7 @@
     "general": {
       "by_vendor": "{{ vendor }} द्वारा\n",
       "by_vendor_html": "{{ vendor_link }} द्वारा\n",
-      "sku_html": "<strong> SKU </strong> <span data-product-sku> {{ sku }}\n",
+      "sku_html": "<strong> SKU <\/strong> <span data-product-sku> {{ sku }}\n",
       "related_products_title": "संबंधित उत्पाद\n",
       "customer_reviews_title": "ग्राहक समीक्षा\n",
       "zoom": "ज़ूम करने के लिए क्लिक करें या स्क्रॉल करें\n",
@@ -415,8 +415,8 @@
       "price": {
         "original": "मूल कीमत\n",
         "current": "मौजूदा कीमत",
-        "range_html": "<span class=\"price--label\">से</span> {{ price }}\n",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">से<\/span> {{ price }}\n",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

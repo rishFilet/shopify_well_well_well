@@ -133,7 +133,7 @@
       "icon_zoom": "Zoom"
     },
     "cross_sell": {
-      "title_html": "Sugerowany dodatek: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Sugerowany dodatek: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "Prawo autorskie © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Motyw Superstore udostępniony przez Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Motyw Superstore udostępniony przez Pixel Union<\/a>.",
       "follow_us": "Śledź nas"
     }
   },
@@ -188,9 +188,9 @@
       "cart_empty": "Twój koszyk jest pusty",
       "stock_limit": "Możesz tylko mieć tylko {{ quantity }} {{ title }} w swoim koszyku.",
       "tax_and_shipping": "Podatki i wysyłka obliczana przy kasie",
-      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\">wysyłka</a> obliczona przy kasie",
+      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\">wysyłka<\/a> obliczona przy kasie",
       "taxes_included_but_shipping_at_checkout": "Podatek dołączony i wysyłka obliczana przy kasie",
-      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\">wysyłka</a> obliczona przy kasie."
+      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\">wysyłka<\/a> obliczona przy kasie."
     },
     "shipping": {
       "calculate_shipping": "Oblicz koszty wysyłki",
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "według {{ vendor }}",
       "by_vendor_html": "według {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Produkty pokrewne",
       "customer_reviews_title": "Recenzje klientów",
       "zoom": "Kliknij lub przewiń, aby powiększyć",
@@ -407,8 +407,8 @@
       "price": {
         "original": "Pierwotna cena",
         "current": "Aktualna cena",
-        "range_html": "<span class=\"price--label\">od</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">od<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

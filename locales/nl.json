@@ -141,7 +141,7 @@
       "icon_zoom": "Inzoomen"
     },
     "cross_sell": {
-      "title_html": "Aanbevolen add-on: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Aanbevolen add-on: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "Copyright © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Superstore Theme by Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Superstore Theme by Pixel Union<\/a>.",
       "follow_us": "Volg ons"
     }
   },
@@ -196,9 +196,9 @@
       "cart_empty": "Uw winkelwagen is leeg",
       "stock_limit": "U kunt slechts {{ quantity }} {{ title }} in uw winkelwagen hebben. ",
       "tax_and_shipping": "Belastingen en verzending berekend bij het afrekenen",
-      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzending</a> berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzending<\/a> berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Belasting inbegrepen en verzending berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\">verzending</a> berekend bij het afrekenen."
+      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\">verzending<\/a> berekend bij het afrekenen."
     },
     "shipping": {
       "calculate_shipping": "Verzendkosten berekenen",
@@ -240,7 +240,7 @@
       "password": "Wachtwoord",
       "repeat_password": "Wachtwoord bevestigen",
       "phone": "Telefoonnummer",
-      "province": "Staat/provincie",
+      "province": "Staat\/provincie",
       "set_default": "Als standaard instellen",
       "submit": "Indienen",
       "zip": "Postcode"
@@ -398,7 +398,7 @@
     "general": {
       "by_vendor": "door {{ vendor }}",
       "by_vendor_html": "door {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Gerelateerde producten",
       "customer_reviews_title": "Klantbeoordelingen",
       "zoom": "Klik of scrol om in te zoomen",
@@ -415,8 +415,8 @@
       "price": {
         "original": "Oorspronkelijke prijs",
         "current": "Huidige prijs",
-        "range_html": "<span class=\"price--label\">vanaf</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">vanaf<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

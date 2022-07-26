@@ -4,8 +4,8 @@
     "theme_name": "Superstore",
     "theme_author": "Out of the Sandbox",
     "theme_version": "4.0.1",
-    "theme_documentation_url": "https://help.outofthesandbox.com/hc/en-us/categories/115001735708-Superstore",
-    "theme_support_url": "https://help.outofthesandbox.com/hc/en-us/requests/new"
+    "theme_documentation_url": "https:\/\/help.outofthesandbox.com\/hc\/en-us\/categories\/115001735708-Superstore",
+    "theme_support_url": "https:\/\/help.outofthesandbox.com\/hc\/en-us\/requests\/new"
   },
   {
     "name": "Layout",
@@ -502,7 +502,7 @@
       {
         "type": "header",
         "content": "Product reviews",
-        "info": "Requires a product review app such as [Product Reviews](https://help.outofthesandbox.com/hc/en-us/articles/360008549274) (by Shopify)."
+        "info": "Requires a product review app such as [Product Reviews](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360008549274) (by Shopify)."
       },
       {
         "type": "color",
@@ -733,7 +733,7 @@
         "type": "textarea",
         "id": "type_heading_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_heading_size",
@@ -775,7 +775,7 @@
         "type": "textarea",
         "id": "type_section_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_section_heading_size",
@@ -842,7 +842,7 @@
         "type": "textarea",
         "id": "type_body_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_body_underline_links",
@@ -874,7 +874,7 @@
         "type": "textarea",
         "id": "type_menu_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_menu_size",
@@ -916,7 +916,7 @@
         "type": "textarea",
         "id": "type_highlights_bar_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_highlights_size",
@@ -957,7 +957,7 @@
         "type": "textarea",
         "id": "type_button_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_button_sizing",
@@ -995,7 +995,7 @@
         "type": "textarea",
         "id": "type_signpost_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_signpost_sizing",
@@ -1021,7 +1021,7 @@
         "type": "textarea",
         "id": "type_product_price_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "type": "header",
@@ -1037,7 +1037,7 @@
         "type": "textarea",
         "id": "type_product_vendor_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_product_capitalize",
@@ -1068,7 +1068,7 @@
         "type": "textarea",
         "id": "type_product_card_title_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_product_card_size",
@@ -1094,7 +1094,7 @@
         "type": "textarea",
         "id": "type_footer_heading_custom",
         "label": "Custom font",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/4412263547411)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/4412263547411)"
       },
       {
         "id": "type_footer_heading_size",
@@ -1256,7 +1256,7 @@
         "type": "checkbox",
         "id": "product_ratings_reviews",
         "label": "Enable product reviews and ratings",
-        "info": "[Learn more](https://apps.shopify.com/product-reviews)",
+        "info": "[Learn more](https:\/\/apps.shopify.com\/product-reviews)",
         "default": true
       },
       {
@@ -1547,49 +1547,49 @@
         "type": "text",
         "id": "social_facebook",
         "label": "Facebook",
-        "info": "https://facebook.com/shopify"
+        "info": "https:\/\/facebook.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_twitter",
         "label": "Twitter",
-        "info": "https://twitter.com/shopify"
+        "info": "https:\/\/twitter.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_pinterest",
         "label": "Pinterest",
-        "info": "https://pinterest.com/shopify"
+        "info": "https:\/\/pinterest.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_instagram",
         "label": "Instagram",
-        "info": "https://instagram.com/shopify"
+        "info": "https:\/\/instagram.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_tumblr",
         "label": "Tumblr",
-        "info": "http://shopify.tumblr.com"
+        "info": "http:\/\/shopify.tumblr.com"
       },
       {
         "type": "text",
         "id": "social_vimeo",
         "label": "Vimeo",
-        "info": "https://vimeo.com/shopify"
+        "info": "https:\/\/vimeo.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_youtube",
         "label": "YouTube",
-        "info": "https://www.youtube.com/shopify"
+        "info": "https:\/\/www.youtube.com\/shopify"
       },
       {
         "type": "text",
         "id": "social_linkedin",
         "label": "LinkedIn",
-        "info": "https://www.linkedin.com/company/shopify/"
+        "info": "https:\/\/www.linkedin.com\/company\/shopify\/"
       },
       {
         "type": "text",
@@ -1757,7 +1757,7 @@
         ],
         "default": "auto",
         "label": "Font loading behavior",
-        "info": "Controls text visibility while fonts are loading. [(?)](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display)"
+        "info": "Controls text visibility while fonts are loading. [(?)](https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/@font-face\/font-display)"
       },
       {
         "type": "checkbox",

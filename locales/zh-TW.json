@@ -133,7 +133,7 @@
       "icon_zoom": "縮放"
     },
     "cross_sell": {
-      "title_html": "建議的附加組件：<span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "建議的附加組件：<span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "版權所有 © {{ year }} {{ shop_name }}。",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Superstore 主題出自 Pixel Union</a>。",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Superstore 主題出自 Pixel Union<\/a>。",
       "follow_us": "追蹤我們"
     }
   },
@@ -188,9 +188,9 @@
       "cart_empty": "您的購物車是空的",
       "stock_limit": "您的購物車內只能有 {{ quantity }} {{ title }}。",
       "tax_and_shipping": "結賬時計算稅收和運費",
-      "taxes_and_shipping_policy_at_checkout_html": "稅收和<a href=\"{{ link }}\">運輸</a>在結賬時計算",
+      "taxes_and_shipping_policy_at_checkout_html": "稅收和<a href=\"{{ link }}\">運輸<\/a>在結賬時計算",
       "taxes_included_but_shipping_at_checkout": "包括稅和結賬時計算的運費",
-      "taxes_included_and_shipping_policy_html": "含稅。<a href=\"{{ link }}\">運送</a>在結賬時計算。"
+      "taxes_included_and_shipping_policy_html": "含稅。<a href=\"{{ link }}\">運送<\/a>在結賬時計算。"
     },
     "shipping": {
       "calculate_shipping": "計算運費",
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "依據 {{ vendor }}",
       "by_vendor_html": "依據 {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "相關產品",
       "customer_reviews_title": "顧客評論",
       "zoom": "點擊或捲動以縮放",
@@ -407,8 +407,8 @@
       "price": {
         "original": "原價",
         "current": "現價",
-        "range_html": "<span class=\"price--label\">自</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">自<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

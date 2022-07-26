@@ -133,7 +133,7 @@
       "icon_zoom": "Zoomaa"
     },
     "cross_sell": {
-      "title_html": "Ehdotettu lisäosa: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Ehdotettu lisäosa: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "Tekijänoikeus © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Superstore Theme by Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Superstore Theme by Pixel Union<\/a>.",
       "follow_us": "Seuraa meitä"
     }
   },
@@ -188,9 +188,9 @@
       "cart_empty": "Ostoskorisi on tyhjä",
       "stock_limit": "Sinulla voi olla ostoskorissasi vain {{ quantity }} {{ title }}.",
       "tax_and_shipping": "Verot ja toimitus lasketaan kassalla",
-      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">lähetys</a> lasketaan kassalla",
+      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">lähetys<\/a> lasketaan kassalla",
       "taxes_included_but_shipping_at_checkout": "Vero sisälsi ja lähetys laskettuna kassalla",
-      "taxes_included_and_shipping_policy_html": "Verot mukaanlukien. <a href=\"{{ link }}\">Lähetys</a> lasketaan kassalla."
+      "taxes_included_and_shipping_policy_html": "Verot mukaanlukien. <a href=\"{{ link }}\">Lähetys<\/a> lasketaan kassalla."
     },
     "shipping": {
       "calculate_shipping": "Laske toimitushinta",
@@ -232,7 +232,7 @@
       "password": "Salasana",
       "repeat_password": "Toista salasana",
       "phone": "Puhelin",
-      "province": "Osavaltio/Provinssi",
+      "province": "Osavaltio\/Provinssi",
       "set_default": "Aseta oletukseksi",
       "submit": "Lähetä",
       "zip": "Postinumero"
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "tehnyt {{ vendor }}",
       "by_vendor_html": "tehnyt {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Aiheeseen liittyviä tuotteita",
       "customer_reviews_title": "Asiakkaiden arviot",
       "zoom": "Zoomaa napsauttamalla tai vierittämällä",
@@ -407,8 +407,8 @@
       "price": {
         "original": "Alkuperäinen hinta",
         "current": "Nykyinen hinta",
-        "range_html": "<span class=\"price--label\">from</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">from<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

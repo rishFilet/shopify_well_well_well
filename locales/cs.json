@@ -141,7 +141,7 @@
       "icon_zoom": "Přiblížit"
     },
     "cross_sell": {
-      "title_html": "Doporučené doplňky: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Doporučené doplňky: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "Copyright © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">téma Superstore od Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">téma Superstore od Pixel Union<\/a>.",
       "follow_us": "Sledujte nás"
     }
   },
@@ -196,16 +196,16 @@
       "cart_empty": "Váš košík je prázdný",
       "stock_limit": "Můžete mít jen {{ quantity }} {{ title }} v košíku.",
       "tax_and_shipping": "Daně a poštovné vypočítané při pokladně",
-      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">Přeprava</a> počítáno při pokladně",
+      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">Přeprava<\/a> počítáno při pokladně",
       "taxes_included_but_shipping_at_checkout": "Daňová cena a poštovně vypočtená při pokladně",
-      "taxes_included_and_shipping_policy_html": "Včetně daně. <a href=\"{{ link }}\">Přeprava</a> počítáno při pokladně."
+      "taxes_included_and_shipping_policy_html": "Včetně daně. <a href=\"{{ link }}\">Přeprava<\/a> počítáno při pokladně."
     },
     "shipping": {
       "calculate_shipping": "Spočítat dopravu",
       "hide_shipping_calculator": "Skrýt počítadlo dopravy",
       "country": "Země",
       "province": "Provincie",
-      "zip": "PSČ / Číslo pošty",
+      "zip": "PSČ \/ Číslo pošty",
       "calculating": "Vypočítávání",
       "multiple_rates": "Nalezli jsme {{ number_of_rates }} cen doprav dostupných pro {{ address }} od {{ rate }}.",
       "one_rate": "Nalezli jsme jednu cenu dopravy dostupnou pro {{ address }}.",
@@ -240,10 +240,10 @@
       "password": "Heslo",
       "repeat_password": "Zopakovat heslo",
       "phone": "Telefon",
-      "province": "Stát/Provincie",
+      "province": "Stát\/Provincie",
       "set_default": "Nastavit výchozí",
       "submit": "Odeslat",
-      "zip": "PSČ / Číslo pošty"
+      "zip": "PSČ \/ Číslo pošty"
     },
     "account": {
       "title": "Můj účet",
@@ -398,7 +398,7 @@
     "general": {
       "by_vendor": "podle {{ vendor }}",
       "by_vendor_html": "podle {{ vendor_link }}",
-      "sku_html": "<strong>skladová jednotka</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>skladová jednotka<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Související produkty",
       "customer_reviews_title": "Recenze zákazníků",
       "zoom": "Klikněte nebo otočte kolečkem pro přiblížení",
@@ -415,8 +415,8 @@
       "price": {
         "original": "Původní cena",
         "current": "Momentální cena",
-        "range_html": "<span class=\"price--label\">od</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">od<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

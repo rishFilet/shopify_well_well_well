@@ -141,7 +141,7 @@
       "icon_zoom": "Zoom"
     },
     "cross_sell": {
-      "title_html": "Sugerido add-on: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Sugerido add-on: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -154,7 +154,7 @@
   "footer": {
     "general": {
       "copyright_html": "Direitos de Autor © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\"> Tema Super Loja por Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\"> Tema Super Loja por Pixel Union<\/a>.",
       "follow_us": "Siga-nos"
     }
   },
@@ -196,9 +196,9 @@
       "cart_empty": "O seu carrinho está vazio",
       "stock_limit": "Apenas pode ter  {{ quantity }} {{ title }} no seu carrinho.",
       "tax_and_shipping": "Impostos e envio calculado no checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">envio</a> calculado no checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">envio<\/a> calculado no checkout",
       "taxes_included_but_shipping_at_checkout": "Imposto incluído e envio calculado no checkout",
-      "taxes_included_and_shipping_policy_html": "Taxas incluídas. <a href=\"{{ link }}\">envio</a> calculado no checkout."
+      "taxes_included_and_shipping_policy_html": "Taxas incluídas. <a href=\"{{ link }}\">envio<\/a> calculado no checkout."
     },
     "shipping": {
       "calculate_shipping": "Calcular Expedição",
@@ -240,7 +240,7 @@
       "password": "Senha",
       "repeat_password": "Repetir senha",
       "phone": "Telefone",
-      "province": "Estado/Província",
+      "province": "Estado\/Província",
       "set_default": "Definir padrão",
       "submit": "Submeter",
       "zip": "Código Postal"
@@ -398,7 +398,7 @@
     "general": {
       "by_vendor": "por {{ vendor }}",
       "by_vendor_html": "por {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}</span>",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}<\/span>",
       "related_products_title": "Produtos relacionados ",
       "customer_reviews_title": "Avaliações dos Clientes",
       "zoom": "Clique ou deslize para fazer zoom ",
@@ -415,8 +415,8 @@
       "price": {
         "original": "Preço Original ",
         "current": "Preço Atual",
-        "range_html": "<span class=\"price--label\">de</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">de<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

@@ -133,7 +133,7 @@
       "icon_zoom": "Zoom"
     },
     "cross_sell": {
-      "title_html": "SUGGESTED ADD-ON: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "SUGGESTED ADD-ON: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "Opphavsrett © {{ year }} {{ shop_name }}.",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">Superbutikk-tema av Pixel Union</a>.",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">Superbutikk-tema av Pixel Union<\/a>.",
       "follow_us": "Følg oss"
     }
   },
@@ -188,9 +188,9 @@
       "cart_empty": "Handlevognen din er tom",
       "stock_limit": "Du kan bare ha {{ quantity }} {{ title }} i handlevognen.",
       "tax_and_shipping": "Skatter og frakt beregnet ved kassen",
-      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">frakt</a> beregnet ved kassen",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">frakt<\/a> beregnet ved kassen",
       "taxes_included_but_shipping_at_checkout": "Skatt inkludert og frakt beregnet ved kassen",
-      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">frakt</a> beregnet ved kassen."
+      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">frakt<\/a> beregnet ved kassen."
     },
     "shipping": {
       "calculate_shipping": "Kalkuler frakt",
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "innen {{ vendor }}",
       "by_vendor_html": "innen {{ vendor_link }}",
-      "sku_html": "<strong>Varenummer</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>Varenummer<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "Relaterte produkter",
       "customer_reviews_title": "Kundeomtale",
       "zoom": "Klikk eller skroll for å zoome",
@@ -407,8 +407,8 @@
       "price": {
         "original": "Opprinnelig pris",
         "current": "Gjeldende pris",
-        "range_html": "<span class=\"price--label\">fra</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">fra<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },

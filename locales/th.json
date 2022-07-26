@@ -71,7 +71,7 @@
       "swatch_options": "{{swatch_trigger}} ตัวเลือกสำหรับ {{product_title}}",
       "swatches_toggle": "สลับ swatches",
       "nav_product_thumbnail": "ภาพขนาดย่อ",
-      "product_zoom_dialog": "กล่องโต้ตอบการย่อ / ขยายผลิตภัณฑ์"
+      "product_zoom_dialog": "กล่องโต้ตอบการย่อ \/ ขยายผลิตภัณฑ์"
     },
     "time": {
       "clear": "ล้างรายการที่ดูล่าสุด",
@@ -133,7 +133,7 @@
       "icon_zoom": "ซูม"
     },
     "cross_sell": {
-      "title_html": "Add-on ที่แนะนำ: <span class=\"cross-sell__product-title\">{{ product }}</span>"
+      "title_html": "Add-on ที่แนะนำ: <span class=\"cross-sell__product-title\">{{ product }}<\/span>"
     }
   },
   "header": {
@@ -146,7 +146,7 @@
   "footer": {
     "general": {
       "copyright_html": "ลิขสิทธิ์ © {{ year }} {{ shop_name }}",
-      "copyright_credit_html": "<a href=\"https://www.pixelunion.net/\">ธีมซูเปอร์สโตร์โดยพิกเซลยูเนียน</a>",
+      "copyright_credit_html": "<a href=\"https:\/\/www.pixelunion.net\/\">ธีมซูเปอร์สโตร์โดยพิกเซลยูเนียน<\/a>",
       "follow_us": "ติดตามเรา"
     }
   },
@@ -188,9 +188,9 @@
       "cart_empty": "รถเข็นของคุณว่างเปล่า",
       "stock_limit": "คุณใส่ได้แค่ {{ quantity }} {{ title }} ในรถเข็นของคุณ",
       "tax_and_shipping": "ภาษีและการจัดส่งที่คำนวณเมื่อชำระเงิน",
-      "taxes_and_shipping_policy_at_checkout_html": "ภาษีและ <a href=\"{{ link }}\">การจัดส่งสินค้า</a> คำนวณเมื่อชำระเงิน",
+      "taxes_and_shipping_policy_at_checkout_html": "ภาษีและ <a href=\"{{ link }}\">การจัดส่งสินค้า<\/a> คำนวณเมื่อชำระเงิน",
       "taxes_included_but_shipping_at_checkout": "รวมภาษีและการจัดส่งที่คำนวณเมื่อชำระเงิน",
-      "taxes_included_and_shipping_policy_html": "รวมภาษี. <a href=\"{{ link }}\">จัดส่ง</a> คำนวณเมื่อชำระเงิน"
+      "taxes_included_and_shipping_policy_html": "รวมภาษี. <a href=\"{{ link }}\">จัดส่ง<\/a> คำนวณเมื่อชำระเงิน"
     },
     "shipping": {
       "calculate_shipping": "คำนวณค่าจัดส่ง",
@@ -223,7 +223,7 @@
       "address_1": "ที่อยู่ 1",
       "address_2": "ที่อยู่ 2",
       "cancel": "ยกเลิก",
-      "city": "เขต/อำเภอ",
+      "city": "เขต\/อำเภอ",
       "company": "บริษัท",
       "country": "ประเทศ",
       "email": "อีเมล",
@@ -232,7 +232,7 @@
       "password": "รหัสผ่าน",
       "repeat_password": "ใส่รหัสผ่านอีกครั้ง",
       "phone": "โทรศัพท์",
-      "province": "รัฐ/จังหวัด",
+      "province": "รัฐ\/จังหวัด",
       "set_default": "ตั้งเป็นค่าเริ่มต้น",
       "submit": "ส่ง",
       "zip": "รหัสไปรษณีย์"
@@ -390,7 +390,7 @@
     "general": {
       "by_vendor": "โดย {{ vendor }}",
       "by_vendor_html": "โดย {{ vendor_link }}",
-      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}",
+      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}",
       "related_products_title": "ผลิตภัณฑ์ที่เกี่ยวข้อง",
       "customer_reviews_title": "คำวิจารณ์จากลูกค้า",
       "zoom": "คลิกหรือเลื่อนเพื่อซูม",
@@ -407,8 +407,8 @@
       "price": {
         "original": "ราคาปกติ",
         "current": "ราคาปัจจุบัน",
-        "range_html": "<span class=\"price--label\">จาก</span> {{ price }}",
-        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
+        "range_html": "<span class=\"price--label\">จาก<\/span> {{ price }}",
+        "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
         "tax_line_html": " "
       }
     },
