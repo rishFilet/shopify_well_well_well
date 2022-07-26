@@ -251,7 +251,8 @@
         "1658873486ad215190-3": {
           "type": "logo",
           "settings": {
-            "link": ""
+            "image": "shopify:\/\/shop_images\/18.jpg",
+            "link": "shopify:\/\/collections\/online-health-food"
           }
         }
       },
