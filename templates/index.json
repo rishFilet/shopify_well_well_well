@@ -230,7 +230,7 @@
         "01b07a61-78d5-4777-868b-97768fd66523": {
           "type": "faq",
           "settings": {
-            "question": "Test Question",
+            "question": "Health Food & Supplement Store Canada: Vitamins, Organic Food & More",
             "answer_header1": "Test answer",
             "answer_body1": "<p>Lorem ipsum<\/p>",
             "answer_header2": "",
@@ -244,11 +244,21 @@
         "01b07a61-78d5-4777-868b-97768fd66523"
       ],
       "settings": {
-        "question_font_size": 67,
-        "question_font_weight": 700,
-        "answer_header_font_size": 42,
+        "section_title": "Infromation",
+        "section_title_padding": 20,
+        "title_font_size": 20,
+        "title_font_weight": 700,
+        "section_max_width": 700,
+        "section_margin": 20,
+        "question_font_size": 16,
+        "question_font_weight": 400,
+        "answer_header_font_size": 16,
         "answer_header_font_weight": 400,
-        "answer_body_font_size": 60
+        "answer_header_margin_top": 0,
+        "answer_header_margin_bottom": 0,
+        "answer_body_font_size": 16,
+        "answer_body_margin_top": 0,
+        "answer_body_margin_bottom": 0
       }
     },
     "testimonials": {
