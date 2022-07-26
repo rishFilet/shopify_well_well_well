@@ -268,6 +268,13 @@
             "image": "shopify:\/\/shop_images\/20.jpg",
             "link": "shopify:\/\/collections\/traditional-chinese-medicine"
           }
+        },
+        "93c4eb78-2114-425b-8cc5-a11e452655f7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21.jpg",
+            "link": "shopify:\/\/collections\/vitamins-supplements"
+          }
         }
       },
       "block_order": [
@@ -276,7 +283,8 @@
         "1658873486ad215190-2",
         "1658873486ad215190-3",
         "4e2812d7-444f-4cb1-b711-7f950f94a83a",
-        "557c91b2-441e-4e79-813a-8e391d6c3100"
+        "557c91b2-441e-4e79-813a-8e391d6c3100",
+        "93c4eb78-2114-425b-8cc5-a11e452655f7"
       ],
       "settings": {
         "title": "",
