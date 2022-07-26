@@ -224,6 +224,51 @@
         "background_overlay_opacity": 50
       }
     },
+    "1658873486a1749860": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "1658873486ad215190-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.jpg",
+            "link": "shopify:\/\/collections\/baby-mother"
+          }
+        },
+        "1658873486ad215190-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1658873486ad215190-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1658873486ad215190-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658873486ad215190-0",
+        "1658873486ad215190-1",
+        "1658873486ad215190-2",
+        "1658873486ad215190-3"
+      ],
+      "settings": {
+        "title": "Logo list",
+        "subheading": "",
+        "heading_color": "#4D4D4D",
+        "subheading_color": "#4D4D4D",
+        "background_color": "",
+        "section_spacing_desktop": 50,
+        "section_spacing_mobile": 36
+      }
+    },
     "1658596311248c836b": {
       "type": "faq-accordian",
       "blocks": {
@@ -501,6 +546,7 @@
     "highlights-banner",
     "collection-list-2",
     "featured-collection-2",
+    "1658873486a1749860",
     "1658596311248c836b",
     "testimonials",
     "blog-posts",
