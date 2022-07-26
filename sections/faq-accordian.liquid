@@ -2,8 +2,8 @@
 
 {% schema %}
 {
-	"name": "FAQ Accordian",
-	"settings": [
+  "name": "FAQ Accordian",
+  "settings": [
     {
       "type": "range",
       "id": "question_font_size",
@@ -21,7 +21,6 @@
       "min": 300,
       "max": 800,
       "step": 100,
-      "unit": "",
       "default": 700
     },
     {
@@ -41,7 +40,6 @@
       "min": 300,
       "max": 800,
       "step": 100,
-      "unit": "",
       "default": 700
     },
     {
@@ -55,49 +53,50 @@
       "default": 14
     }
   ],
-	"blocks":[
-    { "name": "Faq",
+  "blocks": [
+    {
+      "name": "Faq",
       "type": "faq",
       "settings": [
         {
           "id": "question",
           "type": "text",
-        "label": "Question"
+          "label": "Question"
         },
         {
           "id": "answer_header1",
           "type": "text",
-        "label": "Answer Header 1"
+          "label": "Answer Header 1"
         },
         {
           "id": "answer_body1",
           "type": "richtext",
-        "label": "Answer Body 1"
+          "label": "Answer Body 1"
         },
         {
           "id": "answer_header2",
           "type": "text",
-        "label": "Answer Header 2"
+          "label": "Answer Header 2"
         },
         {
           "id": "answer_body2",
           "type": "richtext",
-        "label": "Answer Body 2"
+          "label": "Answer Body 2"
         },
         {
           "id": "answer_header3",
           "type": "text",
-        "label": "Answer Header 3"
+          "label": "Answer Header 3"
         },
         {
           "id": "answer_body3",
           "type": "richtext",
-        "label": "Answer Body 3"
+          "label": "Answer Body 3"
         }
       ]
     }
   ],
-	"presets": [
+  "presets": [
     {
       "category": "Faq",
       "name": "FAQ Accordian",
