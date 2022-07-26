@@ -148,7 +148,7 @@
     "product_grid_image_crop": false,
     "product_grid_show_quickshop": "always",
     "product_grid_show_atc": "desktop",
-    "custom_styles": ".site-logo {\njustify-content: left;\npadding-left: 0;\n}\n.logolist--inner{\n flex-wrap: nowrap;\n}\n.logolist--item{\n margin-top: 0;\n}",
+    "custom_styles": ".site-logo {\njustify-content: left;\npadding-left: 0;\n}\n@media only screen and (min-width: 800px) {\n.logolist--inner{\n flex-wrap: nowrap;\n}\n}\n.logolist--item{\n margin-top: 0;\n}",
     "preload_styles": "await_all_styles",
     "font_display": "auto",
     "product_enable_recently_viewed_products": true,
