@@ -246,8 +246,8 @@
       "settings": {
         "section_title": "Infromation",
         "section_title_padding": 20,
-        "title_font_size": 20,
-        "title_font_weight": 700,
+        "title_font_size": 22,
+        "title_font_weight": 400,
         "section_max_width": 700,
         "section_margin": 20,
         "question_font_size": 16,
