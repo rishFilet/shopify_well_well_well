@@ -275,6 +275,13 @@
             "image": "shopify:\/\/shop_images\/21.jpg",
             "link": "shopify:\/\/collections\/vitamins-supplements"
           }
+        },
+        "860f8f49-9946-4b93-b21f-25b81bf301ca": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22.jpg",
+            "link": "shopify:\/\/collections\/brands"
+          }
         }
       },
       "block_order": [
@@ -284,7 +291,8 @@
         "1658873486ad215190-3",
         "4e2812d7-444f-4cb1-b711-7f950f94a83a",
         "557c91b2-441e-4e79-813a-8e391d6c3100",
-        "93c4eb78-2114-425b-8cc5-a11e452655f7"
+        "93c4eb78-2114-425b-8cc5-a11e452655f7",
+        "860f8f49-9946-4b93-b21f-25b81bf301ca"
       ],
       "settings": {
         "title": "",
