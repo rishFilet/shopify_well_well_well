@@ -254,13 +254,29 @@
             "image": "shopify:\/\/shop_images\/18.jpg",
             "link": "shopify:\/\/collections\/online-health-food"
           }
+        },
+        "4e2812d7-444f-4cb1-b711-7f950f94a83a": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19.jpg",
+            "link": "shopify:\/\/collections\/herbs"
+          }
+        },
+        "557c91b2-441e-4e79-813a-8e391d6c3100": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20.jpg",
+            "link": "shopify:\/\/collections\/traditional-chinese-medicine"
+          }
         }
       },
       "block_order": [
         "1658873486ad215190-0",
         "1658873486ad215190-1",
         "1658873486ad215190-2",
-        "1658873486ad215190-3"
+        "1658873486ad215190-3",
+        "4e2812d7-444f-4cb1-b711-7f950f94a83a",
+        "557c91b2-441e-4e79-813a-8e391d6c3100"
       ],
       "settings": {
         "title": "",
