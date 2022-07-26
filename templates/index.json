@@ -246,7 +246,7 @@
       "settings": {
         "question_font_size": 67,
         "question_font_weight": 700,
-        "answer_header_font_size": 63,
+        "answer_header_font_size": 42,
         "answer_header_font_weight": 400,
         "answer_body_font_size": 60
       }
