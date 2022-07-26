@@ -255,7 +255,7 @@
         "answer_header_font_size": 16,
         "answer_header_font_weight": 400,
         "answer_header_margin_top": 0,
-        "answer_header_margin_bottom": 4,
+        "answer_header_margin_bottom": 21,
         "answer_body_font_size": 16,
         "answer_body_margin_top": 4,
         "answer_body_margin_bottom": 25
