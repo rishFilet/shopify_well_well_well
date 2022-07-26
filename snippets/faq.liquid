@@ -2,7 +2,17 @@
 .faq-accordion-section {
 	margin: {{ section.settings.section_margin }}px auto;
 	max-width: {{ section.settings.section_max_width }}px;
-	border-top: 1px solid;
+
+}
+
+.faq-section-title {
+	font-size: {{ section.settings.title_font_size }}px;
+	font-weight: {{ section.settings.title_font_weight }};
+	border-bottom: 1px solid;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-bottom: {{ section.settings.section_title_padding }}px;
 
 }
 
@@ -87,6 +97,7 @@
 {% endstyle %}
 
 <section class="faq-accordion-section">
+<span class="faq-section-title">Test title</span>
 {% for block in section.blocks %}
 <div class="accordion">
 	<div class="item">
