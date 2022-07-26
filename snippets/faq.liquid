@@ -1,15 +1,14 @@
 {% style %}
-.faq-accordion{
-font-family: "Inter", sans-serif;
-	line-height: 1;}
+.faq-accordion-section {
+	margin: {{ section.settings.section_margin }}px auto;
+}
 
 .accordion {
-	max-width: 700px;
-	margin: 100px auto;
-
+	max-width: {{ section.settings.section_max_width }}px;
+	margin: 0px auto;
 	display: flex;
 	flex-direction: column;
-		border-top: 1px solid;
+	border-top: 1px solid;
 }
 
 .accordion .item {
@@ -73,15 +72,19 @@ font-family: "Inter", sans-serif;
 .accordion .answer-header {
 	font-size: {{ section.settings.answer_header_font_size }}px;
 	font-weight: {{ section.settings.answer_header_font_weight }};
+	margin-top: {{ section.settings.answer_header_margin_top }}px;
+	margin-bottom: {{ section.settings.answer_header_margin_bottom }}px;
 }
 
-.accordion .answer-body {
+.accordion .answer-body p {
 	font-size: {{ section.settings.answer_body_font_size }}px;
+	margin-top: {{ section.settings.answer_body_margin_top }}px;
+	margin-bottom: {{ section.settings.answer_body_margin_bottom }}px;
 }
 
 {% endstyle %}
 
-<section>
+<section class="faq-accordion-section">
 {% for block in section.blocks %}
 <div class="accordion">
 	<div class="item">
@@ -100,18 +103,18 @@ font-family: "Inter", sans-serif;
 			<h2 class="answer-header"> An answer to your question with H2 tag </h2>
 			{% endif %}
 			{% if block.settings.answer_body1 != blank %}
-			<p class="answer-body">{{ block.settings.answer_body1 }}</p>
+			<span class="answer-body">{{ block.settings.answer_body1 }}</span>
 			{% else %}
 			<p class="answer-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			{% endif %}
 			{% if block.settings.answer_header2 != blank %}
-			<h2 class="answer-header">{{ block.settings.answer_header1 }}</h2>
+			<h2 class="answer-header">{{ block.settings.answer_header2 }}</h2>
 			{% endif %}
 			{% if block.settings.answer_body2 != blank %}
 			<p class="answer-body">{{ block.settings.answer_body2 }}</p>
 			{% endif %}
 			{% if block.settings.answer_header3 != blank %}
-			<h2 class="answer-header">{{ block.settings.answer_header1 }}</h2>
+			<h2 class="answer-header">{{ block.settings.answer_header3 }}</h2>
 			{% endif %}
 			{% if block.settings.answer_body3 != blank %}
 			<p class="answer-body">{{ block.settings.answer_body3 }}</p>
