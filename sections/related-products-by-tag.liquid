@@ -20,7 +20,7 @@
         "
         data-product-row
       >
-        {%- for product in collections.all.products -%}
+        {% for product in collections['all'].products %}
             {%- unless product.handle == current_product.handle -%}
 
                 {%- if product.tags contains section.settings.related_tag -%}
