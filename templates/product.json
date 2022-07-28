@@ -85,9 +85,8 @@
       "settings": {
         "show_related_products": true,
         "related_title": "Other fine products",
-        "related_grid_num": "4",
-        "related_grid_row": "1",
-        "related_tag": "﻿herb"
+        "number_of_products": "4",
+        "related_tag": "﻿Herbs"
       }
     }
   },
