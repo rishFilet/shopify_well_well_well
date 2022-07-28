@@ -69,6 +69,15 @@
         "product_recommendations_heading": "You may also like"
       }
     },
+    "related-products": {
+      "type": "related-products-by-tag",
+      "settings": {
+        "show_related_products": true,
+        "related_title": "Other fine products",
+        "number_of_products": "4",
+        "related_tag": "﻿Herbs"
+      }
+    },
     "product-reviews": {
       "type": "static-product-reviews",
       "settings": {
@@ -79,23 +88,13 @@
       "settings": {
         "enable_recently_viewed_products": false
       }
-    },
-    "related-products": {
-      "type": "related-products-by-tag",
-      "settings": {
-        "show_related_products": true,
-        "related_title": "Other fine products",
-        "related_grid_num": "4",
-        "related_grid_row": "1",
-        "related_tag": "﻿herb"
-      }
     }
   },
   "order": [
     "main",
     "recommendations",
+    "related-products",
     "product-reviews",
-    "recently-viewed",
-    "related-products"
+    "recently-viewed"
   ]
 }
