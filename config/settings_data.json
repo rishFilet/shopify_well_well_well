@@ -214,7 +214,7 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "FREE SHIPPING IN ONTARIO $59.99+* |\n\nCurb side pick up available in St. Catharines |\n\nCOVID-19 Update",
+          "announcement_text": "<strong>FREE SHIPPING IN ONTARIO $59.99+* |<\/strong><i class=\"fa fa-camera\"><\/i>\n\nCurb side pick up available in St. Catharines |\n\nCOVID-19 Update",
           "announcement_text_mobile": "",
           "announcement_link": "",
           "announcement_color": "#212121",
