@@ -66,6 +66,7 @@
   {% comment %}
     Product slideshow, never moves
   {% endcomment %}
+  <div style="display: flex; flex-direction: row;">
   {%
     include 'product-gallery',
     selected_image: selected_image,
@@ -235,6 +236,56 @@
             {% when 'share' %}
               {{ share_buttons | strip_newlines }}
 
+          {% endcase %}
+        </div>
+      {% endfor %}
+
+      {% if layout == 'layout--three-col' %}
+        {%- assign product_sold_out = false -%}
+        {%- if settings.in_stock_notification_form != 'disabled' and product.available == false -%}
+          {%- assign product_sold_out = true -%}
+        {%- endif -%}
+        <div class="product-form--regular" data-product-form-regular>
+          <div {% if product_sold_out %}class="product-sold-out"{% endif %} data-product-form-area>
+            {% unless onboarding %}
+              {%
+                include 'product-form',
+                product: product,
+                selected_variant: selected_variant,
+                is_product_modal: false,
+              %}
+              {%- if settings.in_stock_notification_form != 'disabled' -%}
+                {%
+                  include 'product-in-stock-notification-form',
+                  product: product,
+                %}
+              {%- endif -%}
+            {% endunless %}
+          </div>
+        </div>
+      {% endif%}
+    </div> {% comment %} end product-details {% endcomment %}
+
+  </div> {% comment %} end product-main {% endcomment %}
+</div>
+  <div style="display: flex; flex-direction: row;">
+
+<div class="product-main">
+    <div class="product-details" data-product-details>
+
+      {% for block in section.blocks %}
+        <div
+          class="
+            product-block
+            product-block--{{ block.type }}
+            {% if forloop.first %}
+              product-block--first
+            {% endif %}
+          "
+          {{ block.shopify_attributes }}
+        >
+          {% case block.type %}
+
             {% when 'description' %}
               {% capture product_description %}{%- include 'shortcode-readmore', text: product.description, before_readmore: true -%}{% endcapture %}
               {% if product_description != blank and show_description %}
@@ -271,7 +322,7 @@
     </div> {% comment %} end product-details {% endcomment %}
 
   </div> {% comment %} end product-main {% endcomment %}
-
+</div>
   {% comment %}
     If is a 3 column layout, the form will move here at $bp-large (layout.isBreakpoint('L'))
   {% endcomment %}
@@ -283,6 +334,8 @@
   {% unless product_readmore == blank %}
     <div class="product-readmore rte">{{ product_readmore }}</div>
   {% endunless %}
+
+
 </article>
 
 {% assign show_description = blank %}
