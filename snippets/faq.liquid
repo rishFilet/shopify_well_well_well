@@ -110,9 +110,9 @@
 			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 		</svg>
 		<div class="hidden-box">
-			{% if block.settings.answer_header1 != blank %}
+			{% if block.settings.answer_header1 == "N/a" %}
 			<h2 class="answer-header">{{ block.settings.answer_header1 }}</h2>
-			{% elsif block.settings.answer_header1 == "N/a" %}
+			{% elsif block.settings.answer_header1 != blank %}
 			<h2 class="answer-header"></h2>
 			{% else %}
 			<h2 class="answer-header"> An answer to your question with H2 tag </h2>
