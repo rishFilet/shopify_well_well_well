@@ -380,7 +380,7 @@
           "border_enabled": false,
           "border_width": 1,
           "border_color": "#000000",
-          "enable_live_search": false,
+          "enable_live_search": true,
           "live_search_content_types": "article,page,product",
           "search_quick_links": ""
         }
