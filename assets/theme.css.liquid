@@ -4826,6 +4826,22 @@ em strong {
 .site-header-menu-button {
   left: 0rem;
 }
+
+.site-header-checkout-button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Questrial";
+  color: #fff;
+  border-style: none;
+  text-align: center;
+  border-radius: 20px;
+  background-color: red;
+  text-transform: uppercase;
+  height: fit-content;
+  padding: 10px 24px 10px 24px;
+  cursor: pointer;
+}
 @media screen and (min-width: 720px) {
   .site-header-menu-button {
     left: calc({{ settings.type_size_base | times: 1.75 | divided_by: 16.0 | append: 'rem' }} - 0.625rem);
@@ -6074,6 +6090,8 @@ em strong {
     right: 0;
     padding-left: {{ settings.type_size_base | times: 1.25 | divided_by: 16.0 | append: 'rem' }};
     justify-content: center;
+    align-items: center;
+    gap: 10px;
     transition: opacity 0.4s;
   }
 .site-header-loading .site-header-main-actions {

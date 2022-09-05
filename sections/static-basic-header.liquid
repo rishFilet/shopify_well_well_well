@@ -7,7 +7,7 @@
     {% assign content_title_key = 'pages_and_posts_title' %}
 {% endcase %}
 
-{%  assign display_search_icon = false %}
+{% assign display_search_icon = false %}
 
 <script
   type="application/json"
@@ -182,28 +182,28 @@
             </span>
           {% endif %}
         {% endif %}
-     </a>     
-         
+     </a>
+
         {%
           include 'live-search-form',
           search_quick_links: linklists[section.settings.search_quick_links],
           enable_live_search: section.settings.enable_live_search,
           content_types: section.settings.live_search_content_types,
           additional_styles: "position: relative; top: 0; left: 0; transform: none; ",
-  
-        %}  
+
+        %}
     </div>
 
-    
+
     {%- unless section.settings.navigation_layout == 'below' -%}
       {{ header_nav }}
     {%- endunless -%}
 
-{% comment %}     
+{% comment %}
 This is commented out to hide the hidden search bar wrapper tha appears when clikcing the searh icon
 I removed the --hidden class from the top level div of the header.
 
-<div class="site-header-search" data-site-header-search> 
+<div class="site-header-search" data-site-header-search>
       <div class="site-header-search-wrapper" data-search-wrapper>
         {%
           include 'live-search-form',
@@ -229,7 +229,7 @@ I removed the --hidden class from the top level div of the header.
           </span>
         </div>
       </button>
-      {%  endif %}
+      {% endif %}
 
       {% if shop.customer_accounts_enabled %}
         <a class="site-header-button site-header-account-button" href="{{ routes.account_url }}">
@@ -251,17 +251,18 @@ I removed the --hidden class from the top level div of the header.
           <span class="visually-hidden">{{ 'general.accessibility.cart' | t }}</span>
         </div>
       </a>
+      <button class="site-header-checkout-button">Checkout</button>
     </div>
   </div>
 
   {%- if section.settings.navigation_layout == 'below' -%}
-    <div 
+    <div
       class="
         site-navigation-wrapper
-        
+
         {% if section.settings.full_width_header %}
           site-header--full-width
-        {% endif %}  
+        {% endif %}
       "
     >
       {{ header_nav }}

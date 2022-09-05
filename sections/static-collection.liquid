@@ -95,29 +95,7 @@
           {% unless section.settings.show_breadcrumbs %}no-breadcrumbs{% endunless %}
         "
       >
-        {% if section.settings.show_collection_image and collection.image %}
-          <figure class="collection--image">
-            {%
-              include 'rimg',
-              img: collection.image,
-              size: '1350x',
-              lazy: settings.lazy_load,
-              canvas: settings.lazy_load
-            %}
-          </figure>
-        {% endif %}
 
-        <div class="collection--information">
-          <h1 class="collection--title">
-            {{ collection.title }}
-          </h1>
-
-          {% if collection.description != blank %}
-            <div class="collection--description rte">
-              {{ collection.description }}
-            </div>
-          {% endif %}
-        </div>
 
       </div>
       <div
@@ -184,7 +162,7 @@
                 endif
               endif
             %}
-            
+
             <div class="productgrid--utils utils-filter">
               <button
                 class="utils-filter-button"
@@ -288,6 +266,29 @@
         pagination_type: section.settings.pagination
       %}
     </div>
+    {% if section.settings.show_collection_image and collection.image %}
+          <figure class="collection--image">
+            {%
+              include 'rimg',
+              img: collection.image,
+              size: '1350x',
+              lazy: settings.lazy_load,
+              canvas: settings.lazy_load
+            %}
+          </figure>
+        {% endif %}
+
+        <div class="collection--information">
+          <h1 class="collection--title">
+            {{ collection.title }}
+          </h1>
+
+          {% if collection.description != blank %}
+            <div class="collection--description rte">
+              {{ collection.description }}
+            </div>
+          {% endif %}
+        </div>
   </div>
   {% endpaginate %}
   </div>
@@ -298,6 +299,7 @@
     type: 'modal',
   -%}
 {%- endif -%}
+
 
 {% schema %}
 {

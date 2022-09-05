@@ -24,6 +24,7 @@
           {% unless section.settings.show_breadcrumbs %}no-breadcrumbs{% endunless %}
         "
       >
+      <div class="results--container" data-html="productgrid">
       <div class="collection--information collection--minimal {% if section.blocks.size > 0 %}has-image-with-text{% endif %}">
           <h1 class="collection--title">
             {{ collection.title }}
@@ -41,7 +42,6 @@
           {% endfor %}
         {% endif %}
       </div>
-      <div class="results--container" data-html="productgrid">
       <div class='processing-overlay'>
       </div>
 
