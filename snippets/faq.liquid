@@ -111,9 +111,9 @@
 		</svg>
 		<div class="hidden-box">
 			{% if block.settings.answer_header1 == "N/a" %}
-			<h2 class="answer-header">{{ block.settings.answer_header1 }}</h2>
-			{% elsif block.settings.answer_header1 != blank %}
 			<h2 class="answer-header"></h2>
+			{% elsif block.settings.answer_header1 != blank %}
+			<h2 class="answer-header">{{ block.settings.answer_header1 }}</h2>
 			{% else %}
 			<h2 class="answer-header"> An answer to your question with H2 tag </h2>
 			{% endif %}
