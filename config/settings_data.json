@@ -227,7 +227,7 @@
           "show_locale_selector": true,
           "show_currency_selector": true,
           "additional_menu": "footer",
-          "small_text": "<p><a href=\"https:\/\/outofthesandbox.com\/collections\/themes\">Superstore Theme by Out of the Sandbox.<\/a> <a href=\"https:\/\/www.shopify.ca\/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore\">Powered by Shopify<\/a><\/p>"
+          "small_text": ""
         }
       },
       "static-announcement": {
