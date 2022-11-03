@@ -574,26 +574,6 @@
         "section_spacing_desktop": 50,
         "section_spacing_mobile": 36
       }
-    },
-    "166750406293e179d0": {
-      "type": "apps",
-      "blocks": {
-        "68a37d8b-e3cc-495e-8eaa-ee9d7b7916b5": {
-          "type": "shopify:\/\/apps\/easy-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
-          "settings": {
-            "heading": "Frequently Asked Questions",
-            "heading_text_type": "h2",
-            "heading_alignment": "left",
-            "faq_embed_code": "Copy paste embed code you received from app.",
-            "faqs_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "68a37d8b-e3cc-495e-8eaa-ee9d7b7916b5"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -608,7 +588,6 @@
     "newsletter",
     "highlights-banner-2",
     "1650573077f2ffc01e",
-    "16505733482caa7b41",
-    "166750406293e179d0"
+    "16505733482caa7b41"
   ]
 }
