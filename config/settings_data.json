@@ -177,16 +177,31 @@
       "static-footer": {
         "type": "static-footer",
         "blocks": {
-          "d033fad4-c6bb-4a60-8e5c-fbed67c776b5": {
-            "type": "menu",
+          "db759711-17cd-4456-ab0e-a9fb0c16607f": {
+            "type": "rich_text",
             "settings": {
-              "menu": "can-we-help"
+              "title": "CONTACT US",
+              "text": "<p>Address:<\/p><p>318 Ontario St. <br\/>St. Catharines, ON<br\/>L2R 5L8<br\/><br\/>Email: info@wellwellwellnc.com<br\/><br\/>Phone: 1-905-684-2276<\/p>"
             }
           },
           "1554840343056": {
             "type": "menu",
             "settings": {
               "menu": "about"
+            }
+          },
+          "7c9d45f4-0aa1-4516-a477-896f207c18ca": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Subscribe",
+              "text": "<p>Invite customers to join your mailing list.<\/p>",
+              "button_style": "primary"
+            }
+          },
+          "d033fad4-c6bb-4a60-8e5c-fbed67c776b5": {
+            "type": "menu",
+            "settings": {
+              "menu": "can-we-help"
             }
           },
           "1556830983585": {
@@ -196,8 +211,10 @@
           }
         },
         "block_order": [
-          "d033fad4-c6bb-4a60-8e5c-fbed67c776b5",
+          "db759711-17cd-4456-ab0e-a9fb0c16607f",
           "1554840343056",
+          "7c9d45f4-0aa1-4516-a477-896f207c18ca",
+          "d033fad4-c6bb-4a60-8e5c-fbed67c776b5",
           "1556830983585"
         ],
         "settings": {
