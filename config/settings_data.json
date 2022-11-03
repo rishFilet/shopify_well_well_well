@@ -181,7 +181,7 @@
             "type": "rich_text",
             "settings": {
               "title": "Contact",
-              "text": "<p><strong>Address:<\/strong><\/p><p>318 Ontario St. <br\/>St. Catharines, ON<br\/>L2R 5L8<br\/><br\/><strong>Email:<\/strong> info@wellwellwellnc.com<br\/><br\/><strong>Phone:<\/strong> 1-905-684-2276<\/p>"
+              "text": "<p><strong>Address:<br\/><\/strong>318 Ontario St. <br\/>St. Catharines, ON<br\/>L2R 5L8<br\/><br\/><strong>Email:<\/strong> info@wellwellwellnc.com<br\/><br\/><strong>Phone:<\/strong> 1-905-684-2276<\/p>"
             }
           },
           "1554840343056": {
