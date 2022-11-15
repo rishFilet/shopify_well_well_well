@@ -322,6 +322,7 @@
     </div> {% comment %} end product-details {% endcomment %}
 
   </div> {% comment %} end product-main {% endcomment %}
+  <div class="yotpo-widget-instance" data-yotpo-instance-id="274303" data-yotpo-product-id="{{product.id}}" data-yotpo-name="{{ product.title | escape }}" data-yotpo-url="{{ shop.url }}{{ product.url }}" data-yotpo-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" data-yotpo-description="{{ product.description | escape }}"></div>
 </div>
   {% comment %}
     If is a 3 column layout, the form will move here at $bp-large (layout.isBreakpoint('L'))
