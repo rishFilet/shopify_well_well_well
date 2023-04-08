@@ -45215,6 +45215,7 @@ console.log("ccc");
 					var id = el.getAttribute("data-meganav-id");
 					this.megaNavs[id] = new MegaNavScroller(jquery_default()(el));
 				}
+              console.log("c1");
 
 				this.navMobile = new NavMobile({
 					$el: this.$el,
