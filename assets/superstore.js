@@ -44216,7 +44216,7 @@ const RULES = `
 					}
 				};
 
-				_this.searchButton.addEventListener("click", _this._openSearch);
+				//_this.searchButton.addEventListener("click", _this._openSearch);
 
 				_this.searchClose.addEventListener("click", _this._closeSearch);
 
