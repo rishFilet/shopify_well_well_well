@@ -44215,13 +44215,13 @@ const RULES = `
 						_this._closeSearch();
 					}
 				};
-console.log('dd');
+
 				_this.searchButton.addEventListener("click", _this._openSearch);
 
 				//_this.searchClose.addEventListener("click", _this._closeSearch);
 
 				_this.takeoverCancel.addEventListener("click", _this._closeSearch);
-
+console.log('dd');
 				window.addEventListener("resize", _this.windowResize);
 				window.addEventListener("load", _this._adjustSizeAndPlacement);
 				window.addEventListener("keydown", _this._closeEsc);
