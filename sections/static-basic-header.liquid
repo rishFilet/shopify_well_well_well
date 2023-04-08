@@ -251,7 +251,11 @@ I removed the --hidden class from the top level div of the header.
           <span class="visually-hidden">{{ 'general.accessibility.cart' | t }}</span>
         </div>
       </a>
-      <button class="site-header-checkout-button">Checkout</button>
+      <form action="/checkout" method="post">
+  <button type="submit" class="site-header-checkout-button">Checkout</button>
+</form>
+
+      
     </div>
   </div>
 
