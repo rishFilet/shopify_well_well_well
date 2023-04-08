@@ -29089,7 +29089,7 @@
 											.find("span")
 											.text(response.item_count);
 
-                                      var ccoun = document.querySelector(".site-navigation site-header-cart--count")
+                                      var ccoun = document.querySelector(".site-navigation site-header-cart--count");
 				
 				
 						ccoun.attr("data-header-cart-count", response.item_count);
