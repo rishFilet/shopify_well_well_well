@@ -29093,11 +29093,6 @@
                                             .toggleClass("visible", response.item_count > 0)
                                             .attr("data-header-cart-count", response.item_count);
 
-                                      //var ccoun = document.querySelector(".site-navigation .site-header-cart--count");
-				
-				
-						//ccoun.attr("data-header-cart-count", data.response.item_count);
-
 										_this.$header.append($flyOut); // Notifiy Header of new cart count
 
 										_this.$headerMain.trigger("cartcount:update", {
