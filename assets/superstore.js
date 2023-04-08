@@ -45206,6 +45206,7 @@ console.log("ccc");
 						);
 						break;
 				}
+              console.log("c1");
 
 				this.megaNavs = {};
 				var meganavMenus = document.querySelectorAll("[data-meganav-menu]");
