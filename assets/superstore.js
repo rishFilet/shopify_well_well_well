@@ -45188,7 +45188,9 @@ console.log("ccc");
 						this.header = new MinimalHeader(headerProperties, this.settings);
 						break;
 
-					
+					case "basic":
+						this.header = new BasicHeader(headerProperties, this.settings);
+						break;
 
 					case "traditional":
 						this.header = new TraditionalHeader(
@@ -45198,7 +45200,7 @@ console.log("ccc");
 						break;
 
 					default:
-						this.header = new TraditionalHeader(
+						this.header = new BasicHeader(
 							headerProperties,
 							this.settings
 						);
