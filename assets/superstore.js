@@ -45182,7 +45182,7 @@ const RULES = `
 					postMessage: this.postMessage,
 					$scripts: this.$scripts,
 				};
-
+console.log("ccc");
 				switch (this.settings.header_layout) {
 					case "minimal":
 						this.header = new MinimalHeader(headerProperties, this.settings);
