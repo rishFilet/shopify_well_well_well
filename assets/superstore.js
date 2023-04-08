@@ -44343,7 +44343,7 @@ console.log('dd');
 						}
 
 						this.searchButton.removeEventListener("click", this._openSearch);
-						this.searchClose.removeEventListener("click", this._closeSearch);
+						//this.searchClose.removeEventListener("click", this._closeSearch);
 						this.takeoverCancel.removeEventListener("click", this._closeSearch);
 						window.removeEventListener("resize", this.windowResize);
 						window.removeEventListener("load", this._adjustSizeAndPlacement);
