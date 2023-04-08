@@ -29088,11 +29088,15 @@
 											.find("[data-atc-banner-cart-button]")
 											.find("span")
 											.text(response.item_count);
+                                      $flyOut
+											.find("[data-atc-banner-cart-button]")
+											.find("span")
+											.text(response.item_count);
 
-                                      var ccoun = document.querySelector(".site-navigation site-header-cart--count");
+                                      var ccoun = document.querySelector(".site-navigation .site-header-cart--count");
 				
 				
-						ccoun.attr("data-header-cart-count", response.item_count);
+						ccoun.attr("data-header-cart-count", data.response.item_count);
 
 										_this.$header.append($flyOut); // Notifiy Header of new cart count
 
