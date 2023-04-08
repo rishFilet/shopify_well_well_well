@@ -95,12 +95,15 @@
     data-site-header-main
     {% if section.settings.sticky_header %}data-site-header-sticky{% endif %}
   >
-    <button class="site-header-button site-header-menu-button" href="#" data-menu-toggle>
+    <a class="site-header-button site-header-menu-button" href="#" data-menu-toggle>
       <div class="site-header-icon site-header-menu-icon" tabindex="-1">
         {% include 'icon-library', id: 'icon-menu' %}
+        <div class="nav-toggle-ie-11">
+          {% include 'icon-library', id: 'icon-search-close' %}
+        </div>
         <span class="visually-hidden">{{ 'general.accessibility.menu' | t }}</span>
       </div>
-    </button>
+    </a>
     <div class="site-logo" style="width: auto; gap: 10vw">
       <a
         class="site-logo-link"
