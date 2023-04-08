@@ -29090,6 +29090,7 @@
 											.text(response.item_count);
                                       _this.$header
 											.find(".site-header-cart--count")
+                                            ..toggleClass("visible", response.item_count > 0);
                                             .attr("data-header-cart-count", response.item_count);
 
                                       //var ccoun = document.querySelector(".site-navigation .site-header-cart--count");
