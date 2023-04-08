@@ -44221,7 +44221,7 @@ const RULES = `
 				//_this.searchClose.addEventListener("click", _this._closeSearch);
 
 				//_this.takeoverCancel.addEventListener("click", _this._closeSearch);
-console.log('dd');
+
 				window.addEventListener("resize", _this.windowResize);
 				window.addEventListener("load", _this._adjustSizeAndPlacement);
 				window.addEventListener("keydown", _this._closeEsc);
@@ -45182,7 +45182,7 @@ console.log('dd');
 					postMessage: this.postMessage,
 					$scripts: this.$scripts,
 				};
-console.log("ccc");
+
 				switch (this.settings.header_layout) {
 					case "minimal":
 						this.header = new MinimalHeader(headerProperties, this.settings);
@@ -45206,7 +45206,7 @@ console.log("ccc");
 						);
 						break;
 				}
-              console.log("c1");
+              
 
 				this.megaNavs = {};
 				var meganavMenus = document.querySelectorAll("[data-meganav-menu]");
@@ -45216,7 +45216,7 @@ console.log("ccc");
 					var id = el.getAttribute("data-meganav-id");
 					this.megaNavs[id] = new MegaNavScroller(jquery_default()(el));
 				}
-              console.log("c1");
+              
 
 				this.navMobile = new NavMobile({
 					$el: this.$el,
