@@ -44216,11 +44216,11 @@ const RULES = `
 					}
 				};
 
-				_this.searchButton.addEventListener("click", _this._openSearch);
+				//_this.searchButton.addEventListener("click", _this._openSearch);
 
 				//_this.searchClose.addEventListener("click", _this._closeSearch);
 
-				_this.takeoverCancel.addEventListener("click", _this._closeSearch);
+				//_this.takeoverCancel.addEventListener("click", _this._closeSearch);
 console.log('dd');
 				window.addEventListener("resize", _this.windowResize);
 				window.addEventListener("load", _this._adjustSizeAndPlacement);
@@ -44342,9 +44342,9 @@ console.log('dd');
 							);
 						}
 
-						this.searchButton.removeEventListener("click", this._openSearch);
+						//this.searchButton.removeEventListener("click", this._openSearch);
 						//this.searchClose.removeEventListener("click", this._closeSearch);
-						this.takeoverCancel.removeEventListener("click", this._closeSearch);
+						//this.takeoverCancel.removeEventListener("click", this._closeSearch);
 						window.removeEventListener("resize", this.windowResize);
 						window.removeEventListener("load", this._adjustSizeAndPlacement);
 						window.removeEventListener("keydown", this._closeEsc);
