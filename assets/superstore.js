@@ -45183,7 +45183,29 @@ const RULES = `
 					$scripts: this.$scripts,
 				};
 console.log("ccc");
-				
+				switch (this.settings.header_layout) {
+					case "minimal":
+						this.header = new MinimalHeader(headerProperties, this.settings);
+						break;
+
+					case "basic":
+						this.header = new BasicHeader(headerProperties, this.settings);
+						break;
+
+					case "traditional":
+						this.header = new TraditionalHeader(
+							headerProperties,
+							this.settings
+						);
+						break;
+
+					default:
+						this.header = new TraditionalHeader(
+							headerProperties,
+							this.settings
+						);
+						break;
+				}
               console.log("c1");
 
 				this.megaNavs = {};
