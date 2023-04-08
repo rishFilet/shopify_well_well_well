@@ -45200,7 +45200,7 @@ console.log("ccc");
 						break;
 
 					default:
-						this.header = new BasicHeader(
+						this.header = new TraditionalHeader(
 							headerProperties,
 							this.settings
 						);
