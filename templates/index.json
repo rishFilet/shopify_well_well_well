@@ -7,6 +7,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/Traditional_Chinese_Medicine_TCM.png",
+            "mob_image": "shopify:\/\/shop_images\/Customer_Appreciation_Day.jpg",
             "title": "",
             "text": "",
             "color": "#4d4d4d",
