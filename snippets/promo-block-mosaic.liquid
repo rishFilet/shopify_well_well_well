@@ -16,12 +16,14 @@
 {%- endcapture -%}
 <style>
   {% if block.settings.mob_image %}
+    @media (max-width: 600px){
   .oc_mobile_{{ block.id }} {
     background-image: url('{{ block.settings.mob_image | img_url: "x600" }}') !important;
   }
   .promo-mosaic--height-large .promo-mosaic--inner.promo-mosaic--layout-1 .oc_mobile_{{ block.id }} {
       min-height: {{ block.settings.height }}px !important;
   }
+    }
   {% endif %}
   </style>
 
