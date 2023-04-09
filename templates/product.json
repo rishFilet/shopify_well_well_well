@@ -65,8 +65,7 @@
     "recommendations": {
       "type": "static-product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like"
+        "show_product_recommendations": true
       }
     },
     "related-products": {
@@ -80,6 +79,7 @@
     },
     "product-reviews": {
       "type": "static-product-reviews",
+      "disabled": true,
       "settings": {
       }
     },
