@@ -17,7 +17,7 @@
 
 
 <{% if block_title != blank and block_text != blank %}article{% else %}div{% endif %}
-  class="{{ classes | replace: '  ', ' ' | strip_newlines }}"
+  class="oc_mobile_{{ block.id }} {{ classes | replace: '  ', ' ' | strip_newlines }}"
   {{ block.shopify_attributes }}
   {% if block.settings.image %}
     {%
