@@ -15,9 +15,11 @@
   {{ additional_classes | strip_newlines }}
 {%- endcapture -%}
 <style>
+  {% if block.settings.mob_image %}
   .oc_mobile_{{ block.id }} {
     background-image: url('{{ block.settings.mob_image }}');
   }
+  {% endif %}
   </style>
 
 <{% if block_title != blank and block_text != blank %}article{% else %}div{% endif %}
