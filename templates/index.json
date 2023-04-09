@@ -8,6 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Traditional_Chinese_Medicine_TCM.png",
             "mob_image": "shopify:\/\/shop_images\/Customer_Appreciation_Day.jpg",
+            "height": 350,
             "title": "",
             "text": "",
             "color": "#4d4d4d",
@@ -23,6 +24,7 @@
           "type": "promotion",
           "disabled": true,
           "settings": {
+            "height": 350,
             "title": "Mosaic",
             "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
             "color": "#4d4d4d",
@@ -38,6 +40,7 @@
           "type": "promotion",
           "disabled": true,
           "settings": {
+            "height": 350,
             "title": "Mosaic",
             "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
             "color": "#4d4d4d",
@@ -63,7 +66,7 @@
         "subheading_color": "#ffffff",
         "background_color": "",
         "section_spacing_desktop": 50,
-        "section_spacing_mobile": 36,
+        "section_spacing_mobile": 0,
         "text_alignment": "center-center",
         "maintain_aspect_ratio": false,
         "compress_blocks": false
