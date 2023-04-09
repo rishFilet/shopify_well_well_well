@@ -14,7 +14,11 @@
   {% if maintain_aspect_ratio %}promo-mosaic--maintain-aspect-ratio{% endif %}
   {{ additional_classes | strip_newlines }}
 {%- endcapture -%}
-
+<style>
+  .oc_mobile_{{ block.id }} {
+    background-image: url('{{ block.settings.mob_image }}');
+  }
+  </style>
 
 <{% if block_title != blank and block_text != blank %}article{% else %}div{% endif %}
   class="oc_mobile_{{ block.id }} {{ classes | replace: '  ', ' ' | strip_newlines }}"
