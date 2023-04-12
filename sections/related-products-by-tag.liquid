@@ -56,23 +56,6 @@
 {%- endunless -%}
 
 
-<section
-    class="product-section--container product-row--container product-recommendations--container"
-    data-html
-  >
-      <h2 class="product-section--title product-recommendations--title">
-        {{ section.settings.related_title }}
-      </h2>
-<ul
-        class="
-          product-section--content
-          product-row
-          {% if settings.enable_product_card_spacing == false %}product-row--no-spacing{% endif %}
-        "
-        data-product-row
-      >
-
-
 
 {% if product.tags.size > 0 %}
   <div class="related-products">
