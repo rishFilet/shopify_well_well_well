@@ -67,7 +67,7 @@
       {% assign related_products_in_collection = collections[collection.handle].products %}
       {% assign related_products = related_products | concat: related_products_in_collection %}
     {% endfor %}
-    {% assign related_products = related_products | uniq | where: 'id', '!=', product.id | limit: 4 %}
+    {% assign related_products = related_products %}
     {% for related_product in related_products %}
       <div class="related-product">
         <a href="{{ related_product.url }}">
