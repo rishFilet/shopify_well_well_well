@@ -75,7 +75,7 @@
         
       {% endfor %}
   {{ related_producsss }}
-      {% for related_product in related_products %}
+      {% for related_product in related_producsss %}
         <div class="related-product">
           <a href="{{ related_product.url }}">
             <img src="{{ related_product.featured_image.src | img_url: 'medium' }}" alt="{{ related_product.title }}">
