@@ -57,37 +57,7 @@
 
 
 
-{% if product.tags.size > 0 %}
-  <div class="related-products">
-    <div class="related-products-grid">
-      {% assign related_products = collections.all.products %}
-      {% assign related_products_ids = '' %}
-      {% for tag in product.tags %}
-        {% for related_product in related_products %}
-          {% if related_product.tags contains tag %}
-            {% unless related_products_ids contains related_product.id %}
-              {% assign related_products_ids = related_products_ids | append: related_product.id | append: ',' %}
-              {% capture product_html %}
-                <div class="related-product">
-                  <a href="{{ related_product.url }}">
-                    <img src="{{ related_product.featured_image.src | img_url: 'medium' }}" alt="{{ related_product.title }}">
-                    <h3>{{ related_product.title }}</h3>
-                    <span class="price">{{ related_product.price | money }}</span>
-                  </a>
-                </div>
-              {% endcapture %}
-              {% assign related_product_htmls = related_product_htmls | push: product_html %}
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-      {% assign related_product_htmls = related_product_htmls | shuffle %}
-      {% for related_product_html in related_product_htmls limit: 4 %}
-        {{ related_product_html }}
-      {% endfor %}
-    </div>
-  </div>
-{% endif %}
+
 
 
 {% if product.tags.size > 0 %}
