@@ -89,6 +89,32 @@
 {% endif %}
 
 
+{% if product.tags.size > 0 %}
+  <div class="related-products">
+    <h2>Related Products</h2>
+    <div class="related-products-grid">
+      {% assign related_products = collections.all.products %}
+      {% assign related_products_ids = '' %}
+      {% for tag in product.tags %}
+        {% for related_product in related_products %}
+          {% if related_product.tags contains tag %}
+            {% unless related_products_ids contains related_product.id %}
+              {% assign related_products_ids = related_products_ids | append: related_product.id | append: ',' %}
+              <div class="related-product">
+                <a href="{{ related_product.url }}">
+                  <img src="{{ related_product.featured_image.src | img_url: 'medium' }}" alt="{{ related_product.title }}">
+                  <h3>{{ related_product.title }}</h3>
+                  <span class="price">{{ related_product.price | money }}</span>
+                </a>
+              </div>
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
 
 
 
