@@ -65,11 +65,11 @@
 <div class="related-products">
   <h2>Related Products</h2>
   <div class="related-products-grid">
-    {% assign related_products = collections.all.products %}
+    {% assign related_products = collections.all.products | where: 'product_type', product.product_type %}
     {% for collection in product.collections %}
-      {% assign related_products = related_products %}
+      {% assign related_products = related_products | where: 'collection_id', collection.id %}
     {% endfor %}
-    {% assign related_products = related_products | where: 'id', '!=', product.id %}
+    {% assign related_products = related_products | where: 'id', '!=', product.id | limit: 4 %}
     {% for related_product in related_products %}
       <div class="related-product">
         <a href="{{ related_product.url }}">
@@ -82,6 +82,7 @@
   </div>
 </div>
 {% endif %}
+
 
 
 
