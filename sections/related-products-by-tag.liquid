@@ -67,7 +67,7 @@
   <div class="related-products-grid">
     {% assign related_products = collections.all.products %}
     {% for collection in product.collections %}
-      {% assign related_products = related_products | where: 'collection', collection %}
+      {% assign related_products = related_products %}
     {% endfor %}
     {% assign related_products = related_products | where: 'id', '!=', product.id %}
     {% for related_product in related_products %}
