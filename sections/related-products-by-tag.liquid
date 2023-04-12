@@ -56,7 +56,14 @@
 {%- endunless -%}
 
 
-
+<ul
+        class="
+          product-section--content
+          product-row
+          {% if settings.enable_product_card_spacing == false %}product-row--no-spacing{% endif %}
+        "
+        data-product-row
+      >
 {% assign number_of_related_products_to_show = 2 %} 
     {% assign current_product = product %} {% assign current_product_tags = product.tags %} 
     {% assign found_first_match = false %} {% assign found_second_match = false %} 
@@ -89,7 +96,7 @@
     {% if first_related_product == false %}
         {% endif %}
      {% endpaginate %} 
-
+</ul>
 
 {% if product.tags.size > 0 %}
   <div class="related-products">
