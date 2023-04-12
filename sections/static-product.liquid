@@ -88,7 +88,7 @@
   {% endif %}
 {% endif %}
 
-{% assign available_products = related_collection.products | where: "available" %}
+{% assign available_products = product.collections | where: "available" %}
 
 Available products:
 {% for product in available_products %}
