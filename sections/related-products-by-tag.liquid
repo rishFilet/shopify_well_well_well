@@ -56,6 +56,13 @@
 {%- endunless -%}
 
 
+<section
+    class="product-section--container product-row--container product-recommendations--container"
+    data-html
+  >
+      <h2 class="product-section--title product-recommendations--title">
+        {{ section.settings.related_title }}
+      </h2>
 <ul
         class="
           product-section--content
@@ -96,6 +103,7 @@
         {% endif %}
      {% endpaginate %} 
 </ul>
+</section>
 
 {% if product.tags.size > 0 %}
   <div class="related-products">
