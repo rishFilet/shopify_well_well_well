@@ -109,7 +109,7 @@
   <div class="related-products">
     <h2>Related Products</h2>
     <div class="related-products-grid">
-      {% assign related_products = collections.all.products %}
+      {% assign related_products = collection.products %}
       {% for tag in product.tags %}
         {% assign related_products_in_tag = '' %}
         {% for related_product in related_products %}
