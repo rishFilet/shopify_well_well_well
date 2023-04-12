@@ -59,27 +59,34 @@
 
 
 
-{% if product.collections.size > 0 %}
-<div class="related-products">
-  <h2>Related Products</h2>
-  <div class="related-products-grid">
-    {% for collection in product.collections %}
-      {% assign related_products_in_collection = collections[collection.handle].products %}
-      {% assign related_products = related_products | concat: related_products_in_collection %}
-    {% endfor %}
-    {% assign related_products = related_products %}
-    {% for related_product in related_products %}
-      <div class="related-product">
-        <a href="{{ related_product.url }}">
-          <img src="{{ related_product.featured_image.src | img_url: 'medium' }}" alt="{{ related_product.title }}">
-          <h3>{{ related_product.title }}</h3>
-          <<span class="price">{{ related_product.price | money }}</span>
-        </a>
-      </div>
-    {% endfor %}
+{% if product.tags.size > 0 %}
+  <div class="related-products">
+    <h2>Related Products</h2>
+    <div class="related-products-grid">
+      {% assign related_products = collections.all.products %}
+      {% for tag in product.tags %}
+        {% assign related_products_in_tag = '' %}
+        {% for related_product in related_products %}
+          {% if related_product.tags contains tag %}
+            {% assign related_products_in_tag = related_products_in_tag | append: related_product %}
+          {% endif %}
+        {% endfor %}
+        {% assign related_products = related_products_in_tag %}
+      {% endfor %}
+      {% assign related_products = related_products | uniq | where: 'id', '!=', product.id | limit: 4 %}
+      {% for related_product in related_products %}
+        <div class="related-product">
+          <a href="{{ related_product.url }}">
+            <img src="{{ related_product.featured_image.src | img_url: 'medium' }}" alt="{{ related_product.title }}">
+            <h3>{{ related_product.title }}</h3>
+            <span class="price">{{ related_product.price | money }}</span>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
-</div>
 {% endif %}
+
 
 
 
