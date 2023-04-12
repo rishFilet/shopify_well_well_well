@@ -57,12 +57,38 @@
 
 
 
-{% assign kitchen_products = products | where: "type", "Personal Care" %}
-
-Kitchen products:
-{% for product in kitchen_products %}
-- {{ product.title }}
-{% endfor %}
+{% assign number_of_related_products_to_show = 2 %} 
+    {% assign current_product = product %} {% assign current_product_tags = product.tags %} 
+    {% assign found_first_match = false %} {% assign found_second_match = false %} 
+    {% assign first_related_product = true %} 
+    {% paginate collections.all.products by 1000 %} 
+    {% for product in collections.all.products %} 
+    {% unless product.handle == current_product.handle %}
+     {% for tag in product.tags %} 
+    {% if current_product_tags contains tag %} 
+    {% if found_first_match == false %} 
+    {% assign found_first_match = true %} 
+    {% assign first_match = tag %} 
+    {% else %} 
+    {% assign found_second_match = true %}
+     {% assign second_match = tag %}
+     {% endif %}
+     {% endif %}
+     {% endfor %}
+     {% if found_first_match == true %}
+     {% if first_related_product == true %} 
+    {% assign first_related_product = false %}
+        Related products
+        {% endif %}
+     {% if product.tags contains first_match or product.tags contains second_match %} 
+    {% include 'product-grid-item' with collection.handle %} 
+    {% endif %} 
+    {% endif %} 
+    {% endunless %} 
+    {% endfor %} 
+    {% if first_related_product == false %}
+        {% endif %}
+     {% endpaginate %} 
 
 
 {% if product.tags.size > 0 %}
