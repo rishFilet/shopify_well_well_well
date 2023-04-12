@@ -76,7 +76,7 @@
     {% assign found_first_match = false %} {% assign found_second_match = false %} 
     {% assign first_related_product = true %} 
     {% paginate collections.all.products by 4 %} 
-    {% for product in collections.all.products %} 
+    {% for product in collections.all.products limit: number_of_related_products_to_show %} 
     {% unless product.handle == current_product.handle %}
      {% for tag in product.tags %} 
     {% if current_product_tags contains tag %} 
