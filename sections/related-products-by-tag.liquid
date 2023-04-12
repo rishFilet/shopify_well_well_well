@@ -61,7 +61,7 @@
     {% assign current_product = product %} {% assign current_product_tags = product.tags %} 
     {% assign found_first_match = false %} {% assign found_second_match = false %} 
     {% assign first_related_product = true %} 
-    {% paginate collections.all.products by 10 %} 
+    {% paginate collections.all.products by 4 %} 
     {% for product in collections.all.products %} 
     {% unless product.handle == current_product.handle %}
      {% for tag in product.tags %} 
