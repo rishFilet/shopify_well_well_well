@@ -68,7 +68,7 @@
           {% if related_product.tags contains tag %}
             
             {% assign related_products_in_tag = related_products_in_tag | append: related_product %}
-            
+            {{ related_products_in_tag }}
           {% endif %}
         {% endfor %}
         {% assign related_products = related_products_in_tag %}
