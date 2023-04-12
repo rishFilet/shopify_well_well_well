@@ -65,7 +65,7 @@
 <div class="related-products">
   <h2>Related Products</h2>
   <div class="related-products-grid">
-    {% assign related_products = collections.all.products | where: 'tags', product.tags | limit: 4 %}
+    {% assign related_products = collections['all'].products | where: 'tags', product.tags | limit: 4 %}
     {% for related_product in related_products %}
       <div class="related-product">
         <a href="{{ related_product.url }}">
