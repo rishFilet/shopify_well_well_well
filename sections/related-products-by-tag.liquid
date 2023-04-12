@@ -98,7 +98,7 @@
       {% assign related_products = collections.all.products %}
       {% assign related_products_ids = '' %}
       {% for tag in product.tags %}
-        {% for related_product in related_products %}
+        {% for related_product in related_products limit: 5 %}
           {% if related_product.tags contains tag %}
             {% unless related_products_ids contains related_product.id %}
               {% assign related_products_ids = related_products_ids | append: related_product.id | append: ',' %}
