@@ -65,7 +65,7 @@
   <div class="related-products-grid">
     {% for collection in product.collections %}
       {% assign related_products = collections.all.products %}
-    {% endfor %}
+    {% endfor %} 
     {% assign related_products = related_products | limit: 4 %}
     {% for related_product in related_products %}
       <div class="related-product">
