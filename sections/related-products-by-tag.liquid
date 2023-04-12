@@ -57,6 +57,12 @@
 
 
 
+{% assign kitchen_products = products | where: "type", "Vitamins/Supplements" %}
+
+Kitchen products:
+{% for product in kitchen_products %}
+- {{ product.title }}
+{% endfor %}
 
 
 {% if product.tags.size > 0 %}
