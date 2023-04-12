@@ -88,13 +88,6 @@
   {% endif %}
 {% endif %}
 
-{% assign available_products = product.collections | where: "available" %}
-
-Available products:
-{% for product in available_products %}
-- {{ product.title }}
-{% endfor %}
-
 
 {% schema %}
 {
