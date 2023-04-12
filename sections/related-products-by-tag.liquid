@@ -85,7 +85,6 @@
      {% if found_first_match == true %}
      {% if first_related_product == true %} 
     {% assign first_related_product = false %}
-        Related products
         {% endif %}
      {% if product.tags contains first_match or product.tags contains second_match %} 
     {% include 'product-grid-item' with collection.handle %} 
