@@ -88,6 +88,13 @@
   {% endif %}
 {% endif %}
 
+{% assign kitchen_products = products | where: "type", "Personal Care" %}
+
+Kitchen products:
+{% for product in kitchen_products %}
+- {{ product.title }}
+{% endfor %}
+
 {% schema %}
 {
   "name": "Product pages",
