@@ -88,12 +88,13 @@
   {% endif %}
 {% endif %}
 
-{% assign kitchen_products = products | where: "type", "Uncategorised" %}
+{% assign available_products = products | where: "available" %}
 
-Kitchen products:
-{% for product in kitchen_products %}
+Available products:
+{% for product in available_products %}
 - {{ product.title }}
 {% endfor %}
+
 
 {% schema %}
 {
