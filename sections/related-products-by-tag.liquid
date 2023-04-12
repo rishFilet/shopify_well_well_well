@@ -66,7 +66,7 @@
     {% for collection in product.collections %}
       {% assign related_products = collections.all.products | where: 'collection_id', collection.id %}
     {% endfor %}
-    {% assign related_products = related_products | where: 'id', '!=', product.id | limit: 4 %}
+    {% assign related_products = related_products | limit: 4 %}
     {% for related_product in related_products %}
       <div class="related-product">
         <a href="{{ related_product.url }}">
