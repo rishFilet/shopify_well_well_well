@@ -202,6 +202,7 @@
         "p {margin-bottom: 15px;}"
       ],
       "settings": {
+        "heading_tag": "div",
         "section_title": "﻿Information",
         "section_title_padding": 20,
         "title_font_size": 18,
@@ -268,6 +269,7 @@
         "a73dc037-8196-4bfa-8a22-355fb4d88f49"
       ],
       "settings": {
+        "heading_tag": "h2",
         "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
