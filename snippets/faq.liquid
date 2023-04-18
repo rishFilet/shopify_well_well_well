@@ -102,7 +102,7 @@
 <div class="accordion">
 	<div class="item">
 		{% if block.settings.question != blank %}
-		<div class="question-text">{{ block.settings.question }}</div>
+		<div class="question-text"><{{ block.settings.heading_tag }}>{{ block.settings.question }}</{{ block.settings.heading_tag }}></div>
 		{% else %}
 		<h2 class="question-text">What is your Frequently Asked Question?</h2>
 		{% endif %}
