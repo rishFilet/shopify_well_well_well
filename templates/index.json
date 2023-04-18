@@ -316,17 +316,31 @@
           "settings": {
             "heading_tag": "h1",
             "question": "Organic & Plant Based Supplements, Vitamins, Food & More",
-            "answer_header1": "Treat or Prevent Conditions at our St. Catharines Natural Health Store",
-            "answer_body1": "<p>Niagara Region has the very best nutritional centre I have ever walked into and Well Well Well deserves to be given top ratings for the extensive selection of every item you ever dreamed of for natural healthful vitality and 1000's of wonderful products<\/p>",
-            "answer_header2": "Treat or Prevent Conditions at our St. Catharines Natural Health Store",
-            "answer_body2": "<p>Niagara Region has the very best nutritional centre I have ever walked into and Well Well Well deserves to be given top ratings for the extensive selection of every item you ever dreamed of for natural healthful vitality and 1000's of wonderful products<\/p>",
+            "answer_header1": "",
+            "answer_body1": "<p>Well Well Well is your trusted natural health food supplement store. We are your Canadian online and in store vitamin one stop shop. We ship worldwide and we offer a wide range of organic and plant based vitamins, herbal remedies and even healthy organic snack foods.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
+        "de7d023d-ab16-47ad-a17d-c1f920fa1c1b": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "",
+            "answer_header1": "",
+            "answer_body1": "",
+            "answer_header2": "",
+            "answer_body2": "",
             "answer_header3": "",
             "answer_body3": ""
           }
         }
       },
       "block_order": [
-        "01b07a61-78d5-4777-868b-97768fd66523"
+        "01b07a61-78d5-4777-868b-97768fd66523",
+        "de7d023d-ab16-47ad-a17d-c1f920fa1c1b"
       ],
       "settings": {
         "heading_tag": "div",
