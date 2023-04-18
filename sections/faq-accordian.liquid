@@ -5,33 +5,9 @@
   "name": "FAQ Accordian",
   "settings": [
     {
-      "id": "heading_tag",
-      "type": "select",
-      "label": "Heading Tag",
-      "options": [
-        {
-          "value": "h1",
-          "label": "H1"
-        },
-        {
-          "value": "h2",
-          "label": "H2"
-        },
-        {
-          "value": "h3",
-          "label": "H3"
-        },
-        {
-          "value": "h4",
-          "label": "H4"
-        }
-      ],
-      "default": "h2"
-    },
-      {
       "id": "section_title",
       "type": "text",
-      "label": "FAQ Section s Title"
+      "label": "FAQ Section Title"
     },
     {
       "type": "range",
@@ -176,6 +152,30 @@
       "name": "Faq",
       "type": "faq",
       "settings": [
+        {
+      "id": "heading_tag",
+      "type": "select",
+      "label": "Heading Tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        }
+      ],
+      "default": "h2"
+    },
         {
           "id": "question",
           "type": "text",
