@@ -257,11 +257,25 @@
             "answer_header3": "",
             "answer_body3": ""
           }
+        },
+        "8f94a5f6-bed6-43b8-8b2c-b8c568954892": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What is Well Well Well's delivery area?",
+            "answer_header1": "",
+            "answer_body1": "<p>In Ontario, we offer free shipping on your vitamins and supplements on orders over $59.99, with some exclusions that apply. We also ship vitamin orders outside of Ontario, this includes the rest of Canada and Internationally with some exclusions that may apply. But we are your preferred choice for supplements and free shipping in Ontario.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
         }
       },
       "block_order": [
         "template--16779498094810__41c75c1c-f79c-4107-946a-01ba77cedaac-16832358151c82a25b-0",
-        "f0b36c8f-5dba-4b05-8ecf-4dc8bf386f46"
+        "f0b36c8f-5dba-4b05-8ecf-4dc8bf386f46",
+        "8f94a5f6-bed6-43b8-8b2c-b8c568954892"
       ],
       "settings": {
         "heading_tag": "h2",
