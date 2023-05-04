@@ -228,6 +228,86 @@
         "background_overlay_opacity": 50
       }
     },
+    "1658873486a1749860": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "1658873486ad215190-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.jpg",
+            "link": "shopify:\/\/collections\/baby-mother"
+          }
+        },
+        "1658873486ad215190-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.jpg",
+            "link": "shopify:\/\/collections\/beauty-skin-care"
+          }
+        },
+        "1658873486ad215190-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17.jpg",
+            "link": "shopify:\/\/collections\/diet-fitness"
+          }
+        },
+        "1658873486ad215190-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18.jpg",
+            "link": "shopify:\/\/collections\/online-health-food"
+          }
+        },
+        "4e2812d7-444f-4cb1-b711-7f950f94a83a": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19.jpg",
+            "link": "shopify:\/\/collections\/herbs"
+          }
+        },
+        "557c91b2-441e-4e79-813a-8e391d6c3100": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20.jpg",
+            "link": "shopify:\/\/collections\/traditional-chinese-medicine"
+          }
+        },
+        "93c4eb78-2114-425b-8cc5-a11e452655f7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21.jpg",
+            "link": "shopify:\/\/collections\/vitamins-supplements"
+          }
+        },
+        "860f8f49-9946-4b93-b21f-25b81bf301ca": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22.jpg",
+            "link": "shopify:\/\/collections\/brands"
+          }
+        }
+      },
+      "block_order": [
+        "1658873486ad215190-0",
+        "1658873486ad215190-1",
+        "1658873486ad215190-2",
+        "1658873486ad215190-3",
+        "4e2812d7-444f-4cb1-b711-7f950f94a83a",
+        "557c91b2-441e-4e79-813a-8e391d6c3100",
+        "93c4eb78-2114-425b-8cc5-a11e452655f7",
+        "860f8f49-9946-4b93-b21f-25b81bf301ca"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "heading_color": "#4d4d4d",
+        "subheading_color": "#4d4d4d",
+        "background_color": "",
+        "section_spacing_desktop": 50,
+        "section_spacing_mobile": 36
+      }
+    },
     "41c75c1c-f79c-4107-946a-01ba77cedaac": {
       "type": "faq-accordian",
       "blocks": {
@@ -323,88 +403,9 @@
         "answer_body_margin_bottom": 0
       }
     },
-    "1658873486a1749860": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "1658873486ad215190-0": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/15.jpg",
-            "link": "shopify:\/\/collections\/baby-mother"
-          }
-        },
-        "1658873486ad215190-1": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/16.jpg",
-            "link": "shopify:\/\/collections\/beauty-skin-care"
-          }
-        },
-        "1658873486ad215190-2": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/17.jpg",
-            "link": "shopify:\/\/collections\/diet-fitness"
-          }
-        },
-        "1658873486ad215190-3": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/18.jpg",
-            "link": "shopify:\/\/collections\/online-health-food"
-          }
-        },
-        "4e2812d7-444f-4cb1-b711-7f950f94a83a": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/19.jpg",
-            "link": "shopify:\/\/collections\/herbs"
-          }
-        },
-        "557c91b2-441e-4e79-813a-8e391d6c3100": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/20.jpg",
-            "link": "shopify:\/\/collections\/traditional-chinese-medicine"
-          }
-        },
-        "93c4eb78-2114-425b-8cc5-a11e452655f7": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/21.jpg",
-            "link": "shopify:\/\/collections\/vitamins-supplements"
-          }
-        },
-        "860f8f49-9946-4b93-b21f-25b81bf301ca": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/22.jpg",
-            "link": "shopify:\/\/collections\/brands"
-          }
-        }
-      },
-      "block_order": [
-        "1658873486ad215190-0",
-        "1658873486ad215190-1",
-        "1658873486ad215190-2",
-        "1658873486ad215190-3",
-        "4e2812d7-444f-4cb1-b711-7f950f94a83a",
-        "557c91b2-441e-4e79-813a-8e391d6c3100",
-        "93c4eb78-2114-425b-8cc5-a11e452655f7",
-        "860f8f49-9946-4b93-b21f-25b81bf301ca"
-      ],
-      "settings": {
-        "title": "",
-        "subheading": "",
-        "heading_color": "#4d4d4d",
-        "subheading_color": "#4d4d4d",
-        "background_color": "",
-        "section_spacing_desktop": 50,
-        "section_spacing_mobile": 36
-      }
-    },
     "1658596311248c836b": {
       "type": "faq-accordian",
+      "disabled": true,
       "blocks": {
         "01b07a61-78d5-4777-868b-97768fd66523": {
           "type": "faq",
@@ -696,8 +697,8 @@
     "highlights-banner",
     "collection-list-2",
     "featured-collection-2",
-    "41c75c1c-f79c-4107-946a-01ba77cedaac",
     "1658873486a1749860",
+    "41c75c1c-f79c-4107-946a-01ba77cedaac",
     "1658596311248c836b",
     "testimonials",
     "blog-posts",
