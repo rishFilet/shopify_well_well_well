@@ -228,6 +228,60 @@
         "background_overlay_opacity": 50
       }
     },
+    "41c75c1c-f79c-4107-946a-01ba77cedaac": {
+      "type": "faq-accordian",
+      "blocks": {
+        "template--16779498094810__41c75c1c-f79c-4107-946a-01ba77cedaac-16832358151c82a25b-0": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h1",
+            "question": "Organic & Plant Based Supplements, Vitamins, Food & More",
+            "answer_header1": "Well Well Well is your trusted natural health food supplement store. We are your Canadian online and in store vitamin one stop shop. We ship worldwide and we offer a wide range of organic and plant based vitamins, herbal remedies and even healthy organic snack foods.",
+            "answer_body1": "",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
+        "f0b36c8f-5dba-4b05-8ecf-4dc8bf386f46": {
+          "type": "faq",
+          "disabled": true,
+          "settings": {
+            "heading_tag": "h2",
+            "question": "Dietary supplements and natural health products for all your individual needs",
+            "answer_header1": "We are your trusted health food and vitamin supplement store in Canada and worldwide. Online supplement shopping can be overwhelming, why not buy from your trusted source. The categories on the website make it easier to find specific items for your individual needs. With over 25 years of being in business Well Well Well is the best nutrition store for your individual needs.",
+            "answer_body1": "",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16779498094810__41c75c1c-f79c-4107-946a-01ba77cedaac-16832358151c82a25b-0",
+        "f0b36c8f-5dba-4b05-8ecf-4dc8bf386f46"
+      ],
+      "settings": {
+        "heading_tag": "h2",
+        "section_title": "",
+        "section_title_padding": 20,
+        "title_font_size": 18,
+        "title_font_weight": 700,
+        "section_max_width": 700,
+        "section_margin": 20,
+        "question_font_size": 18,
+        "question_font_weight": 700,
+        "answer_header_font_size": 16,
+        "answer_header_font_weight": 700,
+        "answer_header_margin_top": 0,
+        "answer_header_margin_bottom": 0,
+        "answer_body_font_size": 14,
+        "answer_body_margin_top": 0,
+        "answer_body_margin_bottom": 0
+      }
+    },
     "1658873486a1749860": {
       "type": "dynamic-logo-list",
       "blocks": {
@@ -601,6 +655,7 @@
     "highlights-banner",
     "collection-list-2",
     "featured-collection-2",
+    "41c75c1c-f79c-4107-946a-01ba77cedaac",
     "1658873486a1749860",
     "1658596311248c836b",
     "testimonials",
