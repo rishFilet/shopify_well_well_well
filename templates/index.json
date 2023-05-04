@@ -385,8 +385,8 @@
         "56849952-a7f9-460f-a19d-87efe7e598e1"
       ],
       "settings": {
-        "heading_tag": "h2",
-        "section_title": "Organic & Plant Based Supplements, Vitamins, Food & More",
+        "heading_tag": "div",
+        "section_title": "",
         "section_title_padding": 20,
         "title_font_size": 18,
         "title_font_weight": 700,
