@@ -270,12 +270,26 @@
             "answer_header3": "",
             "answer_body3": ""
           }
+        },
+        "a037bcaa-fc2a-4eaa-a5a6-1bd93dc98085": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What types of products does Well Well Well carry?",
+            "answer_header1": "",
+            "answer_body1": "<p>Well Well Well carries all types of products ranging from natural beauty products, asian snacks, natural health products and herbal medicine. At our store we only carry reputable brands for our customers. We are your trusted one stop health food store in Canada and internationally.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
         }
       },
       "block_order": [
         "template--16779498094810__41c75c1c-f79c-4107-946a-01ba77cedaac-16832358151c82a25b-0",
         "f0b36c8f-5dba-4b05-8ecf-4dc8bf386f46",
-        "8f94a5f6-bed6-43b8-8b2c-b8c568954892"
+        "8f94a5f6-bed6-43b8-8b2c-b8c568954892",
+        "a037bcaa-fc2a-4eaa-a5a6-1bd93dc98085"
       ],
       "settings": {
         "heading_tag": "h2",
