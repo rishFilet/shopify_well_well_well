@@ -426,7 +426,20 @@
             "question": "Are Health Food Store Vitamins Better?",
             "answer_header1": "",
             "answer_body1": "<p>Many customers who use generic stores for their vitamin requirements have found that many of the products don’t match their high expectations. It’s often better to search online for a local, dedicated ‘health supplement store near me’ when it comes to buying things like vitamins and supplements.<\/p>",
-            "answer_header2": "What do Health Food Stores Sell?",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
+        "e1084e0f-4469-4f5d-b5c8-64ab83c2aa57": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What do Health Food Stores Sell?",
+            "answer_header1": "",
+            "answer_body1": "<p>Natural food grocery stores and health food stores sell a huge range of products. This includes vitamins and supplements, sports nutrition products, herbs used in traditional Chinese medicine, beauty care products, and both fresh and shelf-stable groceries and more. These specialist suppliers generally source their products with the consumer in mind rather than opting for the cheapest bulk buy options.<\/p>",
+            "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
             "answer_body3": ""
@@ -435,7 +448,8 @@
       },
       "block_order": [
         "template--16779498094810__80eef3b7-ff3c-4376-b1b2-18f6f52a2c2d-1683239092bd9cf087-0",
-        "566d8f77-abf1-4d84-98c1-2d60cd4a38e2"
+        "566d8f77-abf1-4d84-98c1-2d60cd4a38e2",
+        "e1084e0f-4469-4f5d-b5c8-64ab83c2aa57"
       ],
       "settings": {
         "heading_tag": "h2",
