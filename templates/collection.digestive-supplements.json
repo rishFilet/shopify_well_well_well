@@ -262,12 +262,26 @@
             "answer_header3": "",
             "answer_body3": ""
           }
+        },
+        "e9851113-83fb-4b40-9951-1f82d430bbd4": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What Are the Different Types of Digestive Supplements Available?",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>The two main types of digestive supplements available are digestive enzyme and probiotic supplements, as discussed above. There are also some supplements that contain prebiotics, which support friendly bacteria in the gut. Whether you are looking for the best supplements for digestive health containing enzymes, probiotics or prebiotics, you will find them here in our store.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
         }
       },
       "block_order": [
         "16624121685d5ecaae-0",
         "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49"
+        "a73dc037-8196-4bfa-8a22-355fb4d88f49",
+        "e9851113-83fb-4b40-9951-1f82d430bbd4"
       ],
       "settings": {
         "heading_tag": "div",
