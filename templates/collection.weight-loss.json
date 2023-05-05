@@ -188,6 +188,19 @@
             "answer_header3": "",
             "answer_body3": ""
           }
+        },
+        "dbb8a91f-310a-4364-8734-e57a40d0a189": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What weight loss supplements are available for vegans?",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>MCT Oil is a great plant based fat burner that is not a weight loss pill. MCT oil can be added to your food, drink or taken on its own. It is a great natural weight loss product as it can support weight loss by increasing fullness, fat loss, ketone production by improving your gut environment. It is a great vegan metabolism booster and considered a plant based supplement. Vegan fat burning supplements also include green tea extract and green coffee bean extract.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
         }
       },
       "block_order": [
@@ -196,7 +209,8 @@
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
         "af824d23-c23a-4d5f-8229-c731b4ce0fc2",
         "f7779f47-dc07-4684-ac05-bc09b07c4e87",
-        "6de8cb85-e8ce-4aab-806d-7863995aaa6c"
+        "6de8cb85-e8ce-4aab-806d-7863995aaa6c",
+        "dbb8a91f-310a-4364-8734-e57a40d0a189"
       ],
       "custom_css": [
         "p {margin-bottom: 15px;}"
