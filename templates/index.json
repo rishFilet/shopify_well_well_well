@@ -385,8 +385,8 @@
         "56849952-a7f9-460f-a19d-87efe7e598e1"
       ],
       "settings": {
-        "heading_tag": "h2",
-        "section_title": "Info",
+        "heading_tag": "div",
+        "section_title": "Information",
         "section_title_padding": 20,
         "title_font_size": 18,
         "title_font_weight": 700,
@@ -409,7 +409,7 @@
         "template--16779498094810__80eef3b7-ff3c-4376-b1b2-18f6f52a2c2d-1683239092bd9cf087-0": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "Are Health Food Stores Essential?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>Natural food stores are classed as essential businesses as they offer products that help people stay healthy. People will often be searching for a ‘health food store near me’ because they need to eat organic, gluten free or low-fat foods for genuine health reasons, so it’s important for such stores to stay open whenever possible.<\/p>",
@@ -422,7 +422,7 @@
         "566d8f77-abf1-4d84-98c1-2d60cd4a38e2": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "Are Health Food Store Vitamins Better?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>Many customers who use generic stores for their vitamin requirements have found that many of the products don’t match their high expectations. It’s often better to search online for a local, dedicated ‘health supplement store near me’ when it comes to buying things like vitamins and supplements.<\/p>",
@@ -435,7 +435,7 @@
         "e1084e0f-4469-4f5d-b5c8-64ab83c2aa57": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What do Health Food Stores Sell?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>Natural food grocery stores and health food stores sell a huge range of products. This includes vitamins and supplements, sports nutrition products, herbs used in traditional Chinese medicine, beauty care products, and both fresh and shelf-stable groceries and more. These specialist suppliers generally source their products with the consumer in mind rather than opting for the cheapest bulk buy options.<\/p>",
@@ -468,60 +468,6 @@
         "answer_body_font_size": 14,
         "answer_body_margin_top": 0,
         "answer_body_margin_bottom": 0
-      }
-    },
-    "1658596311248c836b": {
-      "type": "faq-accordian",
-      "disabled": true,
-      "blocks": {
-        "01b07a61-78d5-4777-868b-97768fd66523": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h1",
-            "question": "Organic & Plant Based Supplements, Vitamins, Food & More",
-            "answer_header1": "Organic & Plant Based Supplements, Vitamins, Food & More",
-            "answer_body1": "<p>Well Well Well is your trusted natural health food supplement store. We are your Canadian online and in store vitamin one stop shop. We ship worldwide and we offer a wide range of organic and plant based vitamins, herbal remedies and even healthy organic snack foods.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "de7d023d-ab16-47ad-a17d-c1f920fa1c1b": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h2",
-            "question": "Organic beauty and body care products to look your best",
-            "answer_header1": "Organic beauty and body care products to look your best",
-            "answer_body1": "<p>Well Well Well is more than a health food and nutrition store. We offer a wide range of organic beauty and body care products in store and online. We believe It is important to take care of yourself inside and out.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        }
-      },
-      "block_order": [
-        "01b07a61-78d5-4777-868b-97768fd66523",
-        "de7d023d-ab16-47ad-a17d-c1f920fa1c1b"
-      ],
-      "settings": {
-        "heading_tag": "div",
-        "section_title": "Information",
-        "section_title_padding": 20,
-        "title_font_size": 22,
-        "title_font_weight": 400,
-        "section_max_width": 700,
-        "section_margin": 20,
-        "question_font_size": 16,
-        "question_font_weight": 400,
-        "answer_header_font_size": 16,
-        "answer_header_font_weight": 400,
-        "answer_header_margin_top": 0,
-        "answer_header_margin_bottom": 21,
-        "answer_body_font_size": 16,
-        "answer_body_margin_top": 4,
-        "answer_body_margin_bottom": 25
       }
     },
     "testimonials": {
@@ -767,7 +713,6 @@
     "1658873486a1749860",
     "41c75c1c-f79c-4107-946a-01ba77cedaac",
     "80eef3b7-ff3c-4376-b1b2-18f6f52a2c2d",
-    "1658596311248c836b",
     "testimonials",
     "blog-posts",
     "newsletter",
