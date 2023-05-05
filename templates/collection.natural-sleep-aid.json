@@ -227,9 +227,9 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "What are the best natural products for babies and children?",
+            "question": "What is the best supplement for sleep?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>For<br\/> parents it is imperative to have access to the right information and <br\/>the proper resources to make the best choices when purchasing organic <br\/>and all natural baby health products for their babies. It is critical to<br\/> establish healthy eating habits and make certain that babies are <br\/>getting the proper nutrition in addition to receiving the best organic <br\/>kids' and children's organic vitamins and kids organic probiotics.<\/p><p>When<br\/> considering the best natural baby health products for your baby, it is <br\/>important to consider their developing internal and external systems. <br\/>Babies have super sensitive skin and developing digestive systems so it <br\/>is vital to understand which products are the best products for babies, <br\/>internally and externally.<\/p>",
+            "answer_body1": "<p>The best sleep supplement for you depends on your individual circumstances and what kind of trouble sleeping you are trying to combat. Melatonin supplements for sleep are the most commonly used as they help to restore a healthy sleep wake cycle and are also vital for the immune system and critical for general health and well-being.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -240,9 +240,9 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "What are the best natural health supplements for mothers?",
+            "question": "Do sleep supplements work?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>It<br\/> is important to ensure that expectant mothers receive key nutrients and<br\/> the best organic multivitamins for women during their pregnancies. <br\/>First and foremost it is important to follow a healthy whole food diet. <br\/>In addition, adding women's prenatal vitamins will be an added benefit <br\/>during pregnancy. Finding the right natural pregnancy products products <br\/>also help with the process in the baby’s development during pregnancy. A<br\/> typical pregnancy usually requires approximately 300 extra daily <br\/>calories. In addition to a healthy whole food diet, it is important for <br\/>pregnant women to take note of the amount of extra daily calories <br\/>needed, which includes the amount of protein, essential fats, <br\/>carbohydrates, natural organic prenatal vitamins, and minerals, etc. Not<br\/> only is it important to find the best products for pregnancy, but also <br\/>to the find the quality natural skin care during pregnancy. Expectant <br\/>mothers typically need extra support for their skin during pregnancy.<\/p>",
+            "answer_body1": "<p>When administered with the proper dosage, supplements for sleep can be extremely successful; however, under or over dosage can result in staying awake or night terrors, respectively.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -253,9 +253,22 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "What are the best organic baby products?",
+            "question": "What is the strongest natural sedative?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>The<br\/> best organic baby care products minimize the baby’s exposure to <br\/>herbicides and pesticides. Because children are more susceptible to the <br\/>effects of toxins from a number of chemicals listed in herbicides and <br\/>pesticides, it is best to give your baby organic baby care products as <br\/>they are developing. As a baby is growing and developing, one of the <br\/>many developing systems is the immune system. There is an increased <br\/>likelihood and risk for a child to develop illnesses and autoimmune <br\/>diseases.<\/p>",
+            "answer_body1": "<p>Processed valerian root is the strongest of all the natural sleep supplements. Using valerian is only recommended as a short-term sleep supplement (4 weeks or less) to avoid adverse side effects and withdrawal symptoms that can be caused as a result of longer-term use.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
+        "df8f78c8-2491-4e0e-a8a0-618de3c5e257": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What is the best natural sleep aid?",
+            "answer_header1": "",
+            "answer_body1": "<p>The best natural sleep aid supplements contain enzymes, herbs, or compounds that help your body to fall asleep. Some take magnesium before bed on a regular basis, whilst others prefer a lighter touch such as drinking lavender or chamomile tea.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -266,10 +279,11 @@
       "block_order": [
         "16624121685d5ecaae-0",
         "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49"
+        "a73dc037-8196-4bfa-8a22-355fb4d88f49",
+        "df8f78c8-2491-4e0e-a8a0-618de3c5e257"
       ],
       "settings": {
-        "heading_tag": "div",
+        "heading_tag": "h2",
         "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
