@@ -175,20 +175,6 @@
             "answer_header3": "",
             "answer_body3": ""
           }
-        },
-        "6de8cb85-e8ce-4aab-806d-7863995aaa6c": {
-          "type": "faq",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h2",
-            "question": "Testing",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Pre & post natal vitamins & supplements which make up a large part <br\/>of our natural pregnancy products  selection, can be essential in <br\/>helping mother and child in general wellbeing and preventing vitamin <br\/>deficiencies. Commonly recommended best products for pregnancy are the <br\/>combination of folic acid and vitamin B1, that work synergistically for <br\/>fetal development such as cell division and the formation of the myelin <br\/>sheath or nerve covering. Another benefit is that they also prevent the <br\/>buildup of homocysteine, a toxic by-product of protein metabolism that <br\/>has been associated with birth defects.<\/p><p>Iron<br\/> is also another important factor in a baby’s development. Many of the <br\/>best natural prenatal vitamins, multivitamins & supplements also <br\/>contain iron which helps to increase blood production for the baby. But <br\/>it is important to consult a healthcare practitioner when dealing with <br\/>all natural pregnancy products. We carry a number of different mom and <br\/>baby care products such as lactation teas for healthy milk production <br\/>for the mother. The benefits are numerous when it comes to mom and baby <br\/>care products at Well Well Well. Research has shown from a 1998 study, <br\/>that a child’s risk for developing a brain tumour decreased in <br\/>connection to the number of trimesters the mother took Prenatal <br\/>multivitamin supplements during pregnancy. At Well Well Well, we also <br\/>carry a number of quality baby and kids supplements to help with your <br\/>child’s development and health.<\/p><p>Another<br\/> very important aspect for new mothers is natural skin care during <br\/>pregnancy. Making sure that skin care products are clean and non-toxic <br\/>for the mother is imperative in maintaining skin health during <br\/>pregnancy.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
         }
       },
       "block_order": [
@@ -196,8 +182,7 @@
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
         "af824d23-c23a-4d5f-8229-c731b4ce0fc2",
-        "f7779f47-dc07-4684-ac05-bc09b07c4e87",
-        "6de8cb85-e8ce-4aab-806d-7863995aaa6c"
+        "f7779f47-dc07-4684-ac05-bc09b07c4e87"
       ],
       "custom_css": [
         "p {margin-bottom: 15px;}"
@@ -227,7 +212,7 @@
         "16624121685d5ecaae-0": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "Are Digestive Supplements Safe to Take?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>All of the digestive enzyme supplements and probiotics that we stock conform with Canada’s health regulations and have been extensively tested before being made available for sale. However, we always recommend that you talk to a doctor if you have any concerns.<\/p>",
@@ -240,7 +225,7 @@
         "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "When Should You Take Digestive Enzymes?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>The best time for you to take supplements that contain digestive enzymes, whether you are taking plant based digestive enzyme supplements or those that are made with animal products, is just before you eat or in the middle of a meal.<\/p>",
@@ -253,7 +238,7 @@
         "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What Is the Difference Between Probiotics and Digestive Enzymes?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>Both probiotics and digestive enzymes aid digestion but while enzymes only have one job – to break down food molecules into their component parts so the body can use them effectively - probiotics perform several functions, including fighting bad bacteria and encouraging the production of digestive enzymes.<\/p>",
@@ -266,7 +251,7 @@
         "e9851113-83fb-4b40-9951-1f82d430bbd4": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What Are the Different Types of Digestive Supplements Available?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>The two main types of digestive supplements available are digestive enzyme and probiotic supplements, as discussed above. There are also some supplements that contain prebiotics, which support friendly bacteria in the gut. Whether you are looking for the best supplements for digestive health containing enzymes, probiotics or prebiotics, you will find them here in our store.<\/p>",
@@ -284,7 +269,7 @@
         "e9851113-83fb-4b40-9951-1f82d430bbd4"
       ],
       "settings": {
-        "heading_tag": "div",
+        "heading_tag": "h2",
         "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
