@@ -253,9 +253,22 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "What are the best organic baby products?",
+            "question": "Do I need vitamin supplements?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>The<br\/> best organic baby care products minimize the baby’s exposure to <br\/>herbicides and pesticides. Because children are more susceptible to the <br\/>effects of toxins from a number of chemicals listed in herbicides and <br\/>pesticides, it is best to give your baby organic baby care products as <br\/>they are developing. As a baby is growing and developing, one of the <br\/>many developing systems is the immune system. There is an increased <br\/>likelihood and risk for a child to develop illnesses and autoimmune <br\/>diseases.<\/p>",
+            "answer_body1": "<p>Depending on your diet and lifestyle, vitamin supplements can be of great help to aid in your overall health and wellbeing. One-third of Canadians suffer from vitamin D deficiency which is very important for healthy bones. It is very difficult to find vitamin D in foods and our main source of vitamin D is sunshine. Due to long Canadian winters, oftentimes, people are unable to get the required minimum daily 20 minutes of sunshine. As a result many Canadians require vitamin D supplementation. Vitamin D has also been shown to improve athletic performance.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
+        "2e38b6d5-cbea-4370-ba2a-f477c745092a": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What happens when you start taking vitamins?",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>When taking vitamin supplements, people will notice better energy levels, improved digestion, among a number of other benefits. The type of vitamins and supplements will ultimately determine what type of benefits you will notice upon consumption.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -266,7 +279,8 @@
       "block_order": [
         "16624121685d5ecaae-0",
         "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49"
+        "a73dc037-8196-4bfa-8a22-355fb4d88f49",
+        "2e38b6d5-cbea-4370-ba2a-f477c745092a"
       ],
       "settings": {
         "heading_tag": "h2",
