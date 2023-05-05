@@ -162,43 +162,13 @@
             "answer_header3": "",
             "answer_body3": ""
           }
-        },
-        "6de8cb85-e8ce-4aab-806d-7863995aaa6c": {
-          "type": "faq",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h2",
-            "question": "Testing",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Pre & post natal vitamins & supplements which make up a large part <br\/>of our natural pregnancy products  selection, can be essential in <br\/>helping mother and child in general wellbeing and preventing vitamin <br\/>deficiencies. Commonly recommended best products for pregnancy are the <br\/>combination of folic acid and vitamin B1, that work synergistically for <br\/>fetal development such as cell division and the formation of the myelin <br\/>sheath or nerve covering. Another benefit is that they also prevent the <br\/>buildup of homocysteine, a toxic by-product of protein metabolism that <br\/>has been associated with birth defects.<\/p><p>Iron<br\/> is also another important factor in a baby’s development. Many of the <br\/>best natural prenatal vitamins, multivitamins & supplements also <br\/>contain iron which helps to increase blood production for the baby. But <br\/>it is important to consult a healthcare practitioner when dealing with <br\/>all natural pregnancy products. We carry a number of different mom and <br\/>baby care products such as lactation teas for healthy milk production <br\/>for the mother. The benefits are numerous when it comes to mom and baby <br\/>care products at Well Well Well. Research has shown from a 1998 study, <br\/>that a child’s risk for developing a brain tumour decreased in <br\/>connection to the number of trimesters the mother took Prenatal <br\/>multivitamin supplements during pregnancy. At Well Well Well, we also <br\/>carry a number of quality baby and kids supplements to help with your <br\/>child’s development and health.<\/p><p>Another<br\/> very important aspect for new mothers is natural skin care during <br\/>pregnancy. Making sure that skin care products are clean and non-toxic <br\/>for the mother is imperative in maintaining skin health during <br\/>pregnancy.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "f7779f47-dc07-4684-ac05-bc09b07c4e87": {
-          "type": "faq",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h2",
-            "question": "What are the best skincare products for mothers and children?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Babies<br\/> and children who have a parent or sibling with food allergies are at a <br\/>higher risk of developing allergies, our non toxic baby health care <br\/>products can help. Common reactions to foods range from diarrhea, <br\/>vomiting, coughing, hives, or rashes. These reactions and\/or symptoms <br\/>are indicators that your baby’s or child’s digestive system has not <br\/>reached a point of full growth to digest the food in question or that <br\/>they are simply sensitive to the food. Regardless of the reason, it is <br\/>best to avoid any food that causes the above mentioned symptoms or <br\/>reactions. It is commonly recommended to cease feeding your child these <br\/>foods as continuing to do so can result in allergies.<\/p><p>When<br\/> considering a baby’s health, it is important to also consider the <br\/>baby’s skin health in conjunction with their digestive system. At Well <br\/>Well Well, we carry the safest and best natural baby skin care products <br\/>that are non toxic for skin care. These all natural baby products also <br\/>help with sensitive skin and baby skin. and digestive health. Studies <br\/>have shown that supplementing with probiotics, also known as beneficial <br\/>bacteria such as lactobacillus, during pregnancy and breastfeeding may <br\/>reduce the risk of babies and children developing sensitive skin issues <br\/>such as eczema. Our staff at Well Well Well will help you find the best <br\/>organic baby care products and probiotics designed for infants and <br\/>children to assist with their developing digestive systems.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
         }
       },
       "block_order": [
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
-        "af824d23-c23a-4d5f-8229-c731b4ce0fc2",
-        "6de8cb85-e8ce-4aab-806d-7863995aaa6c",
-        "f7779f47-dc07-4684-ac05-bc09b07c4e87"
+        "af824d23-c23a-4d5f-8229-c731b4ce0fc2"
       ],
       "custom_css": [
         "p {margin-bottom: 15px;}"
@@ -228,7 +198,7 @@
         "16624121685d5ecaae-0": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What is considered Asian food?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>As the world's most populous continent, Asian cuisine is highly diverse not only from a geographical standpoint, but also because of the ingredients the continent offers. Around the world, Thai, Japanese, Chinese, Middle Eastern and Central Asian foods are rich with unique flavours. Some staple foods include noodles, rice, beans and various types of fermented dishes boasting many types of spices and sauces.<\/p>",
@@ -241,7 +211,7 @@
         "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "Can I visit the Asian grocery at Well Well Well?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>You're more than welcome to visit the Well Well Well Nutrition Centre in St. Catharines, where our food specialists and product specialists will gladly provide assistance. We're open 7 days a week, and we stock a variety of Asian food.<\/p>",
@@ -254,7 +224,7 @@
         "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What are the top selling Asian food items in Canada?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>Some of the top-selling Asian food in Canada include rice, noodles and various fermented products like kimchi and miso. At Well Well Well Nutrition Centre, we stock all your favourites plus a wide variety of rare and specialty Asian food grocery items that you'll struggle to find elsewhere, especially at such a high-value price!<\/p>",
@@ -267,7 +237,7 @@
         "1a461c03-4ee9-4404-858b-67d9fda20c2f": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What should I buy at an Asian grocery store?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>If you're looking for healthy and tasty Asian grocery items, you might want to buy spices and sauces that go great with meat, seafood, and vegetable dishes. But we also recommend taking a look at some of the more exclusive items you can use to make exquisite and authentic meals. <\/p><p>Also, you can buy healthier asian snacks at our online store in Canada. If you are looking for something specific in our Asian food store, we encourage you to email our product specialists<\/p>",
@@ -285,7 +255,7 @@
         "1a461c03-4ee9-4404-858b-67d9fda20c2f"
       ],
       "settings": {
-        "heading_tag": "div",
+        "heading_tag": "h2",
         "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
