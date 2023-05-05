@@ -170,7 +170,7 @@
         "16624121685d5ecaae-0": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What are the best health foods to order online? ",
             "answer_header1": "N\/a",
             "answer_body1": "<p>The best health foods online are the ones that meet your unique needs. Whether it’s for a specific health problem, avoiding gluten in your diet or just to ensure you’re getting all the vitamins and minerals needed to stay healthy, we offer the best health foods online.<\/p>",
@@ -183,7 +183,7 @@
         "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "What are popular health foods to order online in Canada?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>The best health foods retailers online are the ones that meet your unique needs. Whether it’s for a specific health problem, avoiding gluten in your pasta, or you just want to ensure you’re getting all the vitamins and minerals needed to stay healthy, we offer the best health foods to order online.<\/p>",
@@ -196,7 +196,7 @@
         "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "How much are the delivery costs when ordering health food online from Well Well Well? ",
             "answer_header1": "N\/a",
             "answer_body1": "<p>Health food online orders in Canada of $59.99+ or more qualify for free shipping which is automatically calculated during checkout. All other shipping rates will be calculated at checkout depending on your choice of standard or express shipping.  Deliveries are offered for orders $150+ within a 10km radius of our brick and mortar store in St. Catharines. A $5 delivery fee is charged on deliveries.<\/p>",
@@ -209,7 +209,7 @@
         "5bb78ce3-42f0-476f-9b6a-8f0265c627fa": {
           "type": "faq",
           "settings": {
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "question": "How long do online health food orders take from Well Well Well",
             "answer_header1": "N\/a",
             "answer_body1": "<p>All online health food orders require 1-3 business days of processing time. Once your online health food order leaves our warehouse, the delivery time is based on your location. Orders are fulfilled by Canada Post, either by standard or express shipping.<\/p>",
@@ -227,7 +227,7 @@
         "5bb78ce3-42f0-476f-9b6a-8f0265c627fa"
       ],
       "settings": {
-        "heading_tag": "div",
+        "heading_tag": "h2",
         "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
