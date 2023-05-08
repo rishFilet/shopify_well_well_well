@@ -325,6 +325,7 @@
           "static-slideshow-1": {
             "type": "slide",
             "settings": {
+              "background_image": "shopify:\/\/shop_images\/Shopify_Banner_4bce3c81-bbd9-4c13-afd9-790bdcda01f3.png",
               "title": "Slide",
               "text": "Introduce customers to your shop with lifestyle and product imagery",
               "color": "#ffffff",

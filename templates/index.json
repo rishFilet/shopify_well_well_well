@@ -20,22 +20,6 @@
             "opacity": 50
           }
         },
-        "1650573120238fa006-1": {
-          "type": "promotion",
-          "disabled": true,
-          "settings": {
-            "height": 350,
-            "title": "Mosaic",
-            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "overlay_style": "none",
-            "background": "",
-            "opacity": 50
-          }
-        },
         "1650573120238fa006-2": {
           "type": "promotion",
           "disabled": true,
@@ -55,7 +39,6 @@
       },
       "block_order": [
         "1650573120238fa006-0",
-        "1650573120238fa006-1",
         "1650573120238fa006-2"
       ],
       "settings": {
@@ -157,7 +140,7 @@
           "type": "collection",
           "settings": {
             "collection": "beauty-skin-care",
-            "image": "shopify:\/\/shop_images\/autumn-walk-hand-in-hand.jpg",
+            "image": "shopify:\/\/shop_images\/Beauty.jpg",
             "collection_label": "",
             "mobile_collection_label": ""
           }
