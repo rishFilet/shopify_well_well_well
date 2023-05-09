@@ -167,15 +167,15 @@
             alt: logo_alt,
           %}
           {% if template == 'index' %}
-            <h1 class="mobile-logo-text visually-hidden">
+            <div class="mobile-logo-text visually-hidden">
               {{ shop.name }}
-            </h1>
+            </div>
           {% endif %}
         {% else %}
           {% if template == 'index' %}
-            <h1 class="mobile-logo-text">
+            <div class="mobile-logo-text">
               {{ shop.name }}
-            </h1>
+            </div>
           {% else %}
             <span class="mobile-logo-text">
               {{ shop.name }}
