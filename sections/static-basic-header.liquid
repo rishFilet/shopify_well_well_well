@@ -128,15 +128,15 @@
             lazy: true,
           %}
           {% if template == 'index' %}
-            <h1 class="desktop-logo-text visually-hidden">
+            <div class="desktop-logo-text visually-hidden">
               {{ shop.name }}
-            </h1>
+            </div>
           {% endif %}
         {% else %}
           {% if template == 'index' %}
-            <h1 class="desktop-logo-text">
+            <div class="desktop-logo-text">
               {{ shop.name }}
-            </h1>
+            </div>
           {% else %}
             <span class="desktop-logo-text">
               {{ shop.name }}
