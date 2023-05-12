@@ -111,6 +111,19 @@
     "1658876402d84519ab": {
       "type": "faq-accordian",
       "blocks": {
+        "80faec9e-7e8b-4083-957a-441347db29f2": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h1",
+            "question": "Health Food & Snacks",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>Our online health food shop now stocks all manner of natural products from gluten free foods for those with celiac disease or gluten sensitivities, to a variety of healthy food snacks in store and online! Whether you are looking for a lifestyle change or just need some extra vitamins, Well Well Well has it all! <\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
         "165887640235a0874a-0": {
           "type": "faq",
           "settings": {
@@ -139,6 +152,7 @@
         }
       },
       "block_order": [
+        "80faec9e-7e8b-4083-957a-441347db29f2",
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb"
       ],
