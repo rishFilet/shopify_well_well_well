@@ -111,6 +111,19 @@
     "1658876402d84519ab": {
       "type": "faq-accordian",
       "blocks": {
+        "ae2497be-2a38-4440-b659-aca2b1b4801a": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h1",
+            "question": "Natural Anti-Inflammatory Supplements for Chronic Inflammation, Arthritis & Back Pain",
+            "answer_header1": "n\/a",
+            "answer_body1": "<p>Natural anti-inflammatory supplements work with your immune system to relieve conditions ranging from mild to severe inflammation associated pain. New or old injuries, ailments or even how to reduce inflammation in the knee are important at any age. Shop now at Well Well Well for all the best natural anti inflammatory supplements. <\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
         "165887640235a0874a-0": {
           "type": "faq",
           "settings": {
@@ -165,6 +178,7 @@
         }
       },
       "block_order": [
+        "ae2497be-2a38-4440-b659-aca2b1b4801a",
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
