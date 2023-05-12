@@ -111,6 +111,19 @@
     "1658876402d84519ab": {
       "type": "faq-accordian",
       "blocks": {
+        "1c4f63c2-c8e5-49e7-a7de-392bcf3a9667": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h1",
+            "question": "Traditional Chinese Medicine & Herbs",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>At Well Well Well Nutrition Centre, we stock a broad range of traditional Chinese medicine (TCM) supplements that can offer many health benefits, from pain management to improved physical well-being. If you're looking online for traditional Chinese medicine shop, we are your trusted source Chinese herbal store online.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
         "165887640235a0874a-0": {
           "type": "faq",
           "settings": {
@@ -178,6 +191,7 @@
         }
       },
       "block_order": [
+        "1c4f63c2-c8e5-49e7-a7de-392bcf3a9667",
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
