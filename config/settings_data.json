@@ -296,6 +296,32 @@
       "static-slideshow": {
         "type": "static-slideshow",
         "blocks": {
+          "9b103a35-6562-4625-aca7-cf66fec74e14": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/www_Banner_-_TCM.png",
+              "title": "",
+              "text": "",
+              "color": "#ffffff",
+              "link": "https:\/\/www.wellwellwellnc.com\/collections\/traditional-chinese-medicine?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
+              "text_alignment": "center",
+              "button_one_label": "Button",
+              "button_one_link": "",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "button_three_label": "",
+              "button_three_link": "",
+              "button_three_style": "primary",
+              "button_four_label": "",
+              "button_four_link": "",
+              "button_four_style": "primary",
+              "overlay_style": "solid",
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
           "static-slideshow-1": {
             "type": "slide",
             "settings": {
@@ -318,33 +344,6 @@
               "button_four_link": "https:\/\/www.wellwellwellnc.com\/search?type=article%2Cpage%2Cproduct&q=sale*",
               "button_four_style": "primary",
               "overlay_style": "none",
-              "overlay_color": "#000000",
-              "overlay_opacity": 50
-            }
-          },
-          "9b103a35-6562-4625-aca7-cf66fec74e14": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "background_image": "shopify:\/\/shop_images\/www_Banner_-_TCM.png",
-              "title": "",
-              "text": "",
-              "color": "#ffffff",
-              "link": "https:\/\/www.wellwellwellnc.com\/collections\/traditional-chinese-medicine?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
-              "text_alignment": "center",
-              "button_one_label": "Button",
-              "button_one_link": "",
-              "button_one_style": "primary",
-              "button_two_label": "",
-              "button_two_link": "",
-              "button_two_style": "primary",
-              "button_three_label": "",
-              "button_three_link": "",
-              "button_three_style": "primary",
-              "button_four_label": "",
-              "button_four_link": "",
-              "button_four_style": "primary",
-              "overlay_style": "solid",
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
@@ -378,8 +377,8 @@
           }
         },
         "block_order": [
-          "static-slideshow-1",
           "9b103a35-6562-4625-aca7-cf66fec74e14",
+          "static-slideshow-1",
           "static-slideshow-0"
         ],
         "settings": {
