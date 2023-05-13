@@ -53,7 +53,7 @@
         "layout": "layout--two-col",
         "show_dcb": true,
         "product_cart_redirect": false,
-        "gallery_aspect_ratio": "short",
+        "gallery_aspect_ratio": "natural",
         "gallery_image_crop": false,
         "gallery_thumbnail_position": "left",
         "gallery_video_autoplay": true,
