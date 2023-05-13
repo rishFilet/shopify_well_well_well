@@ -2,6 +2,7 @@
   "sections": {
     "165057312002bcd50d": {
       "type": "dynamic-promo-mosaic",
+      "disabled": true,
       "blocks": {
         "1650573120238fa006-0": {
           "type": "promotion",
