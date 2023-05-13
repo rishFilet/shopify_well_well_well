@@ -300,13 +300,13 @@
             "type": "slide",
             "settings": {
               "background_image": "shopify:\/\/shop_images\/Shopify_Banner_4bce3c81-bbd9-4c13-afd9-790bdcda01f3.png",
-              "title": "Slide",
-              "text": "Introduce customers to your shop with lifestyle and product imagery",
+              "title": "",
+              "text": "",
               "color": "#ffffff",
               "link": "",
               "text_alignment": "center",
-              "button_one_label": "Button",
-              "button_one_link": "",
+              "button_one_label": "",
+              "button_one_link": "https:\/\/www.wellwellwellnc.com\/search?type=article%2Cpage%2Cproduct&q=sale*",
               "button_one_style": "primary",
               "button_two_label": "",
               "button_two_link": "",
@@ -317,7 +317,7 @@
               "button_four_label": "",
               "button_four_link": "",
               "button_four_style": "primary",
-              "overlay_style": "solid",
+              "overlay_style": "none",
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
