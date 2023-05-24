@@ -1511,7 +1511,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".flickity-dot .dot {background: black;}"
+      ".flickity-page-dot > li {background: #000;}"
     ]
   }
 }
