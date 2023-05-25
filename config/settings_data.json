@@ -296,6 +296,32 @@
       "static-slideshow": {
         "type": "static-slideshow",
         "blocks": {
+          "static-slideshow-0": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/Website_-_Home_Page_Banner_1.png",
+              "title": "",
+              "text": "",
+              "color": "#ffffff",
+              "link": "https:\/\/www.wellwellwellnc.com\/products\/naka-ultra-collagenb-1000mg-125-tablets?_pos=1&_sid=78d41ce55&_ss=r",
+              "text_alignment": "center",
+              "button_one_label": "",
+              "button_one_link": "",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "button_three_label": "",
+              "button_three_link": "",
+              "button_three_style": "primary",
+              "button_four_label": "",
+              "button_four_link": "",
+              "button_four_style": "primary",
+              "overlay_style": "solid",
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
           "9b103a35-6562-4625-aca7-cf66fec74e14": {
             "type": "slide",
             "settings": {
@@ -348,33 +374,6 @@
               "overlay_opacity": 50
             }
           },
-          "static-slideshow-0": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "background_image": "shopify:\/\/shop_images\/Website_-_Home_Page_Banner_1.png",
-              "title": "",
-              "text": "",
-              "color": "#ffffff",
-              "link": "https:\/\/www.wellwellwellnc.com\/products\/naka-ultra-collagenb-1000mg-125-tablets?_pos=1&_sid=78d41ce55&_ss=r",
-              "text_alignment": "center",
-              "button_one_label": "",
-              "button_one_link": "",
-              "button_one_style": "primary",
-              "button_two_label": "",
-              "button_two_link": "",
-              "button_two_style": "primary",
-              "button_three_label": "",
-              "button_three_link": "",
-              "button_three_style": "primary",
-              "button_four_label": "",
-              "button_four_link": "",
-              "button_four_style": "primary",
-              "overlay_style": "solid",
-              "overlay_color": "#000000",
-              "overlay_opacity": 50
-            }
-          },
           "ac4196b2-03a2-4200-ae73-414037509860": {
             "type": "slide",
             "disabled": true,
@@ -403,9 +402,9 @@
           }
         },
         "block_order": [
+          "static-slideshow-0",
           "9b103a35-6562-4625-aca7-cf66fec74e14",
           "static-slideshow-1",
-          "static-slideshow-0",
           "ac4196b2-03a2-4200-ae73-414037509860"
         ],
         "settings": {
