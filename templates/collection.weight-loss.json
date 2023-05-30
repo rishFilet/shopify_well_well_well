@@ -237,32 +237,6 @@
     "166241216911d630ec": {
       "type": "faq-accordian",
       "blocks": {
-        "16624121685d5ecaae-0": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What Are the Best Natural Weight Loss Supplements?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>There are a huge number of natural weight loss supplements to choose from and the best ones for you will depend on the diet and exercise program you are currently following. Supplements containing green tea extract, chromium picolinate and conjugated linoleic acid are among the most popular in our natural range.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What Are Common Keto Friendly Weight Loss Supplements?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Weight loss and fat burning supplements that contain beta hydroxybutyrate and MCT Oil are among the most widely used keto supplements for weight loss, due to their perceived effectiveness in the fitness community.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
         "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
           "type": "faq",
           "settings": {
@@ -275,26 +249,10 @@
             "answer_header3": "",
             "answer_body3": ""
           }
-        },
-        "c2d042a9-fac1-4522-8847-c0a8f9ed9f47": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "Does Supplementing With MCT Oil Help You Lose Weight?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>MCT Oil boosts the release of hormones in our bodies that tell us we feel full, making it a useful aid in weight loss programs. It can also be broken down by the body into ketones to help you remain in a state of ketosis when following a ketogenic diet.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
         }
       },
       "block_order": [
-        "16624121685d5ecaae-0",
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49",
-        "c2d042a9-fac1-4522-8847-c0a8f9ed9f47"
+        "a73dc037-8196-4bfa-8a22-355fb4d88f49"
       ],
       "settings": {
         "heading_tag": "h2",

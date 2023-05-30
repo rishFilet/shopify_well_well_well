@@ -208,32 +208,6 @@
             "answer_body3": ""
           }
         },
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "Can I visit the Asian grocery at Well Well Well?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>You're more than welcome to visit  Well Well Well Nutrition Centre in St. Catharines, where our food specialists and product specialists will gladly provide assistance. We're open 7 days a week, and we stock a variety of Asian food.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What are the top selling Asian food items in Canada?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Some of the top-selling Asian food in Canada include rice, noodles and various fermented products like kimchi and miso. At Well Well Well Nutrition Centre, we stock all your favourites plus a wide variety of rare and specialty Asian food grocery items that you'll struggle to find elsewhere, especially at such a high-value price!<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
         "1a461c03-4ee9-4404-858b-67d9fda20c2f": {
           "type": "faq",
           "settings": {
@@ -250,8 +224,6 @@
       },
       "block_order": [
         "16624121685d5ecaae-0",
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49",
         "1a461c03-4ee9-4404-858b-67d9fda20c2f"
       ],
       "settings": {
