@@ -175,7 +175,7 @@
       ],
       "settings": {
         "heading_tag": "div",
-        "section_title": "﻿Information",
+        "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
         "title_font_weight": 700,
@@ -194,6 +194,7 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
+      "disabled": true,
       "blocks": {
         "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
           "type": "faq",
