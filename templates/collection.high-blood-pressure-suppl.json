@@ -137,6 +137,19 @@
             "answer_body3": ""
           }
         },
+        "d1f167a4-65de-4e65-ba26-971ee39e49b1": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "Do anti-inflammatory supplements help treat chronic inflammation?",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>Natural remedies for back pain and chronic inflammation can act as a treatment and maintenance. These can even be supplements for brain inflammation. Anti-inflammatory natural remedies can be a wonderful way to naturally help with chronic and on-going issues without any side effects. Glucosamine and chondroitin are great anti-inflammatory supplements for joints.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d": {
           "type": "faq",
           "settings": {
@@ -150,13 +163,13 @@
             "answer_body3": ""
           }
         },
-        "d1f167a4-65de-4e65-ba26-971ee39e49b1": {
+        "92f0b5d2-5ba2-4aca-957c-6064d5bd5321": {
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "Do anti-inflammatory supplements help treat chronic inflammation?",
+            "question": "What is the difference between pharmaceutical and organic anti-inflammatory supplements?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>Natural remedies for back pain and chronic inflammation can act as a treatment and maintenance. These can even be supplements for brain inflammation. Anti-inflammatory natural remedies can be a wonderful way to naturally help with chronic and on-going issues without any side effects. Glucosamine and chondroitin are great anti-inflammatory supplements for joints.<\/p>",
+            "answer_body1": "<p>Natural anti-inflammatory supplements can help the body fight pain and inflammation with natural ingredients like turmeric, fish oils and MSM. These are extremely accessible and effective anti-inflammatory supplements for joints. Pharmaceuticals are compounds prescribed by medical doctors.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -167,8 +180,9 @@
       "block_order": [
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
+        "d1f167a4-65de-4e65-ba26-971ee39e49b1",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
-        "d1f167a4-65de-4e65-ba26-971ee39e49b1"
+        "92f0b5d2-5ba2-4aca-957c-6064d5bd5321"
       ],
       "custom_css": [
         "p {margin-bottom: 15px;}"
