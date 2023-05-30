@@ -209,19 +209,6 @@
     "166241216911d630ec": {
       "type": "faq-accordian",
       "blocks": {
-        "16624121685d5ecaae-0": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What supplements can I take to help lower my blood pressure?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Natural supplements for high blood pressure include minerals and herbs that work synergistically with your body to effectively lower blood pressure and control the effects of hypertension.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
         "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
           "type": "faq",
           "settings": {
@@ -229,19 +216,6 @@
             "question": "What is the fastest way to reduce inflammation in the body?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>The Well Well Well range of natural anti-inflammatory supplements including collagen, turmeric and Omega 3 fatty acids are the most commonly used to fight inflammation as they work by boosting naturally occurring anti-inflammatory compounds already contained within your body.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "How much magnesium should I take for high blood pressure?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Continuing studies have proven the positive effect of magnesium taurate in lowering systolic blood pressure. Taking magnesium as a blood pressure supplement is encouraged for those who are not getting the recommended daily intake, but dosage should be based on each individual case.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -263,9 +237,7 @@
         }
       },
       "block_order": [
-        "16624121685d5ecaae-0",
         "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49",
         "cac2bd69-a4e0-482c-a1bd-0d32b4163811"
       ],
       "settings": {
