@@ -225,6 +225,7 @@
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3",
             "question": "How are natural health products regulated in Canada?",
