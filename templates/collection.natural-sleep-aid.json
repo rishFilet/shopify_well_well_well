@@ -225,6 +225,7 @@
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "heading_tag": "h2",
             "question": "What is the best supplement for sleep?",
@@ -251,6 +252,7 @@
         },
         "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "heading_tag": "h2",
             "question": "What is the strongest natural sedative?",
@@ -264,6 +266,7 @@
         },
         "df8f78c8-2491-4e0e-a8a0-618de3c5e257": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "heading_tag": "h2",
             "question": "What is the best natural sleep aid?",
