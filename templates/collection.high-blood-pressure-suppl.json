@@ -162,27 +162,13 @@
             "answer_header3": "",
             "answer_body3": ""
           }
-        },
-        "a703e36e-bcfb-4078-a1cf-37829fe4c11d": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h2",
-            "question": "Do anti-inflammatory supplements help treat conditions like tendonitis?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Inflammation associated with tendonitis is often one of the first signs of the irritation of the tendons themselves. A natural remedy and treatment for tendonitis inflammation for arthritis is humic fluid acid, derived from ancient fossilized tropical vegetation. It is one of the safest and best supplements for reducing inflammation and a great option for a natural supplement for arthritis and tendonitis when taking prescription medication. But always consult with your healthcare practitioner.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
         }
       },
       "block_order": [
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "92f0b5d2-5ba2-4aca-957c-6064d5bd5321",
-        "d1f167a4-65de-4e65-ba26-971ee39e49b1",
-        "a703e36e-bcfb-4078-a1cf-37829fe4c11d"
+        "d1f167a4-65de-4e65-ba26-971ee39e49b1"
       ],
       "custom_css": [
         "p {margin-bottom: 15px;}"
@@ -213,9 +199,9 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h3",
-            "question": "What is the fastest way to reduce inflammation in the body?",
+            "question": "How much magnesium should I take for high blood pressure?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>The Well Well Well range of natural anti-inflammatory supplements including collagen, turmeric and Omega 3 fatty acids are the most commonly used to fight inflammation as they work by boosting naturally occurring anti-inflammatory compounds already contained within your body.<\/p>",
+            "answer_body1": "<p>Continuing studies have proven the positive effect of magnesium taurate in lowering systolic blood pressure. Taking magnesium as a blood pressure supplement is encouraged for those who are not getting the recommended daily intake, but dosage should be based on each individual case.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
