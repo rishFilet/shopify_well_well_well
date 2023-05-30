@@ -223,32 +223,6 @@
     "166241216911d630ec": {
       "type": "faq-accordian",
       "blocks": {
-        "16624121685d5ecaae-0": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What are the best natural products for babies and children?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>For parents it is imperative to have access to the right information and the proper resources to make the best choices when purchasing baby health products for their babies. It is critical to establish healthy eating habits and make certain that babies are getting the proper nutrition. <\/p>",
-            "answer_header2": "",
-            "answer_body2": "<p>When considering the best natural baby health products for your baby, it is important to consider their developing internal and external systems. Babies have super sensitive skin and developing digestive systems so it is vital to understand which products are the best products for babies, internally and externally.<\/p>",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What are the best natural health supplements for mothers?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>It is important to ensure that expectant mothers receive key nutrients during their pregnancies. First and foremost it is important to follow a healthy whole food diet. Finding the right mom and baby care products also help with the process in the baby’s development during pregnancy. A typical pregnancy usually requires approximately 300 extra daily calories.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "<p>In addition to a healthy whole food diet, it is important for pregnant women to take note of the amount of extra daily calories needed, which includes the amount of protein, essential fats, carbohydrates, multivitamins and minerals, etc.<\/p>",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
         "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
           "type": "faq",
           "settings": {
@@ -264,8 +238,6 @@
         }
       },
       "block_order": [
-        "16624121685d5ecaae-0",
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9",
         "a73dc037-8196-4bfa-8a22-355fb4d88f49"
       ],
       "settings": {
