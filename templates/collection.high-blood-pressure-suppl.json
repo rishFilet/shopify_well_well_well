@@ -128,9 +128,9 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "What is magnesium's impact on hypertension (high blood pressure)?",
+            "question": "What is the most effective natural anti-inflammatory?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>The top all natural blood pressure supplements include a variety of targeted heart health supplements. For example magnesium for hypertension is a safe and natural supplement to lower blood pressure for pregnant women. It can increase the production of nitric oxide — a signaling molecule that helps relax blood vessels. Magnesium is a great vitamin for high blood pressure and safe to take with medication. However, always consult your physician to find the best blood pressure support supplement<\/p>",
+            "answer_body1": "<p>The best supplements for inflammation are dependent on age and pre-existing conditions. Chronic inflammation can be treated with herbal anti-inflammatory supplements like turmeric. Even taking fish oils can be a natural supplement for inflammation. But always check with your healthcare practitioner if you are taking medication to ensure you are taking the best natural anti-inflammatory without any counter interactions.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -149,12 +149,26 @@
             "answer_header3": "",
             "answer_body3": ""
           }
+        },
+        "d1f167a4-65de-4e65-ba26-971ee39e49b1": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "Do anti-inflammatory supplements help treat chronic inflammation?",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>Natural remedies for back pain and chronic inflammation can act as a treatment and maintenance. These can even be supplements for brain inflammation. Anti-inflammatory natural remedies can be a wonderful way to naturally help with chronic and on-going issues without any side effects. Glucosamine and chondroitin are great anti-inflammatory supplements for joints.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
         }
       },
       "block_order": [
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
-        "a703e36e-bcfb-4078-a1cf-37829fe4c11d"
+        "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
+        "d1f167a4-65de-4e65-ba26-971ee39e49b1"
       ],
       "custom_css": [
         "p {margin-bottom: 15px;}"
