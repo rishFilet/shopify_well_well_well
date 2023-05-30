@@ -248,25 +248,11 @@
             "answer_header3": "",
             "answer_body3": ""
           }
-        },
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h2",
-            "question": "Do Chinese herbal supplements cause side effects?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Most experts and practitioners agree that herbal supplements and traditional Chinese medicines and supplements are perfectly safe to consume, though we recommend discussing your health issues with a medical professional before you use any medicines. If you are concerned with herbal supplement side effects, you should only use medicines approved by Health Canada and other regulatory bodies that require rigorous testing.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
         }
       },
       "block_order": [
         "16624121685d5ecaae-0",
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49"
+        "f30a3653-040d-48c1-9b11-7ca6544a04c9"
       ],
       "settings": {
         "heading_tag": "h2",
