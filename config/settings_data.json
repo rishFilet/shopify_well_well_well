@@ -379,12 +379,12 @@
             "type": "slide",
             "settings": {
               "background_image": "shopify:\/\/shop_images\/Website_-_Home_Page_Banner_3.png",
-              "title": "Slide",
-              "text": "Introduce customers to your shop with lifestyle and product imagery",
+              "title": "",
+              "text": "",
               "color": "#ffffff",
               "link": "",
               "text_alignment": "center",
-              "button_one_label": "Button",
+              "button_one_label": "",
               "button_one_link": "",
               "button_one_style": "primary",
               "button_two_label": "",
@@ -396,7 +396,7 @@
               "button_four_label": "",
               "button_four_link": "",
               "button_four_style": "primary",
-              "overlay_style": "solid",
+              "overlay_style": "none",
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
