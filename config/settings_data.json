@@ -306,7 +306,7 @@
               "link": "shopify:\/\/collections\/birthday-sale",
               "text_alignment": "center",
               "button_one_label": "",
-              "button_one_link": "",
+              "button_one_link": "https:\/\/www.wellwellwellnc.com\/collections\/birthday-sale?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
               "button_one_style": "primary",
               "button_two_label": "",
               "button_two_link": "",
