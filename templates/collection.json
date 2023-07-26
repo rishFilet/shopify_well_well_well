@@ -110,6 +110,7 @@
     },
     "1658876402d84519ab": {
       "type": "faq-accordian",
+      "disabled": true,
       "blocks": {
         "165887640235a0874a-0": {
           "type": "faq",
@@ -222,6 +223,7 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
+      "disabled": true,
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
