@@ -1,6 +1,4 @@
 {%- capture tabs %}
-  {%- capture content %}{% endcapture -%}
-  104250^^Ingredients^^{{ content | replace: '~', '&#126;' | replace: '^', '&#94;' }}^^0||||^^^^^^0^^~~
 {%- endcapture -%}
 {%- assign tabs_array = tabs | strip | split: '~~' -%}
 {%- assign p_id_str = product.id | downcase -%}
