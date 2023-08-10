@@ -176,6 +176,7 @@
         {% section 'static-slideshow' %}
       {% endif %}
       {{ content_for_layout }}
+  {% capture stn_app %}{% include 'station-tabs' %}{% endcapture %}{% if stn_app contains 'Station.Apps' %}{{ stn_app }}{% endif %}
     </main>
 
     {% section 'static-footer' %}

@@ -297,7 +297,7 @@ z-index: unset!important;
             {% when 'description' %}
               {% capture product_description %}{%- include 'shortcode-readmore', text: product.description, before_readmore: true -%}{% endcapture %}
               {% if product_description != blank and show_description %}
-                <div class="product-description rte" data-product-description>{{ product_description }}</div>
+                <div class="product-description rte" data-product-description><div data-station-tabs-app data-station-tabs-product="{{ product.handle }}" data-station-tabs-replace>{{ product_description }}</div></div>
               {% endif %}
           {% endcase %}
         </div>
