@@ -2,7 +2,6 @@
   "sections": {
     "165057312002bcd50d": {
       "type": "dynamic-promo-mosaic",
-      "disabled": true,
       "blocks": {
         "1650573120238fa006-0": {
           "type": "promotion",
@@ -42,6 +41,7 @@
         "1650573120238fa006-0",
         "1650573120238fa006-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "subheading": "",
@@ -58,7 +58,6 @@
     },
     "highlights-banner": {
       "type": "dynamic-highlights-banners",
-      "disabled": true,
       "blocks": {
         "highlight-1": {
           "type": "highlight",
@@ -104,6 +103,7 @@
         "highlight-3",
         "highlight-4"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "#e7e1d7",
         "section_spacing_desktop": 36,
@@ -254,7 +254,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/20.jpg",
-            "link": "shopify:\/\/collections\/traditional-chinese-medicine"
+            "link": "shopify:\/\/collections\/traditionalchinesemedicine"
           }
         },
         "93c4eb78-2114-425b-8cc5-a11e452655f7": {
@@ -389,7 +389,6 @@
     },
     "80eef3b7-ff3c-4376-b1b2-18f6f52a2c2d": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "template--16779498094810__80eef3b7-ff3c-4376-b1b2-18f6f52a2c2d-1683239092bd9cf087-0": {
           "type": "faq",
@@ -436,6 +435,7 @@
         "566d8f77-abf1-4d84-98c1-2d60cd4a38e2",
         "e1084e0f-4469-4f5d-b5c8-64ab83c2aa57"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "h2",
         "section_title": "FAQ",
@@ -593,7 +593,6 @@
     },
     "1650573077f2ffc01e": {
       "type": "dynamic-featured-collection",
-      "disabled": true,
       "blocks": {
         "1650573077b6349393-0": {
           "type": "title_card",
@@ -611,6 +610,7 @@
       "block_order": [
         "1650573077b6349393-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "subheading": "",
@@ -632,7 +632,6 @@
     },
     "16505733482caa7b41": {
       "type": "dynamic-menu-list",
-      "disabled": true,
       "blocks": {
         "1650573348cd00e910-0": {
           "type": "menu",
@@ -679,6 +678,7 @@
         "1650573348cd00e910-4",
         "1650573348cd00e910-5"
       ],
+      "disabled": true,
       "settings": {
         "title": "Menu list",
         "subheading": "",
