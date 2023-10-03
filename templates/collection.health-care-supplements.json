@@ -29,6 +29,7 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
@@ -222,7 +223,6 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
@@ -284,6 +284,7 @@
         "a73dc037-8196-4bfa-8a22-355fb4d88f49",
         "478e7097-dd7a-4d9c-9579-71113b6ef9cd"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "h2",
         "section_title": "FAQ",
