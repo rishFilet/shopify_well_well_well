@@ -29,7 +29,6 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
-        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
