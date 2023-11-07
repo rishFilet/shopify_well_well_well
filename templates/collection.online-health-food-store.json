@@ -1,5 +1,44 @@
 {
   "sections": {
+    "166241216911d630ec": {
+      "type": "faq-accordian",
+      "blocks": {
+        "16624121685d5ecaae-0": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h1",
+            "question": "Health Food Snacks",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>Our online health food shop now stocks all manner of natural products from gluten free foods for those with celiac disease or gluten sensitivities, to a variety of healthy food snacks in store and online! Whether you are looking for a lifestyle change or just need some extra vitamins, Well Well Well has it all! <\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        }
+      },
+      "block_order": [
+        "16624121685d5ecaae-0"
+      ],
+      "settings": {
+        "heading_tag": "div",
+        "section_title": "Grocery & Snacks",
+        "section_title_padding": 20,
+        "title_font_size": 18,
+        "title_font_weight": 700,
+        "section_max_width": 700,
+        "section_margin": 20,
+        "question_font_size": 18,
+        "question_font_weight": 700,
+        "answer_header_font_size": 16,
+        "answer_header_font_weight": 700,
+        "answer_header_margin_top": 0,
+        "answer_header_margin_bottom": 0,
+        "answer_body_font_size": 14,
+        "answer_body_margin_top": 0,
+        "answer_body_margin_bottom": 0
+      }
+    },
     "main": {
       "type": "static-collection",
       "blocks": {
@@ -29,6 +68,7 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
@@ -177,95 +217,13 @@
         "answer_body_margin_top": 0,
         "answer_body_margin_bottom": 0
       }
-    },
-    "166241216911d630ec": {
-      "type": "faq-accordian",
-      "disabled": true,
-      "blocks": {
-        "16624121685d5ecaae-0": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What are the best health foods to order online? ",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>The best health foods online are the ones that meet your unique needs. Whether it’s for a specific health problem, avoiding gluten in your diet or just to ensure you’re getting all the vitamins and minerals needed to stay healthy, we offer the best health foods online.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "What are popular health foods to order online in Canada?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>The best health foods retailers online are the ones that meet your unique needs. Whether it’s for a specific health problem, avoiding gluten in your pasta, or you just want to ensure you’re getting all the vitamins and minerals needed to stay healthy, we offer the best health foods to order online.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "How much are the delivery costs when ordering health food online from Well Well Well? ",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Health food online orders in Canada of $59.99+ or more qualify for free shipping which is automatically calculated during checkout. All other shipping rates will be calculated at checkout depending on your choice of standard or express shipping.  Deliveries are offered for orders $150+ within a 10km radius of our brick and mortar store in St. Catharines. A $5 delivery fee is charged on deliveries.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
-        "5bb78ce3-42f0-476f-9b6a-8f0265c627fa": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h3",
-            "question": "How long do online health food orders take from Well Well Well",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>All online health food orders require 1-3 business days of processing time. Once your online health food order leaves our warehouse, the delivery time is based on your location. Orders are fulfilled by Canada Post, either by standard or express shipping.<\/p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        }
-      },
-      "block_order": [
-        "16624121685d5ecaae-0",
-        "f30a3653-040d-48c1-9b11-7ca6544a04c9",
-        "a73dc037-8196-4bfa-8a22-355fb4d88f49",
-        "5bb78ce3-42f0-476f-9b6a-8f0265c627fa"
-      ],
-      "settings": {
-        "heading_tag": "h2",
-        "section_title": "FAQ",
-        "section_title_padding": 20,
-        "title_font_size": 18,
-        "title_font_weight": 700,
-        "section_max_width": 700,
-        "section_margin": 20,
-        "question_font_size": 18,
-        "question_font_weight": 700,
-        "answer_header_font_size": 16,
-        "answer_header_font_weight": 700,
-        "answer_header_margin_top": 0,
-        "answer_header_margin_bottom": 0,
-        "answer_body_font_size": 14,
-        "answer_body_margin_top": 0,
-        "answer_body_margin_bottom": 0
-      }
     }
   },
   "order": [
+    "166241216911d630ec",
     "main",
     "static-recently-viewed",
     "static-collection-promo-grid",
-    "1658876402d84519ab",
-    "166241216911d630ec"
+    "1658876402d84519ab"
   ]
 }
