@@ -29,6 +29,7 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
@@ -115,7 +116,7 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h1",
-            "question": "Natural High Blood Pressure & Hypertension Supplements",
+            "question": "Natural Supplements for High Blood Pressure & Hypertension",
             "answer_header1": "N\/a",
             "answer_body1": "<p>High blood pressure is a common affliction across the world, affecting 1 in 4 men and 1 in 5 women globally, according to the World Health Organization. Using blood pressure supplements in your daily life can have a tremendous effect on your body, helping to lower blood pressure and keep hypertension under control. At Well Well Well we have the right supplements to help lower blood pressure naturally in conjunction with your Doctor's recommendation.<\/p>",
             "answer_header2": "",
@@ -174,7 +175,7 @@
         "p {margin-bottom: 15px;}"
       ],
       "settings": {
-        "heading_tag": "div",
+        "heading_tag": "h1",
         "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
@@ -194,7 +195,6 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "f30a3653-040d-48c1-9b11-7ca6544a04c9": {
           "type": "faq",
@@ -227,6 +227,7 @@
         "f30a3653-040d-48c1-9b11-7ca6544a04c9",
         "cac2bd69-a4e0-482c-a1bd-0d32b4163811"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "h2",
         "section_title": "FAQ",
