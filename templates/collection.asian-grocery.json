@@ -29,6 +29,7 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
@@ -128,9 +129,22 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "Well Well Well is the best place online to buy Asian snacks",
+            "question": "Why is Well Well Well is the best place online to buy Asian snacks?",
             "answer_header1": "N\/a",
             "answer_body1": "<p>At Well Well Well Nutrition Centre, we want to make sure Asian food lovers can buy healthier Asian snacks and groceries online in Canada and worldwide at one convenient spot. We even boast varied selections of unique goods like dried seaweed to fermented gluten free pastes for sauces. We have the healthiest Korean and Chinese grocery and snacks online. <\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
+        "f6c84036-54c6-4e64-bbe0-af6e1c2c6004": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What Makes Our Asian Grocery Items Healthy?",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>We select asian grocery items that do not use msg and are mostly gluten free. Things like seaweed snacks or rice snacks, do not use gluten and are extremely nutritious. It is important at Well Well Wel to carry the healthiest snacks possible. <\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -167,6 +181,7 @@
       "block_order": [
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
+        "f6c84036-54c6-4e64-bbe0-af6e1c2c6004",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
         "af824d23-c23a-4d5f-8229-c731b4ce0fc2"
       ],
@@ -194,7 +209,6 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
@@ -227,6 +241,7 @@
         "16624121685d5ecaae-0",
         "1a461c03-4ee9-4404-858b-67d9fda20c2f"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "h2",
         "section_title": "FAQ",
