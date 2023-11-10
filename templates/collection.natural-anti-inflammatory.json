@@ -29,6 +29,7 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
@@ -169,7 +170,7 @@
             "heading_tag": "h2",
             "question": "Do anti-inflammatory supplements help treat conditions like tendonitis?",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>Inflammation associated with tendonitis is often one of the first signs of the irritation of the tendons themselves. A natural remedy and treatment for tendonitis inflammation for arthritis is humic fluid acid, derived from ancient fossilized tropical vegetation. It is one of the safest and best supplements for reducing inflammation and a great option for a natural supplement for arthritis and tendonitis when taking prescription medication. But always consult with your healthcare practitioner.<\/p>",
+            "answer_body1": "<p>Inflammation associated with tendonitis is often one of the first signs of the irritation of the tendons themselves. A natural remedy and treatment for tendonitis inflammation for arthritis is humic fluid acid, derived from ancient fossilized tropical vegetation. It is one of the safest and best supplements for reducing inflammation and a great option for a natural supplement for arthritis and tendonitis when taking prescription medication. But always consult with your healthcare practitioner before selecting natural supplements for tendonitis.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -208,7 +209,6 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
@@ -269,6 +269,7 @@
         "a73dc037-8196-4bfa-8a22-355fb4d88f49",
         "1f8724d3-9371-4544-9fd3-c677e1a5ef0a"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "h2",
         "section_title": "FAQ",
