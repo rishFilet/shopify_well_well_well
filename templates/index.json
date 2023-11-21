@@ -359,6 +359,19 @@
             "answer_header3": "",
             "answer_body3": ""
           }
+        },
+        "1ed894c0-5fe0-43f7-bd71-804b664c5394": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "Featured Nutrition Products",
+            "answer_header1": "N\/A",
+            "answer_body1": "<p>At, Well Well Well we are your trusted natural health brick and mortar shop and health food and supplements online store. You can find everything from healthier snacks, beauty products as well as a comprehensive stock of supplements for all your needs. Our most products include collagen, Vitamin D3 and fish oils.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
         }
       },
       "block_order": [
@@ -366,7 +379,8 @@
         "f0b36c8f-5dba-4b05-8ecf-4dc8bf386f46",
         "8f94a5f6-bed6-43b8-8b2c-b8c568954892",
         "a037bcaa-fc2a-4eaa-a5a6-1bd93dc98085",
-        "56849952-a7f9-460f-a19d-87efe7e598e1"
+        "56849952-a7f9-460f-a19d-87efe7e598e1",
+        "1ed894c0-5fe0-43f7-bd71-804b664c5394"
       ],
       "settings": {
         "heading_tag": "div",
