@@ -29,6 +29,7 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
@@ -117,7 +118,7 @@
             "heading_tag": "h1",
             "question": "Organic Herbal Medicine & Natural Herbal Supplements",
             "answer_header1": "N\/a",
-            "answer_body1": "<p>At Well Well Well, we focus on providing our customers with quality herbs used in Chinese herbal medicine and other forms of alternative herbal medicine. Many people moving toward integrative medicine and complementary therapies to maintain a healthy lifestyle can benefit from our online and in store  herbal medicine selection.<\/p>",
+            "answer_body1": "<p>At Well Well Well Nutrition Centre, we stock a broad range of traditional Chinese medicine (TCM) supplements that can offer many health benefits, from pain management to improved physical well-being. If you're looking online for a traditional Chinese medicine shop, we are your trusted source Chinese herbal store online.<\/p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -208,7 +209,6 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
@@ -241,6 +241,7 @@
         "16624121685d5ecaae-0",
         "a73dc037-8196-4bfa-8a22-355fb4d88f49"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "h2",
         "section_title": "FAQ",
