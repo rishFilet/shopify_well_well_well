@@ -176,6 +176,19 @@
             "answer_header3": "",
             "answer_body3": ""
           }
+        },
+        "c6fe3430-c89b-430b-aae9-3cbbf8b9985c": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "Do Chinese herbal supplements cause side effects?",
+            "answer_header1": "N\/a",
+            "answer_body1": "<p>Chinese herbal supplements do not have side effects when used correctly. Always consult with your health care practitioner if you are using medication as there can be counter interactions with traditional Chinese medicine. Our online store carries the most common and popular traditional Chinese herbal medicine you can buy online.<\/p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
         }
       },
       "block_order": [
@@ -183,7 +196,8 @@
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
         "af824d23-c23a-4d5f-8229-c731b4ce0fc2",
-        "f7779f47-dc07-4684-ac05-bc09b07c4e87"
+        "f7779f47-dc07-4684-ac05-bc09b07c4e87",
+        "c6fe3430-c89b-430b-aae9-3cbbf8b9985c"
       ],
       "custom_css": [
         "p {margin-bottom: 15px;}"
