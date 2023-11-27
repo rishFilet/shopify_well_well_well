@@ -127,7 +127,7 @@
     "header_cart_icon": "icon-cart",
     "product_sales_badge_style": "percentile",
     "product_option_style": "select",
-    "product_show_stock_level": "prod-page",
+    "product_show_stock_level": "hidden",
     "product_low_stock_threshold": 5,
     "in_stock_notification_form": "inline",
     "swatches_enable": false,
