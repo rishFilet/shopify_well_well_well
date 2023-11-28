@@ -29,7 +29,8 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
-        "show_collection_image": false,
+        "show_collection_title": true,
+        "show_collection_image": true,
         "products_per_page_range": 24,
         "pagination": "traditional",
         "sort_by": true,
@@ -110,7 +111,6 @@
     },
     "1658876402d84519ab": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "165887640235a0874a-0": {
           "type": "faq",
@@ -199,6 +199,7 @@
         "f7779f47-dc07-4684-ac05-bc09b07c4e87",
         "6de8cb85-e8ce-4aab-806d-7863995aaa6c"
       ],
+      "disabled": true,
       "custom_css": [
         "p {margin-bottom: 15px;}"
       ],
@@ -223,7 +224,6 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
@@ -270,6 +270,7 @@
         "f30a3653-040d-48c1-9b11-7ca6544a04c9",
         "a73dc037-8196-4bfa-8a22-355fb4d88f49"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "div",
         "section_title": "FAQ",
