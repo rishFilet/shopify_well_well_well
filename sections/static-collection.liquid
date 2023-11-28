@@ -70,18 +70,10 @@
   {% endif %}
 {%- endcapture -%}
 
-{% if section.settings.show_collection_image %}
-  
-        <div class="
-        alt-img-with-text--content
-        onboarding
-        image-right
-        image-top" style="display: none;">
+  {% if section.settings.show_collection_image %}
+        <div class="image_text_colls" style="display: none;">
         {% if collection.image %}
-          <div class="
-            height-natural
-            alt-img-with-text--image
-            image-desktop">
+          <div class="coll_image">
             <figure class="collection--image">
               {%
                 include 'rimg',
