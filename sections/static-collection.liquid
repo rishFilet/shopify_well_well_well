@@ -70,6 +70,49 @@
   {% endif %}
 {%- endcapture -%}
 
+{% if section.settings.show_collection_image %}
+  
+        <div class="
+        alt-img-with-text--content
+        onboarding
+        image-right
+        image-top">
+        {% if collection.image %}
+          <div class="
+            height-natural
+            alt-img-with-text--image
+            image-desktop">
+            <figure class="collection--image">
+              {%
+                include 'rimg',
+                img: collection.image,
+                size: '1350x',
+                lazy: settings.lazy_load,
+                canvas: settings.lazy_load
+              %}
+            </figure>
+          </div>
+        {% endif %}
+
+        <div class="collection--information 
+          alt-img-with-text--text
+          position-middle
+          alignment-center">
+          {% if section.settings.show_collection_title %}
+          <h1 class="collection--title">
+            {{ collection.title }}
+          </h1>
+           {% endif %}
+          {% if collection.description != blank %}
+            <div class="collection--description rte">
+              {{ collection.description }}
+            </div>
+          {% endif %}
+        </div>
+        </div>
+
+  {% endif %}
+
 {% paginate collection.products by paginate_by %}
   <div class="productgrid--outer {{ collection_classes | strip_newlines }}">
     {% if show_sidebar %}
@@ -266,30 +309,7 @@
         pagination_type: section.settings.pagination
       %}
     </div>
-    {% if section.settings.show_collection_image and collection.image %}
-          <figure class="collection--image">
-            {%
-              include 'rimg',
-              img: collection.image,
-              size: '1350x',
-              lazy: settings.lazy_load,
-              canvas: settings.lazy_load
-            %}
-          </figure>
-        {% endif %}
-
-        <div class="collection--information">
-          {% if section.settings.show_collection_title %}
-          <h1 class="collection--title">
-            {{ collection.title }}
-          </h1>
-           {% endif %}
-          {% if collection.description != blank %}
-            <div class="collection--description rte">
-              {{ collection.description }}
-            </div>
-          {% endif %}
-        </div>
+    
   </div>
   {% endpaginate %}
   </div>
