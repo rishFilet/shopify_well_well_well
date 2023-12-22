@@ -24,7 +24,7 @@
   {% assign product_available = product.available %}
   {% assign product_title = product.title %}
   {% assign product_vendor = product.vendor %}
-  {% assign product_link = product.url | within: collection %}
+  {% assign product_link = product.url %}
   {% capture product_description %}{%- include 'shortcode-readmore', text: product.description, before_readmore: true -%}{% endcapture %}
   {% assign product_description = product_description | strip_html %}
   {% assign product_description_size = product_description | strip_html | size %}
