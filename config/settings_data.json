@@ -326,7 +326,7 @@
               "button_four_label": "",
               "button_four_link": "",
               "button_four_style": "primary",
-              "overlay_style": "solid",
+              "overlay_style": "none",
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
