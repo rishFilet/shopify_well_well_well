@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "header_layout": "basic",
@@ -148,9 +157,9 @@
     "product_grid_image_crop": false,
     "product_grid_show_quickshop": "always",
     "product_grid_show_atc": "desktop",
-    "social_facebook": "https:\/\/www.facebook.com\/wellwellwellnc\/",
-    "social_pinterest": "https:\/\/www.pinterest.ca\/wellwellwellnc\/",
-    "social_instagram": "https:\/\/www.instagram.com\/wellwellwellnc\/?hl=en",
+    "social_facebook": "https://www.facebook.com/wellwellwellnc/",
+    "social_pinterest": "https://www.pinterest.ca/wellwellwellnc/",
+    "social_instagram": "https://www.instagram.com/wellwellwellnc/?hl=en",
     "social_email": "",
     "custom_styles": ".site-logo {\njustify-content: left;\npadding-left: 0;\n}\n@media only screen and (min-width: 1200px) {\n.logolist--inner{\n flex-wrap: nowrap;\n}\n.logolist--item{\n margin-top: 0;\n}\n}",
     "preload_styles": "await_all_styles",
@@ -185,7 +194,7 @@
             "type": "rich_text",
             "settings": {
               "title": "Contact",
-              "text": "<p><strong>Address:<br\/><\/strong>318 Ontario St. <br\/>St. Catharines, ON<br\/>L2R 5L8<br\/><br\/><strong>Email:<\/strong> info@wellwellwellnc.com<br\/><br\/><strong>Phone:<\/strong> 1-905-684-2276<\/p>"
+              "text": "<p><strong>Address:<br/></strong>318 Ontario St. <br/>St. Catharines, ON<br/>L2R 5L8<br/><br/><strong>Email:</strong> info@wellwellwellnc.com<br/><br/><strong>Phone:</strong> 1-905-684-2276</p>"
             }
           },
           "1554840343056": {
@@ -209,7 +218,7 @@
             "type": "newsletter",
             "settings": {
               "title": "Subscribe",
-              "text": "<p>Invite customers to join your mailing list.<\/p>",
+              "text": "<p>Invite customers to join your mailing list.</p>",
               "button_style": "primary"
             }
           }
@@ -235,9 +244,9 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "<strong>FREE SHIPPING IN ONTARIO $59.99+* <\/strong><i class=\"fa fa-truck\" style=\" transform: scaleX(-1); font-size: 20px\"><\/i> |\n\nCurb side pick up available in St. Catharines",
+          "announcement_text": "<strong>FREE SHIPPING IN ONTARIO $59.99+* </strong><i class=\"fa fa-truck\" style=\" transform: scaleX(-1); font-size: 20px\"></i> |\n\nCurb side pick up available in St. Catharines",
           "announcement_text_mobile": "",
-          "announcement_link": "https:\/\/www.wellwellwellnc.com\/pages\/in-store-pickup-curbside",
+          "announcement_link": "https://www.wellwellwellnc.com/pages/in-store-pickup-curbside",
           "announcement_color": "#212121",
           "announcement_background": "#e7e7e6"
         }
@@ -300,14 +309,14 @@
             "type": "slide",
             "disabled": true,
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/Website_-_Home_Page_Banner_1_e2f0d3e1-b44b-497e-b04e-4ac364639ba5.png",
+              "background_image": "shopify://shop_images/Website_-_Home_Page_Banner_1_e2f0d3e1-b44b-497e-b04e-4ac364639ba5.png",
               "title": "",
               "text": "",
               "color": "#ffffff",
               "link": "",
               "text_alignment": "center",
               "button_one_label": "",
-              "button_one_link": "https:\/\/www.wellwellwellnc.com\/collections\/birthday-sale?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
+              "button_one_link": "https://www.wellwellwellnc.com/collections/birthday-sale?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
               "button_one_style": "primary",
               "button_two_label": "",
               "button_two_link": "",
@@ -326,11 +335,11 @@
           "static-slideshow-0": {
             "type": "slide",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/Website_-_Home_Page_Banner_1.png",
+              "background_image": "shopify://shop_images/Website_-_Home_Page_Banner_1.png",
               "title": "",
               "text": "",
               "color": "#ffffff",
-              "link": "https:\/\/www.wellwellwellnc.com\/products\/naka-ultra-collagenb-1000mg-125-tablets?_pos=1&_sid=78d41ce55&_ss=r",
+              "link": "https://www.wellwellwellnc.com/products/naka-ultra-collagenb-1000mg-125-tablets?_pos=1&_sid=78d41ce55&_ss=r",
               "text_alignment": "center",
               "button_one_label": "",
               "button_one_link": "",
@@ -352,11 +361,11 @@
           "9b103a35-6562-4625-aca7-cf66fec74e14": {
             "type": "slide",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/www_Banner_-_TCM.png",
+              "background_image": "shopify://shop_images/www_Banner_-_TCM.png",
               "title": "",
               "text": "",
               "color": "#1b2120",
-              "link": "https:\/\/www.wellwellwellnc.com\/collections\/traditional-chinese-medicine?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
+              "link": "https://www.wellwellwellnc.com/collections/traditional-chinese-medicine?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
               "text_alignment": "center",
               "button_one_label": "",
               "button_one_link": "",
@@ -379,25 +388,51 @@
             "type": "slide",
             "disabled": true,
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/Shopify_Banner_4bce3c81-bbd9-4c13-afd9-790bdcda01f3.png",
+              "background_image": "shopify://shop_images/Shopify_Banner_4bce3c81-bbd9-4c13-afd9-790bdcda01f3.png",
               "title": "",
               "text": "",
               "color": "#1b2120",
-              "link": "https:\/\/www.wellwellwellnc.com\/search?type=article%2Cpage%2Cproduct&q=sale*",
+              "link": "https://www.wellwellwellnc.com/search?type=article%2Cpage%2Cproduct&q=sale*",
               "text_alignment": "center",
               "button_one_label": "",
-              "button_one_link": "shopify:\/\/collections\/sale-bogo-deals",
+              "button_one_link": "shopify://collections/sale-bogo-deals",
               "button_one_style": "primary",
               "button_two_label": "",
               "button_two_link": "",
               "button_two_style": "primary",
               "button_three_label": "",
-              "button_three_link": "shopify:\/\/collections\/sale-bogo-deals",
+              "button_three_link": "shopify://collections/sale-bogo-deals",
               "button_three_style": "primary",
               "button_four_label": "",
-              "button_four_link": "https:\/\/www.wellwellwellnc.com\/search?type=article%2Cpage%2Cproduct&q=sale*",
+              "button_four_link": "https://www.wellwellwellnc.com/search?type=article%2Cpage%2Cproduct&q=sale*",
               "button_four_style": "primary",
               "overlay_style": "none",
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
+          "slide_phmmiH": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify://shop_images/Newspaper_Banner_1.png",
+              "title": "",
+              "text": "",
+              "color": "#FFFFFF",
+              "link": "",
+              "text_alignment": "left",
+              "button_one_label": "",
+              "button_one_link": "",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "button_three_label": "",
+              "button_three_link": "",
+              "button_three_style": "primary",
+              "button_four_label": "",
+              "button_four_link": "",
+              "button_four_style": "primary",
+              "overlay_style": "solid",
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
@@ -407,7 +442,8 @@
           "ac4196b2-03a2-4200-ae73-414037509860",
           "static-slideshow-0",
           "9b103a35-6562-4625-aca7-cf66fec74e14",
-          "static-slideshow-1"
+          "static-slideshow-1",
+          "slide_phmmiH"
         ],
         "settings": {
           "show_slideshow": true,
@@ -423,10 +459,10 @@
           "full_width_header": false,
           "menu": "main-menu",
           "navigation_layout": "inside",
-          "desktop_logo": "shopify:\/\/shop_images\/www_Logo_red.png",
+          "desktop_logo": "shopify://shop_images/www_Logo_red.png",
           "desktop_logo_height": 40,
           "desktop_logo_position": "left",
-          "mobile_logo": "shopify:\/\/shop_images\/www_Logo_red.png",
+          "mobile_logo": "shopify://shop_images/www_Logo_red.png",
           "mobile_logo_height": 30,
           "mobile_logo_position": "left",
           "border_enabled": false,
