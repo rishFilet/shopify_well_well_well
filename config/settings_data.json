@@ -307,6 +307,7 @@
         "blocks": {
           "ac4196b2-03a2-4200-ae73-414037509860": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "background_image": "shopify://shop_images/Screen_Shot_2024-10-02_at_8.38.39_AM.png",
               "title": "",
