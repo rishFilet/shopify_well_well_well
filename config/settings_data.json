@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "header_layout": "basic",
@@ -171,8 +171,7 @@
         "blocks": {
           "1554839628889": {
             "type": "meganav_images",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -211,8 +210,7 @@
           },
           "1556830983585": {
             "type": "social_accounts",
-            "settings": {
-            }
+            "settings": {}
           },
           "7c9d45f4-0aa1-4516-a477-896f207c18ca": {
             "type": "newsletter",
@@ -429,7 +427,7 @@
         "type": "static-basic-header",
         "settings": {
           "sticky_header": true,
-          "full_width_header": false,
+          "full_width_header": true,
           "menu": "main-menu",
           "navigation_layout": "inside",
           "desktop_logo": "shopify://shop_images/www_Logo_red.png",
@@ -447,9 +445,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Fashion": {
@@ -559,8 +555,7 @@
           "blocks": {
             "1554839628889": {
               "type": "meganav_images",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -581,28 +576,23 @@
           "blocks": {
             "1556830983585": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             },
             "1556673029169": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1554840343056": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "static-footer-0": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1554840346810": {
               "type": "rich_text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -630,8 +620,7 @@
           "blocks": {
             "1556742300890": {
               "type": "meganav_images",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -755,28 +744,23 @@
           "blocks": {
             "1556650065157": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             },
             "1556650150937": {
               "type": "rich_text",
-              "settings": {
-              }
+              "settings": {}
             },
             "static-footer-0": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1556650068381": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "static-footer-1": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -936,8 +920,7 @@
           "blocks": {
             "1554839628889": {
               "type": "meganav_images",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -958,28 +941,23 @@
           "blocks": {
             "1567551502170": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             },
             "static-footer-1": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1567572112471": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1568042181795": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1567572152173": {
               "type": "rich_text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1272,28 +1250,23 @@
           "blocks": {
             "1556830983585": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             },
             "1585185262227": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1554840343056": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1556673029169": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1585616544628": {
               "type": "rich_text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1434,8 +1407,7 @@
           "blocks": {
             "1554839628889": {
               "type": "meganav_images",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1455,28 +1427,23 @@
           "blocks": {
             "static-footer-1": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1563816801803": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "1563816806952": {
               "type": "menu",
-              "settings": {
-              }
+              "settings": {}
             },
             "static-footer-2": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             },
             "1564173046372": {
               "type": "social_accounts",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -1486,8 +1453,7 @@
             "static-footer-2",
             "1564173046372"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "static-announcement": {
           "type": "static-announcement",
