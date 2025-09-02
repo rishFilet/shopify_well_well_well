@@ -341,7 +341,7 @@
         "ai_gen_block_da13a37_Gjz8WQ": {
           "type": "ai_gen_block_da13a37",
           "settings": {
-            "auto_clean": false,
+            "auto_clean": true,
             "excluded_parameters": "",
             "notification_title": "Clean URL detected",
             "notification_message": "Empty filter parameters found in URL",
