@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -29,6 +38,7 @@
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
         "pagination": "traditional",
@@ -115,9 +125,9 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h1",
-            "question": "Vitamins & Health Supplements",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>At Well Well Well, with over 20 years of experience and expertise at our retail location we are able to curate and bring products to our customers that can aid and support in health conditions that customers are trying to improve upon. We are your one stop shop for vitamins and health supplements online in Canada and worldwide<\/p>",
+            "question": "What is seal oil and how is it different from fish oil?",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>At Well Well Well, with over 20 years of experience and expertise at our retail location we are able to curate and bring products to our customers that can aid and support in health conditions that customers are trying to improve upon. We are your one stop shop for vitamins and health supplements online in Canada and worldwide</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -129,8 +139,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "Well Well Well provides a wide selection of vitamins and supplements for in store shopping and online orders",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>At Well Well Well, we carry a wide selection of vitamins A-Z, superfoods, probiotics, minerals and more! It is critical to buy quality vitamins from trusted online retailers to properly supplement your diet for best results. Understanding where the products are sourced, the level of research and quality control are also very important factors. Our selection reflects those important points helping our customers find quality vitamin supplements in Canada. Order your vitamins and supplements online at Well Well Well.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>At Well Well Well, we carry a wide selection of vitamins A-Z, superfoods, probiotics, minerals and more! It is critical to buy quality vitamins from trusted online retailers to properly supplement your diet for best results. Understanding where the products are sourced, the level of research and quality control are also very important factors. Our selection reflects those important points helping our customers find quality vitamin supplements in Canada. Order your vitamins and supplements online at Well Well Well.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -142,8 +152,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "What are the best vitamins and supplements to help low energy and fatigue?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>At Well Well Well, we carry a wide selection of vitamins A-Z, superfoods, probiotics, minerals and more! It is critical to buy quality vitamins from trusted online retailers to properly supplement your diet for best results. Understanding where the products are sourced, the level of research and quality control are also very important factors. Our selection reflects those important points helping our customers find quality vitamin supplements in Canada. Order your vitamins and supplements online at Well Well Well.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>At Well Well Well, we carry a wide selection of vitamins A-Z, superfoods, probiotics, minerals and more! It is critical to buy quality vitamins from trusted online retailers to properly supplement your diet for best results. Understanding where the products are sourced, the level of research and quality control are also very important factors. Our selection reflects those important points helping our customers find quality vitamin supplements in Canada. Order your vitamins and supplements online at Well Well Well.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -155,8 +165,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "Do men and women require different vitamins and supplements?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>We have general immune strengthening multivitamins and gender and age specific multivitamins. A women's multivitamin will contain higher amounts of iron, while a men's multivitamin will contain ingredients like saw palmetto for the prostate. But there are vitamins that are both for both genders and ages like vitamin D. When buying health supplements online in Canada and worldwide we are your trusted source.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>We have general immune strengthening multivitamins and gender and age specific multivitamins. A women's multivitamin will contain higher amounts of iron, while a men's multivitamin will contain ingredients like saw palmetto for the prostate. But there are vitamins that are both for both genders and ages like vitamin D. When buying health supplements online in Canada and worldwide we are your trusted source.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -168,8 +178,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "Is it safe to take vitamins and dietary supplements?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Yes, vitamins and dietary supplements are safe to take. It is very important when shopping for supplements online or in-store in Canada or worldwide to first check in with your healthcare provider. There can be a number of vitamins and supplements that can have contraindications with medication. For the average healthy person it is safe to take vitamins.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Yes, vitamins and dietary supplements are safe to take. It is very important when shopping for supplements online or in-store in Canada or worldwide to first check in with your healthcare provider. There can be a number of vitamins and supplements that can have contraindications with medication. For the average healthy person it is safe to take vitamins.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -181,8 +191,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "Does choosing high quality vitamins and supplements make a difference?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>A high quality vitamin can make a difference as there will most likely be less fillers giving you faster results with long term benefits. At Well Well Well, we offer a huge variety and selection of high quality vitamins and health supplements. It can be incredibly overwhelming with the selection online, so why not buy supplements online in Canada and worldwide from your trusted retailer.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>A high quality vitamin can make a difference as there will most likely be less fillers giving you faster results with long term benefits. At Well Well Well, we offer a huge variety and selection of high quality vitamins and health supplements. It can be incredibly overwhelming with the selection online, so why not buy supplements online in Canada and worldwide from your trusted retailer.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -202,7 +212,7 @@
         "p {margin-bottom: 15px;}"
       ],
       "settings": {
-        "heading_tag": "div",
+        "heading_tag": "h1",
         "section_title": "FAQ",
         "section_title_padding": 20,
         "title_font_size": 18,
@@ -222,15 +232,14 @@
     },
     "166241216911d630ec": {
       "type": "faq-accordian",
-      "disabled": true,
       "blocks": {
         "16624121685d5ecaae-0": {
           "type": "faq",
           "settings": {
             "heading_tag": "h3",
             "question": "What vitamins should I take daily?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Finding the right vitamin supplements is not a one size fits all kind of situation. It is important to find vitamins that target your specific demographic. For instance, if you are pregnant or breastfeeding, you will look for prenatal multivitamins. People who are vegetarian or vegan can also benefit from taking vitamins that help with vitamins and minerals that they may have overlooked in their diet. Folks over the age of 50 and even children, especially children who are picky about what foods they eat. Sometimes there are situations where you are limited in what you can eat and a multivitamin can help you supplement your diet to get the necessary nutrients into your body.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Finding the right vitamin supplements is not a one size fits all kind of situation. It is important to find vitamins that target your specific demographic. For instance, if you are pregnant or breastfeeding, you will look for prenatal multivitamins. People who are vegetarian or vegan can also benefit from taking vitamins that help with vitamins and minerals that they may have overlooked in their diet. Folks over the age of 50 and even children, especially children who are picky about what foods they eat. Sometimes there are situations where you are limited in what you can eat and a multivitamin can help you supplement your diet to get the necessary nutrients into your body.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -242,8 +251,8 @@
           "settings": {
             "heading_tag": "h3",
             "question": "What vitamins should you not take together?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>There are a number of vitamins or herbs that you should not take together. Before purchasing vitamins in-store or buying vitamin supplements online it is always important to contact your healthcare provider and\/or your pharmacist to make certain that there are no contraindications revolving around the medications and potential supplements you will be taking. If you are pregnant or breastfeeding, it is always important to consult your healthcare practitioner and follow instructions regarding what vitamin supplements you should or should not take. If you have any health conditions such as cholesterol, hypertension, or are on any type of medications, it is also important to consult your healthcare practitioner and a pharmacist.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>There are a number of vitamins or herbs that you should not take together. Before purchasing vitamins in-store or buying vitamin supplements online it is always important to contact your healthcare provider and/or your pharmacist to make certain that there are no contraindications revolving around the medications and potential supplements you will be taking. If you are pregnant or breastfeeding, it is always important to consult your healthcare practitioner and follow instructions regarding what vitamin supplements you should or should not take. If you have any health conditions such as cholesterol, hypertension, or are on any type of medications, it is also important to consult your healthcare practitioner and a pharmacist.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -255,8 +264,8 @@
           "settings": {
             "heading_tag": "h4",
             "question": "Do I need vitamin supplements?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Depending on your diet and lifestyle, vitamin supplements can be of great help to aid in your overall health and wellbeing. One-third of Canadians suffer from vitamin D deficiency which is very important for healthy bones. It is very difficult to find vitamin D in foods and our main source of vitamin D is sunshine. Due to long Canadian winters, oftentimes, people are unable to get the required minimum daily 20 minutes of sunshine. As a result many Canadians require vitamin D supplementation. Vitamin D has also been shown to improve athletic performance.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Depending on your diet and lifestyle, vitamin supplements can be of great help to aid in your overall health and wellbeing. One-third of Canadians suffer from vitamin D deficiency which is very important for healthy bones. It is very difficult to find vitamin D in foods and our main source of vitamin D is sunshine. Due to long Canadian winters, oftentimes, people are unable to get the required minimum daily 20 minutes of sunshine. As a result many Canadians require vitamin D supplementation. Vitamin D has also been shown to improve athletic performance.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -268,8 +277,8 @@
           "settings": {
             "heading_tag": "h3",
             "question": "What happens when you start taking vitamins?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>When taking vitamin supplements, people will notice better energy levels, improved digestion, among a number of other benefits. The type of vitamins and supplements will ultimately determine what type of benefits you will notice upon consumption.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>When taking vitamin supplements, people will notice better energy levels, improved digestion, among a number of other benefits. The type of vitamins and supplements will ultimately determine what type of benefits you will notice upon consumption.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -283,6 +292,7 @@
         "a73dc037-8196-4bfa-8a22-355fb4d88f49",
         "2e38b6d5-cbea-4370-ba2a-f477c745092a"
       ],
+      "disabled": true,
       "settings": {
         "heading_tag": "h2",
         "section_title": "FAQ",
