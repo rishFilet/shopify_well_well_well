@@ -1,6 +1,462 @@
+{% doc %}
+  @prompt
+    Create a solution to prevent empty filter parameters (like grid_list=grid-view, filter.v.price.gte=, filter.v.price.lte=) from being added to collection URLs. The code should clean up URL parameters so that only parameters with actual values are included in the URL, resulting in cleaner collection URLs without unnecessary query strings.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-url-cleaner-{{ ai_gen_id }} {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    padding: 12px 16px;
+    border-radius: {{ block.settings.border_radius }}px;
+    font-size: 14px;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    max-width: 300px;}
+
+  .ai-url-cleaner-{{ ai_gen_id }}.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .ai-url-cleaner-toggle-{{ ai_gen_id }} {
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    padding: 8px 12px;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  .ai-url-cleaner-toggle-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_color }};
+  }
+
+  .ai-url-cleaner-status-{{ ai_gen_id }} {
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .ai-url-cleaner-details-{{ ai_gen_id }} {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+  }
+
+  {% if block.settings.show_debug %}
+    .ai-url-debug-{{ ai_gen_id }} {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 12px;
+      max-width: 400px;
+      z-index: 1001;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .ai-url-debug-title-{{ ai_gen_id }} {
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #495057;
+    }
+
+    .ai-url-debug-section-{{ ai_gen_id }} {
+      margin-bottom: 12px;
+    }
+
+    .ai-url-debug-label-{{ ai_gen_id }} {
+      font-weight: bold;
+      color: #6c757d;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .ai-url-debug-value-{{ ai_gen_id }} {
+      background-color: #e9ecef;
+      padding: 4px 8px;
+      border-radius: 4px;
+      word-break: break-all;
+      color: #495057;
+    }
+  {% endif %}
+
+  @media screen and (max-width: 768px) {
+    .ai-url-cleaner-{{ ai_gen_id }} {
+      bottom: 10px;
+      right: 10px;
+      left: 10px;
+      max-width: none;
+    }
+
+    {% if block.settings.show_debug %}
+      .ai-url-debug-{{ ai_gen_id }} {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        max-width: none;
+      }
+    {% endif %}
+  }
+{% endstyle %}
+
+<url-cleaner-{{ ai_gen_id }}
+  class="ai-url-cleaner-container-{{ ai_gen_id }}"
+  data-auto-clean="{{ block.settings.auto_clean }}"
+  data-excluded-params="{{ block.settings.excluded_parameters }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.show_debug %}
+    <div class="ai-url-debug-{{ ai_gen_id }}" id="ai-url-debug-{{ ai_gen_id }}">
+      <div class="ai-url-debug-title-{{ ai_gen_id }}">URL Cleaner Debug</div>
+      <div class="ai-url-debug-section-{{ ai_gen_id }}">
+        <span class="ai-url-debug-label-{{ ai_gen_id }}">Original URL:</span>
+        <div class="ai-url-debug-value-{{ ai_gen_id }}" id="ai-debug-original-{{ ai_gen_id }}"></div>
+      </div>
+      <div class="ai-url-debug-section-{{ ai_gen_id }}">
+        <span class="ai-url-debug-label-{{ ai_gen_id }}">Cleaned URL:</span>
+        <div class="ai-url-debug-value-{{ ai_gen_id }}" id="ai-debug-cleaned-{{ ai_gen_id }}"></div>
+      </div>
+      <div class="ai-url-debug-section-{{ ai_gen_id }}">
+        <span class="ai-url-debug-label-{{ ai_gen_id }}">Removed Parameters:</span>
+        <div class="ai-url-debug-value-{{ ai_gen_id }}" id="ai-debug-removed-{{ ai_gen_id }}"></div>
+      </div></div>
+  {% endif %}
+
+  <div class="ai-url-cleaner-{{ ai_gen_id }}" id="ai-url-cleaner-notification-{{ ai_gen_id }}">
+    <div class="ai-url-cleaner-status-{{ ai_gen_id }}" id="ai-url-status-{{ ai_gen_id }}"></div>
+    <div class="ai-url-cleaner-details-{{ ai_gen_id }}" id="ai-url-details-{{ ai_gen_id }}"></div>
+    <button
+      class="ai-url-cleaner-toggle-{{ ai_gen_id }}"
+      id="ai-url-clean-button-{{ ai_gen_id }}"
+      style="display: none;"
+    >
+      {{ block.settings.clean_button_text }}
+    </button>
+  </div>
+</url-cleaner-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    classUrlCleaner{{ai_gen_id}} extends HTMLElement {
+      constructor() {
+        super();
+        this.notification = null;
+        this.cleanButton = null;
+        this.statusElement = null;
+        this.detailsElement = null;
+        this.debugElements = {};
+        this.autoClean = false;
+        this.excludedParams = [];
+        this.cleanedUrl = '';
+        this.removedParams = [];
+      }
+
+      connectedCallback() {
+        this.notification = this.querySelector('#ai-url-cleaner-notification-{{ ai_gen_id }}');
+        this.cleanButton = this.querySelector('#ai-url-clean-button-{{ ai_gen_id }}');
+        this.statusElement = this.querySelector('#ai-url-status-{{ ai_gen_id }}');
+        this.detailsElement = this.querySelector('#ai-url-details-{{ ai_gen_id }}');
+        this.autoClean = this.dataset.autoClean === 'true';
+        this.excludedParams = this.dataset.excludedParams ? 
+          this.dataset.excludedParams.split(',').map(p => p.trim()) : [];
+
+        {% if block.settings.show_debug %}
+          this.debugElements = {
+            original: this.querySelector('#ai-debug-original-{{ ai_gen_id }}'),
+            cleaned: this.querySelector('#ai-debug-cleaned-{{ ai_gen_id }}'),
+            removed: this.querySelector('#ai-debug-removed-{{ ai_gen_id }}')
+          };
+        {% endif %}
+
+        this.init();
+      }
+
+      init() {
+        const currentUrl = window.location.href;
+        const hasEmptyParams = this.hasEmptyParameters(currentUrl);
+
+        {% if block.settings.show_debug %}
+          this.updateDebugInfo(currentUrl);
+        {% endif %}
+
+        if (hasEmptyParams) {
+          this.cleanedUrl = this.cleanUrl(currentUrl);
+          
+          if (this.autoClean) {
+            this.applyCleanUrl();
+          } else {
+            this.showNotification();
+          }
+        }
+
+        if (this.cleanButton) {
+          this.cleanButton.addEventListener('click', () => {
+            this.applyCleanUrl();
+          });
+        }
+      }
+
+      hasEmptyParameters(url) {
+        const urlObj = new URL(url);
+        const params = urlObj.searchParams;
+        for (const [key, value] of params.entries()) {
+          if (this.excludedParams.includes(key)) continue;
+          
+          if (value === '' || value === null || value === undefined) {
+            return true;
+          }
+          
+          if (key.startsWith('filter.') && (value === '' || value === '0' || value === 'false')) {
+            return true;
+          }
+          
+          if (key === 'grid_list' && value === 'grid-view') {
+            return true;
+          }
+        }
+        
+        return false;
+      }
+
+      cleanUrl(url) {
+        const urlObj = new URL(url);
+        const params = urlObj.searchParams;
+        const newParams = new URLSearchParams();
+        this.removedParams = [];
+
+        for (const [key, value] of params.entries()) {
+          let shouldKeep = true;
+          
+          if (this.excludedParams.includes(key)) {
+            newParams.append(key, value);
+            continue;
+          }
+
+          if (value === '' || value === null || value === undefined) {
+            shouldKeep = false;
+          } else if (key.startsWith('filter.') && (value === '' || value === '0' || value === 'false')) {
+            shouldKeep = false;
+          } else if (key === 'grid_list' && value === 'grid-view') {
+            shouldKeep = false;
+          }
+
+          if (shouldKeep) {
+            newParams.append(key, value);
+          } else {
+            this.removedParams.push(`${key}=${value}`);
+          }
+        }
+
+        const cleanedUrl = urlObj.origin + urlObj.pathname;
+        const queryString = newParams.toString();
+        
+        return queryString ? `${cleanedUrl}?${queryString}` : cleanedUrl;
+      }
+
+      showNotification() {
+        if (!this.notification) return;
+
+        this.statusElement.textContent = '{{ block.settings.notification_title }}';
+        this.detailsElement.textContent = `{{ block.settings.notification_message }} (${this.removedParams.length} parameters)`;
+        this.cleanButton.style.display = 'inline-block';
+        
+        this.notification.classList.add('show');
+
+        if ({{ block.settings.auto_hide_delay }} > 0) {
+          setTimeout(() => {
+            this.hideNotification();
+          }, {{ block.settings.auto_hide_delay }} * 1000);
+        }
+      }
+
+      hideNotification() {
+        if (this.notification) {
+          this.notification.classList.remove('show');}
+      }
+
+      applyCleanUrl() {
+        if (this.cleanedUrl && this.cleanedUrl !== window.location.href) {
+          window.history.replaceState({}, '', this.cleanedUrl);
+          if (this.autoClean) {
+            this.statusElement.textContent = '{{ block.settings.auto_clean_message }}';
+            this.detailsElement.textContent = `Removed ${this.removedParams.length} empty parameters`;
+            this.cleanButton.style.display = 'none';
+            this.showNotification();
+          } else {
+            this.hideNotification();
+          }
+
+          {% if block.settings.show_debug %}
+            this.updateDebugInfo(window.location.href);
+          {% endif %}
+        }
+      }
+
+      {% if block.settings.show_debug %}
+        updateDebugInfo(currentUrl) {
+          if (!this.debugElements.original) return;
+
+          this.debugElements.original.textContent = currentUrl;
+          this.debugElements.cleaned.textContent = this.cleanedUrl || 'No changes needed';
+          this.debugElements.removed.textContent = this.removedParams.length > 0 ? 
+            this.removedParams.join(', ') : 'None';
+        }
+      {% endif %}
+    }
+
+    customElements.define('url-cleaner-{{ ai_gen_id }}', UrlCleaner{{ai_gen_id}});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "URL parameter cleaner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Behavior"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_clean",
+      "label": "Automatically clean URLs",
+      "info": "When enabled, empty parameters are removed immediately without user interaction",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "excluded_parameters",
+      "label": "Excluded parameters",
+      "info": "Comma-separated list of parameters to never remove (e.g., page, sort_by)",
+      "placeholder": "page, sort_by, q"
+    },
+    {
+      "type": "header",
+      "content": "Notification"
+    },
+    {
+      "type": "text",
+      "id": "notification_title",
+      "label": "Notification title",
+      "default": "Clean URL detected"
+    },
+    {
+      "type": "text",
+      "id": "notification_message",
+      "label": "Notification message",
+      "default": "Empty filter parameters found in URL"
+    },
+    {
+      "type": "text",
+      "id": "clean_button_text",
+      "label": "Clean button text",
+      "default": "Clean URL"
+    },
+    {
+      "type": "text",
+      "id": "auto_clean_message",
+      "label": "Auto clean message",
+      "default": "URL automatically cleaned"
+    },
+    {
+      "type": "range",
+      "id": "auto_hide_delay",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "Auto hide delay",
+      "info": "Set to 0 to disable auto-hide",
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#000f9f"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Debug"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_debug",
+      "label": "Show debug information",
+      "info": "Displays technical details about URL cleaning for development purposes",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "URL parameter cleaner"
+    }
+  ]
+}
 {% endschema %}
