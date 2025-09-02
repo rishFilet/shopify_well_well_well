@@ -125,9 +125,9 @@
           "type": "faq",
           "settings": {
             "heading_tag": "h2",
-            "question": "Buy All Natural Mother & Baby Organic Products Online or In-Store",
+            "question": "What is seal oil and how is it different from fish oil?",
             "answer_header1": "N/a",
-            "answer_body1": "<p>For parents it is imperative to have access to the right information and the proper resources to buy the best mom and baby care products. It is <br/>critical to establish healthy eating habits, the right supplementation <br/>to make certain that babies are getting the proper nutrition, at Well Well Well you will be able to select the right solutions for your needs from our extensive range of natural mother and baby health care products.</p><p></p>",
+            "answer_body1": "<p>Seal oil is a premium omega-3 supplement derived from seals, containing a unique combination of EPA, DHA, and DPA (docosapentaenoic acid). Unlike fish oil supplements, seal oil provides DPA omega-3, which is rare in fish oil and offers superior absorption. Seal oil supplements contain all three essential omega-3 fatty acids in a balanced ratio similar to human tissue composition, making it more bioavailable than traditional fish oil.</p>",
             "answer_header2": "",
             "answer_body2": "<p>When considering the best natural health care products for moms, it is important to find the right supplements starting from pregnancy. Searching for natural prenatal supplements and vitamins down to buying non toxic natural skin care and beauty products can be overwhelming for new Moms. Our selection is curated to ensure quality control with best industry practice. Since babies and children are much more susceptible to environmental toxins; they have developing digestive, endocrine, and reproductive systems along with a higher surface area to body weight ratio it is important to consider organic and non-toxic all natural baby care products designed specifically for mothers and babies. Now with industry standards established there are organic children's vitamins and organic prenatal vitamins available in Canada. They range from pre & post Natal vitamins & supplements, postpartum recovery supplements, nursing supplements with natural ingredients, lactation teas with organic ingredient, baby wipes, diaper rash products, eco friendly, chemical free, non-toxic and unscented baby wash and shampoos, creams, lotions, and much more. Many mother and baby care products will be labelled for: sensitive skin, baby skin, chemical free and much more. It is very important to understand the labels. At Well Well Well, we take great care in the selection of mom and baby care products we carry. We want to make certain that mothers feel confident in the types of natural baby care products that they are purchasing.</p>",
             "answer_header3": "",
@@ -209,7 +209,6 @@
         "f7779f47-dc07-4684-ac05-bc09b07c4e87",
         "6de8cb85-e8ce-4aab-806d-7863995aaa6c"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-bottom: 15px;}"
       ],
