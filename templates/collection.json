@@ -105,6 +105,7 @@
         "grid-tile-1",
         "grid-tile-2"
       ],
+      "disabled": true,
       "settings": {
         "enable": false,
         "title": "Grid",
