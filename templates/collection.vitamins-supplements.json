@@ -36,6 +36,7 @@
         "filter-1",
         "menu-1"
       ],
+      "disabled": true,
       "settings": {
         "show_breadcrumbs": true,
         "show_collection_title": true,
@@ -400,6 +401,7 @@
       "block_order": [
         "ai_gen_block_aa8805c_9ByFTy"
       ],
+      "disabled": true,
       "settings": {}
     }
   },
