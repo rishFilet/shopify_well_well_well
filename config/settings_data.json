@@ -429,7 +429,7 @@
           "sticky_header": true,
           "full_width_header": false,
           "menu": "main-menu",
-          "navigation_layout": "below",
+          "navigation_layout": "inside",
           "desktop_logo": "shopify://shop_images/www_Logo_red.png",
           "desktop_logo_height": 40,
           "desktop_logo_position": "left",
