@@ -29,13 +29,7 @@
       <link rel="preload" href="{{ 'customer_area.js' | shopify_asset_url }}" as="script">
     {%- endif -%}
 
-    {% if template == 'collection' %}
-<script>
-if (window.location.search.match(/[?&](grid_list=grid-view|filter\.v\.price\.[gl]te=)(&|$)/)) {
-  window.location.replace('{{ collection.url }}');
-}
-</script>
-{% endif %}
+    
 
     <title>
       {{- page_title -}}
