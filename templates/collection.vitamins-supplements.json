@@ -223,6 +223,7 @@
         "af824d23-c23a-4d5f-8229-c731b4ce0fc2",
         "f7779f47-dc07-4684-ac05-bc09b07c4e87"
       ],
+      "disabled": true,
       "custom_css": [
         "p {margin-bottom: 15px;}"
       ],
@@ -326,6 +327,46 @@
         "answer_body_margin_top": 0,
         "answer_body_margin_bottom": 0
       }
+    },
+    "faq_accordian_rwhbk6": {
+      "type": "faq-accordian",
+      "blocks": {
+        "faq_LQTpCA": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "",
+            "answer_header1": "",
+            "answer_body1": "",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_LQTpCA"
+      ],
+      "name": "FAQ Accordian",
+      "settings": {
+        "heading_tag": "div",
+        "section_title": "",
+        "section_title_padding": 20,
+        "title_font_size": 18,
+        "title_font_weight": 700,
+        "section_max_width": 700,
+        "section_margin": 20,
+        "question_font_size": 18,
+        "question_font_weight": 700,
+        "answer_header_font_size": 16,
+        "answer_header_font_weight": 700,
+        "answer_header_margin_top": 0,
+        "answer_header_margin_bottom": 0,
+        "answer_body_font_size": 14,
+        "answer_body_margin_top": 0,
+        "answer_body_margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -333,6 +374,7 @@
     "static-recently-viewed",
     "static-collection-promo-grid",
     "1658876402d84519ab",
-    "166241216911d630ec"
+    "166241216911d630ec",
+    "faq_accordian_rwhbk6"
   ]
 }
