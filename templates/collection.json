@@ -41,7 +41,7 @@
         "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
-        "pagination": "click_to_load",
+        "pagination": "traditional",
         "sort_by": true,
         "grid_list": true,
         "menu_depth_range": 1
