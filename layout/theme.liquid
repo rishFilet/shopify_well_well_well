@@ -271,19 +271,3 @@
     {% endif %}
   </body>
 </html>
-
-document.addEventListener('DOMContentLoaded', function() {
-  const filterForms = document.querySelectorAll('form[action*="collections"]');
-  
-  filterForms.forEach(form => {
-    form.addEventListener('submit', function(e) {
-      // Remove empty inputs before submitting
-      const inputs = form.querySelectorAll('input');
-      inputs.forEach(input => {
-        if (!input.value || input.value === '') {
-          input.removeAttribute('name');
-        }
-      });
-    });
-  });
-});
