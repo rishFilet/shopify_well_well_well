@@ -36,6 +36,7 @@
         "filter-1",
         "menu-1"
       ],
+      "disabled": true,
       "settings": {
         "show_breadcrumbs": true,
         "show_collection_title": false,
