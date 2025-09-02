@@ -134,6 +134,19 @@
             "answer_body3": ""
           }
         },
+        "faq_RQkCpk": {
+          "type": "faq",
+          "settings": {
+            "heading_tag": "h2",
+            "question": "What is seal oil and how is it different from fish oil?",
+            "answer_header1": "n/a",
+            "answer_body1": "<p>Seal oil is a premium omega-3 supplement derived from seals, containing a unique combination of EPA, DHA, and DPA (docosapentaenoic acid). Unlike fish oil supplements, seal oil provides DPA omega-3, which is rare in fish oil and offers superior absorption. Seal oil supplements contain all three essential omega-3 fatty acids in a balanced ratio similar to human tissue composition, making it more bioavailable than traditional fish oil.</p>",
+            "answer_header2": "",
+            "answer_body2": "",
+            "answer_header3": "",
+            "answer_body3": ""
+          }
+        },
         "165887640235a0874a-0": {
           "type": "faq",
           "settings": {
@@ -202,6 +215,7 @@
       },
       "block_order": [
         "40b2fd22-6ef9-4a79-9e45-c7e3a755e99d",
+        "faq_RQkCpk",
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
