@@ -43,7 +43,7 @@
         "products_per_page_range": 24,
         "pagination": "traditional",
         "sort_by": true,
-        "grid_list": true,
+        "grid_list": false,
         "menu_depth_range": 1
       }
     },
