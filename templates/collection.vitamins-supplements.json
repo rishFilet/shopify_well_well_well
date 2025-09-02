@@ -311,6 +311,29 @@
         "answer_body_margin_top": 0,
         "answer_body_margin_bottom": 0
       }
+    },
+    "175684513173618d1c": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5eee791_cxTFEj": {
+          "type": "ai_gen_block_5eee791",
+          "settings": {
+            "clean_on_load": true,
+            "auto_clean": true,
+            "debounce_delay": 500,
+            "remove_custom_empty": false,
+            "custom_parameters": "",
+            "update_browser_history": true,
+            "expose_global_method": false,
+            "enable_logging": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5eee791_cxTFEj"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -318,6 +341,7 @@
     "static-recently-viewed",
     "static-collection-promo-grid",
     "1658876402d84519ab",
-    "166241216911d630ec"
+    "166241216911d630ec",
+    "175684513173618d1c"
   ]
 }
