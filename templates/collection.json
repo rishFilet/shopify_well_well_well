@@ -37,11 +37,11 @@
         "menu-1"
       ],
       "settings": {
-        "show_breadcrumbs": false,
+        "show_breadcrumbs": true,
         "show_collection_title": false,
         "show_collection_image": false,
         "products_per_page_range": 24,
-        "pagination": "traditional",
+        "pagination": "click_to_load",
         "sort_by": true,
         "grid_list": true,
         "menu_depth_range": 1
