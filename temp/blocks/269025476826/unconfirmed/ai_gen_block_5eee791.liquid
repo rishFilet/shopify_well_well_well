@@ -1,6 +1,294 @@
+{% doc %}
+  @prompt
+    Create a JavaScript solution that automatically removes empty URL parameters from collection page URLs, specifically targeting parameters like grid_list, filter.v.price.gte, and filter.v.price.lte when they have empty values. The code should clean the URL without refreshing the page and maintain a clean collection URL structure.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-url-cleaner-{{ ai_gen_id }} {
+    display: none;
+  }
+{% endstyle %}
+
+<url-parameter-cleaner-{{ ai_gen_id }}
+  class="ai-url-cleaner-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+</url-parameter-cleaner-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    classUrlParameterCleaner{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.targetParams = [
+          'grid_list',
+          'filter.v.price.gte',
+          'filter.v.price.lte',
+          'filter.v.availability',
+          'filter.v.option.color',
+          'filter.v.option.size',
+          'filter.v.vendor',
+          'filter.v.product_type',
+          'filter.v.tag',
+          'sort_by'
+        ];
+        this.debounceDelay = {{ block.settings.debounce_delay }};
+        this.debounceTimer = null;
+      }
+
+      connectedCallback() {
+        this.initializeUrlCleaning();
+        this.setupEventListeners();
+      }
+
+      initializeUrlCleaning() {
+        if ({{ block.settings.clean_on_load | json }}) {
+          this.cleanUrlParameters();
+        }
+      }
+
+      setupEventListeners() {
+        if ({{ block.settings.auto_clean | json }}) {
+          window.addEventListener('popstate', () => {
+            this.debouncedCleanUrl();
+          });
+
+          const observer = new MutationObserver(() => {
+            this.debouncedCleanUrl();
+          });
+
+          observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+            attributes: true,
+            attributeFilter: ['href']
+          });document.addEventListener('click', (event) => {
+            const link = event.target.closest('a');
+            if (link && this.isCollectionUrl(link.href)) {
+              setTimeout(() => {
+                this.debouncedCleanUrl();
+              }, 100);
+            }
+          });
+
+          const forms = document.querySelectorAll('form[action*="/collections/"]');
+          forms.forEach(form => {
+            form.addEventListener('submit', () => {
+              setTimeout(() => {
+                this.debouncedCleanUrl();
+              }, 100);
+            });
+          });
+        }
+      }
+
+      debouncedCleanUrl() {
+        clearTimeout(this.debounceTimer);
+        this.debounceTimer = setTimeout(() => {
+          this.cleanUrlParameters();
+        }, this.debounceDelay);
+      }
+
+      isCollectionUrl(url) {
+        try {
+          const urlObj = new URL(url, window.location.origin);
+          return urlObj.pathname.includes('/collections/');
+        } catch {
+          return false;
+        }
+      }
+
+      cleanUrlParameters() {
+        if (!this.isCollectionUrl(window.location.href)) {
+          return;
+        }
+
+        const url = new URL(window.location.href);
+        const params = new URLSearchParams(url.search);
+        let hasChanges = false;
+
+        for (const [key, value] of params.entries()) {
+          if (this.shouldRemoveParameter(key, value)) {
+            params.delete(key);
+            hasChanges = true;
+          }
+        }
+
+        if (hasChanges) {
+          const newUrl = url.pathname + (params.toString() ? '?' + params.toString() : '');
+          
+          if ({{ block.settings.update_browser_history | json }}) {
+            window.history.replaceState(
+              { ...window.history.state },
+              document.title,
+              newUrl
+            );
+          }
+
+          if ({{ block.settings.enable_logging | json }}) {
+            console.log('URL cleaned:', {
+              original: window.location.href,
+              cleaned: newUrl,
+              removedParams: this.getRemovedParams(window.location.search, params.toString())
+            });
+          }
+
+          this.dispatchCleanEvent(window.location.href, newUrl);
+        }
+      }
+
+      shouldRemoveParameter(key, value) {
+        const cleanValue = value.trim();
+        
+        if (this.targetParams.includes(key) || key.startsWith('filter.')) {
+          return cleanValue === '' || 
+                 cleanValue === '0' || 
+                 cleanValue === 'null' || 
+                 cleanValue === 'undefined';
+        }
+
+        if ({{ block.settings.remove_custom_empty | json }}) {
+          const customParams = {{ block.settings.custom_parameters | split: ',' | json }};
+          if (customParams.includes(key)) {
+            return cleanValue === '';
+          }
+        }
+
+        return false;
+      }
+
+      getRemovedParams(originalSearch, newSearch) {
+        const originalParams = new URLSearchParams(originalSearch);
+        const newParams = new URLSearchParams(newSearch);
+        const removed = [];
+
+        for (const [key, value] of originalParams.entries()) {
+          if (!newParams.has(key)) {
+            removed.push({ key, value });
+          }
+        }
+
+        return removed;
+      }
+
+      dispatchCleanEvent(originalUrl, cleanedUrl) {
+        const event = new CustomEvent('urlParametersCleaned', {
+          detail: {
+            originalUrl,
+            cleanedUrl,
+            timestamp: new Date().toISOString()
+          },
+          bubbles: true
+        });
+        
+        this.dispatchEvent(event);
+      }
+
+      manualClean() {
+        this.cleanUrlParameters();
+      }
+    }
+
+    customElements.define('url-parameter-cleaner-{{ ai_gen_id }}', UrlParameterCleaner{{ ai_gen_id }});
+
+    if ({{ block.settings.expose_global_method | json }}) {
+      window.cleanCollectionUrl = function() {
+        const cleaner = document.querySelector('url-parameter-cleaner-{{ ai_gen_id }}');
+        if (cleaner) {
+          cleaner.manualClean();
+        }
+      };
+    }
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "URL parameter cleaner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Cleaning behavior"
+    },
+    {
+      "type": "checkbox",
+      "id": "clean_on_load",
+      "label": "Clean URL on page load",
+      "default": true,
+      "info": "Automatically clean empty parameters when the page loads"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_clean",
+      "label": "Auto-clean during navigation",
+      "default": true,
+      "info": "Continuously monitor and clean URLs during user navigation"
+    },
+    {
+      "type": "range",
+      "id": "debounce_delay",
+      "min": 100,
+      "max": 2000,
+      "step": 100,
+      "unit": "ms",
+      "label": "Debounce delay",
+      "default": 500,
+      "info": "Delay before cleaning URL to avoid excessive processing"
+    },
+    {
+      "type": "header",
+      "content": "Custom parameters"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_custom_empty",
+      "label": "Remove custom empty parameters",
+      "default": false,
+      "info": "Also remove custom parameters when they are empty"
+    },
+    {
+      "type": "text",
+      "id": "custom_parameters",
+      "label": "Custom parameter names",
+      "info": "Comma-separated list of additional parameter names to clean (e.g., custom_filter,my_param)",
+      "placeholder": "param1,param2,param3"
+    },
+    {
+      "type": "header",
+      "content": "Browser settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "update_browser_history",
+      "label": "Update browser history",
+      "default": true,
+      "info": "Update the browser URL without refreshing the page"
+    },
+    {
+      "type": "checkbox",
+      "id": "expose_global_method",
+      "label": "Expose global clean method",
+      "default": false,
+      "info": "Makes window.cleanCollectionUrl() available for manual cleaning"
+    },
+    {
+      "type": "header",
+      "content": "Development"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_logging",
+      "label": "Enable console logging",
+      "default": false,
+      "info": "Log cleaning actions to browser console for debugging"
+    }
+  ],
+  "presets": [
+    {
+      "name": "URL parameter cleaner"
+    }
+  ]
+}
 {% endschema %}
