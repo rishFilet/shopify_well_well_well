@@ -134,20 +134,6 @@
             "answer_body3": ""
           }
         },
-        "faq_RQkCpk": {
-          "type": "faq",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h2",
-            "question": "What is seal oil and how is it different from fish oil?",
-            "answer_header1": "n/a",
-            "answer_body1": "<p>Seal oil is a premium omega-3 supplement derived from seals, containing a unique combination of EPA, DHA, and DPA (docosapentaenoic acid). Unlike fish oil supplements, seal oil provides DPA omega-3, which is rare in fish oil and offers superior absorption. Seal oil supplements contain all three essential omega-3 fatty acids in a balanced ratio similar to human tissue composition, making it more bioavailable than traditional fish oil.</p>",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        },
         "165887640235a0874a-0": {
           "type": "faq",
           "settings": {
@@ -216,7 +202,6 @@
       },
       "block_order": [
         "40b2fd22-6ef9-4a79-9e45-c7e3a755e99d",
-        "faq_RQkCpk",
         "165887640235a0874a-0",
         "9d97513d-4fd6-471c-8ffb-deddf07280bb",
         "a703e36e-bcfb-4078-a1cf-37829fe4c11d",
@@ -326,46 +311,6 @@
         "answer_body_margin_top": 0,
         "answer_body_margin_bottom": 0
       }
-    },
-    "faq_accordian_rwhbk6": {
-      "type": "faq-accordian",
-      "blocks": {
-        "faq_LQTpCA": {
-          "type": "faq",
-          "settings": {
-            "heading_tag": "h2",
-            "question": "",
-            "answer_header1": "",
-            "answer_body1": "",
-            "answer_header2": "",
-            "answer_body2": "",
-            "answer_header3": "",
-            "answer_body3": ""
-          }
-        }
-      },
-      "block_order": [
-        "faq_LQTpCA"
-      ],
-      "name": "FAQ Accordian",
-      "settings": {
-        "heading_tag": "div",
-        "section_title": "",
-        "section_title_padding": 20,
-        "title_font_size": 18,
-        "title_font_weight": 700,
-        "section_max_width": 700,
-        "section_margin": 20,
-        "question_font_size": 18,
-        "question_font_weight": 700,
-        "answer_header_font_size": 16,
-        "answer_header_font_weight": 700,
-        "answer_header_margin_top": 0,
-        "answer_header_margin_bottom": 0,
-        "answer_body_font_size": 14,
-        "answer_body_margin_top": 0,
-        "answer_body_margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -373,7 +318,6 @@
     "static-recently-viewed",
     "static-collection-promo-grid",
     "1658876402d84519ab",
-    "166241216911d630ec",
-    "faq_accordian_rwhbk6"
+    "166241216911d630ec"
   ]
 }
