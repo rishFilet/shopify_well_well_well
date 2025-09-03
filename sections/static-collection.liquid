@@ -536,3 +536,41 @@
 }
 
 {% endschema %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Remove unwanted URL parameters
+  function cleanURL() {
+    const url = new URL(window.location);
+    const paramsToRemove = ['grid_list', 'filter.v.price.gte', 'filter.v.price.lte'];
+    
+    let hasChanges = false;
+    paramsToRemove.forEach(param => {
+      if (url.searchParams.has(param) && !url.searchParams.get(param)) {
+        url.searchParams.delete(param);
+        hasChanges = true;
+      }
+    });
+    
+    // Remove grid_list=grid-view specifically
+    if (url.searchParams.get('grid_list') === 'grid-view') {
+      url.searchParams.delete('grid_list');
+      hasChanges = true;
+    }
+    
+    if (hasChanges) {
+      window.history.replaceState({}, '', url.pathname + (url.search || ''));
+    }
+  }
+  
+  // Clean URL on page load
+  cleanURL();
+  
+  // Clean URL when filters are applied
+  document.addEventListener('submit', function(e) {
+    if (e.target.matches('form[action*="collections"]')) {
+      setTimeout(cleanURL, 100);
+    }
+  });
+});
+</script>
