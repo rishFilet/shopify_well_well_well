@@ -1,18 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "dynamic_search_YyRBmM": {
+      "type": "dynamic-search",
+      "name": "Search",
+      "settings": {
+        "title": "Search",
+        "subheading": "",
+        "heading_color": "#4D4D4D",
+        "subheading_color": "#4D4D4D",
+        "background_color": "",
+        "section_spacing_desktop": 50,
+        "section_spacing_mobile": 36,
+        "placeholder": "What are you looking for?",
+        "enable_live_search": false,
+        "live_search_content_types": "article,page,product",
+        "search_quick_links": "",
+        "position": "center-center",
+        "show-overlay": false,
+        "background": "#000000",
+        "opacity": 50
+      }
+    },
     "165057312002bcd50d": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
         "1650573120238fa006-0": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Traditional_Chinese_Medicine_TCM.png",
-            "mob_image": "shopify:\/\/shop_images\/Customer_Appreciation_Day.jpg",
+            "image": "shopify://shop_images/Traditional_Chinese_Medicine_TCM.png",
+            "mob_image": "shopify://shop_images/Customer_Appreciation_Day.jpg",
             "height": 350,
             "title": "",
             "text": "",
             "color": "#4d4d4d",
-            "block_link": "https:\/\/www.wellwellwellnc.com\/collections\/chinese-traditional-medicine?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
+            "block_link": "https://www.wellwellwellnc.com/collections/chinese-traditional-medicine?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
             "button_text": "",
             "button_style": "primary",
             "overlay_style": "none",
@@ -26,7 +56,7 @@
           "settings": {
             "height": 350,
             "title": "Mosaic",
-            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.<\/p>",
+            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news.</p>",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -64,7 +94,7 @@
           "settings": {
             "icon": "icon-delivery",
             "title": "Free shipping",
-            "text": "<p>In Ontario when you spend $59.99+* <\/p>",
+            "text": "<p>In Ontario when you spend $59.99+* </p>",
             "link": ""
           }
         },
@@ -73,7 +103,7 @@
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give us a call",
-            "text": "<p>+1 (905) 684 2276<\/p>",
+            "text": "<p>+1 (905) 684 2276</p>",
             "link": ""
           }
         },
@@ -83,7 +113,7 @@
           "settings": {
             "icon": "icon-chat-alternate",
             "title": "Chat with us",
-            "text": "<p>We offer 24-hour chat support<\/p>",
+            "text": "<p>We offer 24-hour chat support</p>",
             "link": ""
           }
         },
@@ -92,7 +122,7 @@
           "settings": {
             "icon": "icon-pin",
             "title": "Locations",
-            "text": "<p>Find a store near you<\/p>",
+            "text": "<p>Find a store near you</p>",
             "link": ""
           }
         }
@@ -123,7 +153,7 @@
           "type": "collection",
           "settings": {
             "collection": "natural-calm-sale",
-            "image": "shopify:\/\/shop_images\/9.png",
+            "image": "shopify://shop_images/9.png",
             "collection_label": "",
             "mobile_collection_label": ""
           }
@@ -132,7 +162,7 @@
           "type": "collection",
           "settings": {
             "collection": "sale-bogo-deals",
-            "image": "shopify:\/\/shop_images\/6_e9f80674-e4b9-4406-945c-d2a6c2fdf428.png",
+            "image": "shopify://shop_images/6_e9f80674-e4b9-4406-945c-d2a6c2fdf428.png",
             "collection_label": "",
             "mobile_collection_label": ""
           }
@@ -141,7 +171,7 @@
           "type": "collection",
           "settings": {
             "collection": "beauty-skin-care",
-            "image": "shopify:\/\/shop_images\/Beauty.jpg",
+            "image": "shopify://shop_images/Beauty.jpg",
             "collection_label": "",
             "mobile_collection_label": ""
           }
@@ -218,57 +248,57 @@
         "1658873486ad215190-0": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/15.jpg",
-            "link": "shopify:\/\/collections\/baby-mother"
+            "image": "shopify://shop_images/15.jpg",
+            "link": "shopify://collections/baby-mother"
           }
         },
         "1658873486ad215190-1": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/16.jpg",
-            "link": "shopify:\/\/collections\/beauty-skin-care"
+            "image": "shopify://shop_images/16.jpg",
+            "link": "shopify://collections/beauty-skin-care"
           }
         },
         "1658873486ad215190-2": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/17.jpg",
-            "link": "shopify:\/\/collections\/diet-fitness"
+            "image": "shopify://shop_images/17.jpg",
+            "link": "shopify://collections/diet-fitness"
           }
         },
         "1658873486ad215190-3": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/18.jpg",
-            "link": "shopify:\/\/collections\/online-health-food"
+            "image": "shopify://shop_images/18.jpg",
+            "link": "shopify://collections/online-health-food"
           }
         },
         "4e2812d7-444f-4cb1-b711-7f950f94a83a": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/19.jpg",
-            "link": "shopify:\/\/collections\/herbs"
+            "image": "shopify://shop_images/19.jpg",
+            "link": "shopify://collections/herbs"
           }
         },
         "557c91b2-441e-4e79-813a-8e391d6c3100": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20.jpg",
-            "link": "shopify:\/\/collections\/chinese-traditional-medicine"
+            "image": "shopify://shop_images/20.jpg",
+            "link": "shopify://collections/chinese-traditional-medicine"
           }
         },
         "93c4eb78-2114-425b-8cc5-a11e452655f7": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21.jpg",
-            "link": "shopify:\/\/collections\/vitamins-supplements"
+            "image": "shopify://shop_images/21.jpg",
+            "link": "shopify://collections/vitamins-supplements"
           }
         },
         "860f8f49-9946-4b93-b21f-25b81bf301ca": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/22.jpg",
-            "link": "shopify:\/\/collections\/brands"
+            "image": "shopify://shop_images/22.jpg",
+            "link": "shopify://collections/brands"
           }
         }
       },
@@ -300,8 +330,8 @@
           "settings": {
             "heading_tag": "h1",
             "question": "Organic & Plant Based Supplements, Vitamins, Food & More",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Well Well Well is your trusted natural health food supplement store. We are your Canadian online and in store vitamin one stop shop. We ship worldwide and we offer a wide range of organic and plant based vitamins, herbal remedies and even healthy organic snack foods.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Well Well Well is your trusted natural health food supplement store. We are your Canadian online and in store vitamin one stop shop. We ship worldwide and we offer a wide range of organic and plant based vitamins, herbal remedies and even healthy organic snack foods.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -313,8 +343,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "Dietary supplements and natural health products for all your individual needs",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>We are your trusted health food and vitamin supplement store in Canada and worldwide. Online supplement shopping can be overwhelming, why not buy from your trusted source. The categories on the website make it easier to find specific items for your individual needs. With over 25 years of being in business Well Well Well is the best nutrition store for your individual needs.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>We are your trusted health food and vitamin supplement store in Canada and worldwide. Online supplement shopping can be overwhelming, why not buy from your trusted source. The categories on the website make it easier to find specific items for your individual needs. With over 25 years of being in business Well Well Well is the best nutrition store for your individual needs.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -326,8 +356,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "What is Well Well Well's delivery area?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>In Ontario, we offer free shipping on your vitamins and supplements on orders over $59.99 before taxes, with some exclusions that may apply. We also ship vitamin orders outside of Ontario, this includes the rest of Canada and Internationally with some exclusions that may apply. But we are your preferred choice for supplements and free shipping in Ontario when you spend $59.99+.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>In Ontario, we offer free shipping on your vitamins and supplements on orders over $59.99 before taxes, with some exclusions that may apply. We also ship vitamin orders outside of Ontario, this includes the rest of Canada and Internationally with some exclusions that may apply. But we are your preferred choice for supplements and free shipping in Ontario when you spend $59.99+.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -339,8 +369,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "What types of products does Well Well Well carry?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Well Well Well carries all types of products ranging from natural beauty products, asian snacks, natural health products and herbal medicine. At our store we only carry reputable brands for our customers. We are your trusted one stop health food store in Canada and internationally.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Well Well Well carries all types of products ranging from natural beauty products, asian snacks, natural health products and herbal medicine. At our store we only carry reputable brands for our customers. We are your trusted one stop health food store in Canada and internationally.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -352,8 +382,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "Can I shop for my health food and supplements in store?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Yes, Well Well Well is also a brick and mortar natural vitamin and supplement store in St. Catharines. Our natural health food store has a large selection of natural health products as well as product specialists in store to help you find the products for your individual needs. <\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Yes, Well Well Well is also a brick and mortar natural vitamin and supplement store in St. Catharines. Our natural health food store has a large selection of natural health products as well as product specialists in store to help you find the products for your individual needs. </p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -365,8 +395,8 @@
           "settings": {
             "heading_tag": "h2",
             "question": "Featured Nutrition Products",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>At, Well Well Well we are your trusted natural health brick and mortar shop and health food and supplements online store. You can find everything from healthier snacks, beauty products as well as a comprehensive stock of supplements for all your needs. Our most products include collagen, Vitamin D3 and fish oils.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>At, Well Well Well we are your trusted natural health brick and mortar shop and health food and supplements online store. You can find everything from healthier snacks, beauty products as well as a comprehensive stock of supplements for all your needs. Our most products include collagen, Vitamin D3 and fish oils.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -409,8 +439,8 @@
           "settings": {
             "heading_tag": "h3",
             "question": "Are Health Food Stores Essential?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Natural food stores are classed as essential businesses as they offer products that help people stay healthy. People will often be searching for a ‘health food store near me’ because they need to eat organic, gluten free or low-fat foods for genuine health reasons, so it’s important for such stores to stay open whenever possible.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Natural food stores are classed as essential businesses as they offer products that help people stay healthy. People will often be searching for a ‘health food store near me’ because they need to eat organic, gluten free or low-fat foods for genuine health reasons, so it’s important for such stores to stay open whenever possible.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -422,8 +452,8 @@
           "settings": {
             "heading_tag": "h3",
             "question": "Are Health Food Store Vitamins Better?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Many customers who use generic stores for their vitamin requirements have found that many of the products don’t match their high expectations. It’s often better to search online for a local, dedicated ‘health supplement store near me’ when it comes to buying things like vitamins and supplements.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Many customers who use generic stores for their vitamin requirements have found that many of the products don’t match their high expectations. It’s often better to search online for a local, dedicated ‘health supplement store near me’ when it comes to buying things like vitamins and supplements.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -435,8 +465,8 @@
           "settings": {
             "heading_tag": "h3",
             "question": "What do Health Food Stores Sell?",
-            "answer_header1": "N\/a",
-            "answer_body1": "<p>Natural food grocery stores and health food stores sell a huge range of products. This includes vitamins and supplements, sports nutrition products, herbs used in traditional Chinese medicine, beauty care products, and both fresh and shelf-stable groceries and more. These specialist suppliers generally source their products with the consumer in mind rather than opting for the cheapest bulk buy options.<\/p>",
+            "answer_header1": "N/a",
+            "answer_body1": "<p>Natural food grocery stores and health food stores sell a huge range of products. This includes vitamins and supplements, sports nutrition products, herbs used in traditional Chinese medicine, beauty care products, and both fresh and shelf-stable groceries and more. These specialist suppliers generally source their products with the consumer in mind rather than opting for the cheapest bulk buy options.</p>",
             "answer_header2": "",
             "answer_body2": "",
             "answer_header3": "",
@@ -475,25 +505,25 @@
         "testimonial-3": {
           "type": "testimonial",
           "settings": {
-            "quote": "<p>Niagara Region has the very best nutritional centre I have ever walked into and Well Well Well deserves to be given top ratings for the extensive selection of every item you ever dreamed of for natural healthful vitality and 1000's of wonderful products<\/p>",
+            "quote": "<p>Niagara Region has the very best nutritional centre I have ever walked into and Well Well Well deserves to be given top ratings for the extensive selection of every item you ever dreamed of for natural healthful vitality and 1000's of wonderful products</p>",
             "show_quotations": true,
-            "citation": "<p><a href=\"https:\/\/www.google.com\/maps\/contrib\/118268265043339771464?hl=en-US&sa=X&ved=2ahUKEwickZfQj-f3AhWujIkEHdSnBUQQvvQBegQIARAq\">Dusty Martell<\/a><\/p>"
+            "citation": "<p><a href=\"https://www.google.com/maps/contrib/118268265043339771464?hl=en-US&sa=X&ved=2ahUKEwickZfQj-f3AhWujIkEHdSnBUQQvvQBegQIARAq\">Dusty Martell</a></p>"
           }
         },
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
-            "quote": "<p>Knowledgeable staff that will work with you rather than just push supplements AT you. Very happy with our visits! Fantastic source for info on specialty diets. (gluten, dairy, sugar, etc) We even get out pets their holistic aids here. Very satisfied!<\/p>",
+            "quote": "<p>Knowledgeable staff that will work with you rather than just push supplements AT you. Very happy with our visits! Fantastic source for info on specialty diets. (gluten, dairy, sugar, etc) We even get out pets their holistic aids here. Very satisfied!</p>",
             "show_quotations": true,
-            "citation": "<p>Dana P<\/p>"
+            "citation": "<p>Dana P</p>"
           }
         },
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
-            "quote": "<p>I have shopped here for 15 years. Good supplements  and the best advice. Advisors take time to answer questions and give counsel with up-to date information and thoughtful analysis of individual needs, etc.<\/p>",
+            "quote": "<p>I have shopped here for 15 years. Good supplements  and the best advice. Advisors take time to answer questions and give counsel with up-to date information and thoughtful analysis of individual needs, etc.</p>",
             "show_quotations": true,
-            "citation": "<p><a href=\"https:\/\/www.google.com\/maps\/contrib\/116310590006848236223?hl=en-US&sa=X&ved=2ahUKEwjS_urdj-f3AhXWjYkEHXknBmUQvvQBegQIARAD\">Lynne Teather<\/a><\/p>"
+            "citation": "<p><a href=\"https://www.google.com/maps/contrib/116310590006848236223?hl=en-US&sa=X&ved=2ahUKEwjS_urdj-f3AhXWjYkEHXknBmUQvvQBegQIARAD\">Lynne Teather</a></p>"
           }
         }
       },
@@ -536,7 +566,7 @@
       "disabled": true,
       "settings": {
         "title": "Newsletter",
-        "subheading": "<p>Invite customers to join your mailing list.<\/p>",
+        "subheading": "<p>Invite customers to join your mailing list.</p>",
         "heading_color": "#212121",
         "subheading_color": "#212121",
         "background_color": "#f2ece3",
@@ -554,7 +584,7 @@
           "settings": {
             "icon": "icon-delivery",
             "title": "Free shipping",
-            "text": "<p>When you spend $59.99+ ONTARIO<\/p>",
+            "text": "<p>When you spend $59.99+ ONTARIO</p>",
             "link": ""
           }
         },
@@ -562,9 +592,9 @@
           "type": "highlight",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/review-rating-2795_2.png",
+            "image": "shopify://shop_images/review-rating-2795_2.png",
             "title": "REVIEW",
-            "text": "<p>Leave us a Google Review<\/p>",
+            "text": "<p>Leave us a Google Review</p>",
             "link": ""
           }
         },
@@ -573,7 +603,7 @@
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give us a call",
-            "text": "<p>+1 (905) 684-2276<\/p>",
+            "text": "<p>+1 (905) 684-2276</p>",
             "link": ""
           }
         },
@@ -582,7 +612,7 @@
           "settings": {
             "icon": "icon-chat-alternate",
             "title": "Contact us",
-            "text": "<p>info@wellwellwellnc.com<\/p>",
+            "text": "<p>info@wellwellwellnc.com</p>",
             "link": ""
           }
         }
@@ -705,6 +735,7 @@
     }
   },
   "order": [
+    "dynamic_search_YyRBmM",
     "165057312002bcd50d",
     "highlights-banner",
     "collection-list-2",
