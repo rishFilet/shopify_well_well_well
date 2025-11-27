@@ -336,7 +336,7 @@
               "title": "",
               "text": "",
               "color": "#ffffff",
-              "link": "https://www.wellwellwellnc.com/products/minwell-seal-oil-2000mg-180-softgels",
+              "link": "",
               "text_alignment": "center",
               "button_one_label": "",
               "button_one_link": "",
@@ -350,7 +350,7 @@
               "button_four_label": "",
               "button_four_link": "",
               "button_four_style": "primary",
-              "overlay_style": "solid",
+              "overlay_style": "none",
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
