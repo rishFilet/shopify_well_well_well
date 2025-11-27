@@ -305,9 +305,8 @@
         "blocks": {
           "ac4196b2-03a2-4200-ae73-414037509860": {
             "type": "slide",
-            "disabled": true,
             "settings": {
-              "background_image": "shopify://shop_images/Screen_Shot_2024-10-02_at_8.38.39_AM.png",
+              "background_image": "shopify://shop_images/3.jpg",
               "title": "",
               "text": "",
               "color": "#ffffff",
@@ -324,6 +323,58 @@
               "button_three_style": "primary",
               "button_four_label": "",
               "button_four_link": "",
+              "button_four_style": "primary",
+              "overlay_style": "none",
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
+          "slide_QzjBJw": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify://shop_images/Website_-_Home_Page_Banner_10e2e25f-fbd9-4ee3-b5a6-cdb6f8f13167.jpg",
+              "title": "",
+              "text": "",
+              "color": "#ffffff",
+              "link": "",
+              "text_alignment": "center",
+              "button_one_label": "Button",
+              "button_one_link": "",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "button_three_label": "",
+              "button_three_link": "",
+              "button_three_style": "primary",
+              "button_four_label": "",
+              "button_four_link": "",
+              "button_four_style": "primary",
+              "overlay_style": "solid",
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
+          "static-slideshow-1": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify://shop_images/5.jpg",
+              "title": "",
+              "text": "",
+              "color": "#1b2120",
+              "link": "https://www.wellwellwellnc.com/search?type=article%2Cpage%2Cproduct&q=sale*",
+              "text_alignment": "center",
+              "button_one_label": "",
+              "button_one_link": "shopify://collections/sale-bogo-deals",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "button_three_label": "",
+              "button_three_link": "shopify://collections/sale-bogo-deals",
+              "button_three_style": "primary",
+              "button_four_label": "",
+              "button_four_link": "https://www.wellwellwellnc.com/search?type=article%2Cpage%2Cproduct&q=sale*",
               "button_four_style": "primary",
               "overlay_style": "none",
               "overlay_color": "#000000",
@@ -381,40 +432,14 @@
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
-          },
-          "static-slideshow-1": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "background_image": "shopify://shop_images/Shopify_Banner_4bce3c81-bbd9-4c13-afd9-790bdcda01f3.png",
-              "title": "",
-              "text": "",
-              "color": "#1b2120",
-              "link": "https://www.wellwellwellnc.com/search?type=article%2Cpage%2Cproduct&q=sale*",
-              "text_alignment": "center",
-              "button_one_label": "",
-              "button_one_link": "shopify://collections/sale-bogo-deals",
-              "button_one_style": "primary",
-              "button_two_label": "",
-              "button_two_link": "",
-              "button_two_style": "primary",
-              "button_three_label": "",
-              "button_three_link": "shopify://collections/sale-bogo-deals",
-              "button_three_style": "primary",
-              "button_four_label": "",
-              "button_four_link": "https://www.wellwellwellnc.com/search?type=article%2Cpage%2Cproduct&q=sale*",
-              "button_four_style": "primary",
-              "overlay_style": "none",
-              "overlay_color": "#000000",
-              "overlay_opacity": 50
-            }
           }
         },
         "block_order": [
           "ac4196b2-03a2-4200-ae73-414037509860",
+          "slide_QzjBJw",
+          "static-slideshow-1",
           "static-slideshow-0",
-          "9b103a35-6562-4625-aca7-cf66fec74e14",
-          "static-slideshow-1"
+          "9b103a35-6562-4625-aca7-cf66fec74e14"
         ],
         "settings": {
           "show_slideshow": true,
