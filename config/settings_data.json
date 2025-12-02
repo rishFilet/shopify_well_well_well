@@ -305,6 +305,7 @@
         "blocks": {
           "ac4196b2-03a2-4200-ae73-414037509860": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "background_image": "shopify://shop_images/3.jpg",
               "title": "",
@@ -331,6 +332,7 @@
           },
           "slide_QzjBJw": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "background_image": "shopify://shop_images/5.jpg",
               "title": "",
@@ -357,6 +359,7 @@
           },
           "static-slideshow-1": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "background_image": "shopify://shop_images/Website_-_Home_Page_Banner_829e317c-66b8-4511-9578-cb7a0d2fea80.png",
               "title": "",
