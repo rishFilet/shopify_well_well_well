@@ -303,6 +303,32 @@
       "static-slideshow": {
         "type": "static-slideshow",
         "blocks": {
+          "slide_dec3bp": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify://shop_images/5.png",
+              "title": "",
+              "text": "",
+              "color": "#ffffff",
+              "link": "https://www.wellwellwellnc.com/products/minwell-seal-oil-2000mg-180-softgels?_pos=1&_sid=b6ce88a04&_ss=r",
+              "text_alignment": "center",
+              "button_one_label": "",
+              "button_one_link": "",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "https://www.wellwellwellnc.com/products/minwell-seal-oil-2000mg-180-softgels?_pos=1&_sid=b6ce88a04&_ss=r",
+              "button_two_style": "primary",
+              "button_three_label": "",
+              "button_three_link": "",
+              "button_three_style": "primary",
+              "button_four_label": "",
+              "button_four_link": "",
+              "button_four_style": "primary",
+              "overlay_style": "none",
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
           "ac4196b2-03a2-4200-ae73-414037509860": {
             "type": "slide",
             "disabled": true,
@@ -332,9 +358,8 @@
           },
           "slide_QzjBJw": {
             "type": "slide",
-            "disabled": true,
             "settings": {
-              "background_image": "shopify://shop_images/5.jpg",
+              "background_image": "shopify://shop_images/4.png",
               "title": "",
               "text": "",
               "color": "#ffffff",
@@ -438,6 +463,7 @@
           }
         },
         "block_order": [
+          "slide_dec3bp",
           "ac4196b2-03a2-4200-ae73-414037509860",
           "slide_QzjBJw",
           "static-slideshow-1",
@@ -473,14 +499,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "14826766009936288847": {
-        "type": "shopify://apps/discounty/blocks/sdk/d65eb522-0d94-499f-9831-d4b3301f5340",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Fashion": {
