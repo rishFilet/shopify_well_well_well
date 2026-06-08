@@ -305,6 +305,7 @@
         "blocks": {
           "slide_QzjBJw": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "background_image": "shopify://shop_images/4.png",
               "title": "",
