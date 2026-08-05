@@ -330,6 +330,32 @@
               "overlay_opacity": 50
             }
           },
+          "ac4196b2-03a2-4200-ae73-414037509860": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify://shop_images/Website_-_Home_Page_Banner_1_0aad5f34-df41-4e5d-a4a2-7de169d33027.png",
+              "title": "",
+              "text": "",
+              "color": "#ffffff",
+              "link": "https://www.wellwellwellnc.com/products/minwell-seal-oil-2000mg-180-softgels",
+              "text_alignment": "center",
+              "button_one_label": "",
+              "button_one_link": "https://www.wellwellwellnc.com/collections/birthday-sale?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "button_three_label": "",
+              "button_three_link": "",
+              "button_three_style": "primary",
+              "button_four_label": "",
+              "button_four_link": "",
+              "button_four_style": "primary",
+              "overlay_style": "none",
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          },
           "slide_dec3bp": {
             "type": "slide",
             "settings": {
@@ -344,33 +370,6 @@
               "button_one_style": "primary",
               "button_two_label": "",
               "button_two_link": "https://www.wellwellwellnc.com/products/minwell-seal-oil-2000mg-180-softgels?_pos=1&_sid=b6ce88a04&_ss=r",
-              "button_two_style": "primary",
-              "button_three_label": "",
-              "button_three_link": "",
-              "button_three_style": "primary",
-              "button_four_label": "",
-              "button_four_link": "",
-              "button_four_style": "primary",
-              "overlay_style": "none",
-              "overlay_color": "#000000",
-              "overlay_opacity": 50
-            }
-          },
-          "ac4196b2-03a2-4200-ae73-414037509860": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "background_image": "shopify://shop_images/Website_-_Home_Page_Banner_1_0aad5f34-df41-4e5d-a4a2-7de169d33027.png",
-              "title": "",
-              "text": "",
-              "color": "#ffffff",
-              "link": "https://www.wellwellwellnc.com/products/minwell-seal-oil-2000mg-180-softgels",
-              "text_alignment": "center",
-              "button_one_label": "",
-              "button_one_link": "https://www.wellwellwellnc.com/collections/birthday-sale?grid_list=grid-view&filter.v.price.gte=&filter.v.price.lte=",
-              "button_one_style": "primary",
-              "button_two_label": "",
-              "button_two_link": "",
               "button_two_style": "primary",
               "button_three_label": "",
               "button_three_link": "",
@@ -465,8 +464,8 @@
         },
         "block_order": [
           "slide_QzjBJw",
-          "slide_dec3bp",
           "ac4196b2-03a2-4200-ae73-414037509860",
+          "slide_dec3bp",
           "static-slideshow-1",
           "static-slideshow-0",
           "9b103a35-6562-4625-aca7-cf66fec74e14"
